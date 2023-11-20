@@ -206,7 +206,8 @@ class CarNetwork():
         folium.Marker(
             location=trajet[0],
             popup=self.A,
-            icon=folium.Icon(icon='home', prefix='fa', color='blue')
+            icon=folium.Icon(icon='home', prefix='fa', color='blue'),
+            tooltip=self.A
         ).add_to(carte)
 
 
@@ -214,7 +215,8 @@ class CarNetwork():
         folium.Marker(
             location=trajet[-1],
             popup=self.B,
-            icon=folium.Icon(icon='flag', prefix='fa', color='red')
+            icon=folium.Icon(icon='flag', prefix='fa', color='red'),
+            tooltip=self.B
         ).add_to(carte)
 
         # Trace l'itinéraire
@@ -264,7 +266,9 @@ class CarNetwork():
         folium.GeoJson(
             geojson_url,
             name='Île-de-France', 
-            style_function=style_function
+            style_function=style_function, 
+            tooltip="Limites de l'île-de-France",
+            popup="Limites de l'île-de-France"
         ).add_to(carte)
 
         # Affiche la carte dans le notebook

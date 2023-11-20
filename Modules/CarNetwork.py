@@ -630,7 +630,7 @@ class CarNetwork():
                 tooltip=com,
                 fill_color=fill_color, 
                 color=fill_color, # Couleur des contours du polygone
-                rotation=45
+                rotation=45,
                 radius=5  # Opacité du remplissage
             ).add_to(map)
 

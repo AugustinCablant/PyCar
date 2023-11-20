@@ -625,7 +625,7 @@ class CarNetwork():
             # Ajoutez le marqueur à la carte
 
             folium.RegularPolygonMarker(
-                locations=[lat,lon],
+                location=[lat,lon],
                 popup=com,
                 tooltip=com,
                 fill_color=fill_color, 

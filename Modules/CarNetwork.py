@@ -627,12 +627,12 @@ class CarNetwork():
             elif acces_recharge == 'charges gratuites de 12 à 14h et de 19h à 21h': fill_color = 'yellow'
 
             # Ajoutez le marqueur à la carte
-            folium.Marker(location=[lat, lon], 
-                          tags = acces_recharge,
-                          tooltip="Cliquez sur moi !",
-                          popup=com, 
-                          icon=folium.Icon(color=fill_color, icon_size=(20, 20))
-                          ).add_to(map)
+            folium.Polygon(
+                locations=[lat,lon],
+                color=fill_color,  # Couleur des contours du polygone
+                fill=True,
+                fill_opacity=0.4  # Opacité du remplissage
+            ).add_to(map)
 
         TagFilterButton(categories).add_to(map)
 

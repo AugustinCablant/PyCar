@@ -267,7 +267,6 @@ class CarNetwork():
             geojson_url,
             name='Île-de-France', 
             style_function=style_function, 
-            tooltip="Limites de l'île-de-France",
             popup="Limites de l'île-de-France"
         ).add_to(carte)
 

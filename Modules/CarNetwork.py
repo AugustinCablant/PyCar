@@ -371,6 +371,7 @@ class CarNetwork():
                 location=[lat, lon],
                 icon=folium.Icon(icon=f'{i}', prefix='fa', color='purple'),
                 popup=f"Arrêt numéro {i} : vous devez recharger votre batterie.",
+                tooltip=f"Arrêt numéro {i} : vous devez recharger votre batterie."
                 ).add_to(map)
             
         
@@ -485,6 +486,7 @@ class CarNetwork():
                 location=[lat, lon],
                 icon=folium.Icon(color='yellow'),
                 popup=f"Ceci est l'une des {len(nearest_stations_i)} bornes les plus proches de l'arrêt numéro {i}. Son type est {acces_type}",
+                tooltip=f"Ceci est l'une des {len(nearest_stations_i)} bornes les plus proches de l'arrêt numéro {i}. Son type est {acces_type}"
                 ).add_to(map)
 
     def plot_stations(self, map):
@@ -592,9 +594,9 @@ class CarNetwork():
                             z-index: 1000; padding: 10px; font-size: 14px; font-family: Arial, sans-serif;">
                     <p style="text-align: center; font-size: 18px;"><strong>Légende de la Carte</strong></p>
                     
-                    <p><i class="fa fa-stop" style="color: red;"></i> <strong>Payant</strong></p>
+                    <p><i class="fa fa-stop" style="color: red; font-size: 20px;"></i> <strong>Payant</strong></p>
                     
-                    <p><i class="fa fa-stop" style="color: green;"></i> <strong>Gratuit</strong></p>
+                    <p><i class="fa fa-stop" style="color: green; font-size: 20px;"></i> <strong>Gratuit</strong></p>
                     
                     <p><i class="fa fa-stop" style="color: grey; font-size: 20px;"></i> <strong>Informations manquantes</strong></p>
                     
@@ -602,7 +604,7 @@ class CarNetwork():
                     
                     <p><i class="fa fa-stop" style="color: yellow; font-size: 20px;"></i> <strong>Gratuit de 12-14h et de 19h-21h</strong></p>
                     
-                    <p><i class="fa fa-stop" style="color: purple; font-size: 20px;"></i> <strong>Points d'arrêt</strong></p>
+                    <p><i class="fa fa-map-marker" style="color: purple; font-size: 20px;"></i> <strong>Points d'arrêt</strong></p>
 
                     Distance du trajet : <strong> {distance:.2f} km</strong> <br> 
                 </div>

@@ -592,17 +592,17 @@ class CarNetwork():
                             z-index: 1000; padding: 10px; font-size: 14px; font-family: Arial, sans-serif;">
                     <p style="text-align: center; font-size: 18px;"><strong>Légende de la Carte</strong></p>
                     
-                    <p><i class="fa fa-map-marker" style="color: orange;"></i> <strong>Payant</strong></p>
+                    <p><i class="fa fa-stop" style="color: red;"></i> <strong>Payant</strong></p>
                     
-                    <p><i class="fa fa-map-marker" style="color: green;"></i> <strong>Gratuit</strong></p>
+                    <p><i class="fa fa-stop" style="color: green;"></i> <strong>Gratuit</strong></p>
                     
-                    <p><i class="fa fa-map-marker" style="color: grey; font-size: 20px;"></i> <strong>Informations manquantes</strong></p>
+                    <p><i class="fa fa-stop" style="color: grey; font-size: 20px;"></i> <strong>Informations manquantes</strong></p>
                     
-                    <p><i class="fa fa-map-marker" style="color: cyan; font-size: 20px;"></i> <strong>Carte ou badge</strong></p>
+                    <p><i class="fa fa-stop" style="color: cyan; font-size: 20px;"></i> <strong>Carte ou badge</strong></p>
                     
-                    <p><i class="fa fa-map-marker" style="color: yellow; font-size: 20px;"></i> <strong>Gratuit de 12-14h et de 19h-21h</strong></p>
+                    <p><i class="fa fa-stop" style="color: yellow; font-size: 20px;"></i> <strong>Gratuit de 12-14h et de 19h-21h</strong></p>
                     
-                    <p><i class="fa fa-map-marker" style="color: purple; font-size: 20px;"></i> <strong>Points d'arrêt</strong></p>
+                    <p><i class="fa fa-stop" style="color: purple; font-size: 20px;"></i> <strong>Points d'arrêt</strong></p>
 
                     Distance du trajet : <strong> {distance:.2f} km</strong> <br> 
                 </div>
@@ -614,26 +614,26 @@ class CarNetwork():
         ## C.f. la documentation folium disponible ici pour justifier l'exemple 
         ## 'https://python-visualization.github.io/folium/latest/user_guide/plugins/tag_filter_button.html'
 
-        # On récupère dans categories les différentes catégories représentées 
-        # dans la colonne acces_recharge
-        categories = list(df['acces_recharge'].unique())
-
         for index, lat, lon, com, acces_recharge in df[['ylatitude', 'xlongitude', 'n_station', 'acces_recharge']].itertuples():
             # Créez un marqueur avec une couleur différente en fonction des valeurs
-            if acces_recharge == 'payant': fill_color = 'orange'
+            if acces_recharge == 'payant': fill_color = 'red'
             elif acces_recharge == 'gratuit': fill_color = 'green'
             elif acces_recharge == 'information manquante': fill_color = 'grey'
             elif acces_recharge == 'carte ou badge': fill_color = 'cyan'
             elif acces_recharge == 'charges gratuites de 12 à 14h et de 19h à 21h': fill_color = 'yellow'
 
             # Ajoutez le marqueur à la carte
-            folium.Polygon(
+
+            folium.RegularPolygonMarker(
                 locations=[lat,lon],
-                color=fill_color,  # Couleur des contours du polygone
-                fill=True,
-                fill_opacity=0.4  # Opacité du remplissage
+                popup=com,
+                tooltip=com,
+                fill_color=fill_color, 
+                color=fill_color, # Couleur des contours du polygone
+                rotation=45
+                radius=5  # Opacité du remplissage
             ).add_to(map)
 
-        TagFilterButton(categories).add_to(map)
+
 
 

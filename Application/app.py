@@ -15,7 +15,9 @@ import nbformat
 
 cwd=os.getcwd()
 cwd_parent = (os.path.dirname(cwd))
-car_network_directory = cwd_parent + '/Modules' 
+
+car_network_directory = '/Users/augustincablant/Documents/GitHub/Pycar/Modules' 
+#cwd_parent + '/Modules' 
 sys.path.append(car_network_directory)
 from CarNetwork import CarNetwork
 

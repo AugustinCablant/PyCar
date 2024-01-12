@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.8.10 (969093 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <bounds minlat="48.7199612" minlon="1.8457031" maxlat="48.7272088" maxlon="1.8566895"/>
+ <node id="454993678" visible="true" version="2" changeset="10466765" timestamp="2012-01-22T16:55:47Z" user="Christian Perrier" uid="60669" lat="48.7290719" lon="1.8614988"/>
+ <node id="454993679" visible="true" version="4" changeset="43882454" timestamp="2016-11-22T22:27:27Z" user="LeTopographeFou" uid="3178375" lat="48.7258380" lon="1.8508420">
+  <tag k="junction" v="yes"/>
+  <tag k="name" v="Carrefour Tournant"/>
+ </node>
+ <node id="454993681" visible="true" version="2" changeset="24026512" timestamp="2014-07-08T14:17:12Z" user="ylark" uid="858513" lat="48.7255100" lon="1.8380934"/>
+ <node id="703372112" visible="true" version="4" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7332157" lon="1.8339043"/>
+ <node id="858879436" visible="true" version="3" changeset="43882454" timestamp="2016-11-22T22:27:29Z" user="LeTopographeFou" uid="3178375" lat="48.7231681" lon="1.8568944">
+  <tag k="junction" v="yes"/>
+  <tag k="name" v="Carrefour des Essarts"/>
+ </node>
+ <node id="860216272" visible="true" version="4" changeset="43882454" timestamp="2016-11-22T22:27:29Z" user="LeTopographeFou" uid="3178375" lat="48.7277591" lon="1.8464561">
+  <tag k="junction" v="yes"/>
+  <tag k="name" v="Carrefour du Trou au Loup"/>
+ </node>
+ <node id="899141276" visible="true" version="3" changeset="13209173" timestamp="2012-09-22T16:08:57Z" user="bourlpi" uid="326537" lat="48.7195170" lon="1.8551201"/>
+ <node id="905136020" visible="true" version="4" changeset="43882454" timestamp="2016-11-22T22:27:29Z" user="LeTopographeFou" uid="3178375" lat="48.7316252" lon="1.8374841">
+  <tag k="junction" v="yes"/>
+  <tag k="name" v="Carrefour des Cuisines"/>
+ </node>
+ <node id="1296249524" visible="true" version="1" changeset="8217728" timestamp="2011-05-22T15:51:07Z" user="LatLng" uid="71251" lat="48.7272389" lon="1.8231702"/>
+ <node id="1296249625" visible="true" version="2" changeset="24026512" timestamp="2014-07-08T14:17:09Z" user="ylark" uid="858513" lat="48.7272263" lon="1.8230616"/>
+ <node id="1338990422" visible="true" version="1" changeset="8546856" timestamp="2011-06-25T21:06:58Z" user="Christian Perrier" uid="60669" lat="48.7255308" lon="1.8484145"/>
+ <node id="1338990493" visible="true" version="2" changeset="10090893" timestamp="2011-12-11T15:54:53Z" user="bourlpi" uid="326537" lat="48.7224260" lon="1.8454254"/>
+ <node id="1461684731" visible="true" version="1" changeset="9525728" timestamp="2011-10-10T20:20:13Z" user="osmmaker" uid="210173" lat="48.7242149" lon="1.8545214"/>
+ <node id="1461684735" visible="true" version="1" changeset="9525728" timestamp="2011-10-10T20:20:13Z" user="osmmaker" uid="210173" lat="48.7281615" lon="1.8583690"/>
+ <node id="1464582660" visible="true" version="1" changeset="9543330" timestamp="2011-10-12T23:13:52Z" user="osmmaker" uid="210173" lat="48.7199663" lon="1.8566707"/>
+ <node id="1464582687" visible="true" version="1" changeset="9543330" timestamp="2011-10-12T23:13:53Z" user="osmmaker" uid="210173" lat="48.7199851" lon="1.8566401"/>
+ <node id="1464582694" visible="true" version="1" changeset="9543330" timestamp="2011-10-12T23:13:54Z" user="osmmaker" uid="210173" lat="48.7199904" lon="1.8567047"/>
+ <node id="1464582724" visible="true" version="1" changeset="9543330" timestamp="2011-10-12T23:13:56Z" user="osmmaker" uid="210173" lat="48.7200092" lon="1.8566740"/>
+ <node id="1531304071" visible="true" version="1" changeset="10035015" timestamp="2011-12-04T16:45:40Z" user="bourlpi" uid="326537" lat="48.7328002" lon="1.8348405"/>
+ <node id="1601389551" visible="true" version="1" changeset="10466765" timestamp="2012-01-22T16:55:11Z" user="Christian Perrier" uid="60669" lat="48.7202690" lon="1.8547253"/>
+ <node id="1601389552" visible="true" version="1" changeset="10466765" timestamp="2012-01-22T16:55:11Z" user="Christian Perrier" uid="60669" lat="48.7209900" lon="1.8544412"/>
+ <node id="1601389553" visible="true" version="1" changeset="10466765" timestamp="2012-01-22T16:55:11Z" user="Christian Perrier" uid="60669" lat="48.7215848" lon="1.8542637"/>
+ <node id="1601389554" visible="true" version="1" changeset="10466765" timestamp="2012-01-22T16:55:11Z" user="Christian Perrier" uid="60669" lat="48.7217511" lon="1.8542365">
+  <tag k="fixme" v="continue"/>
+ </node>
+ <node id="1601389562" visible="true" version="1" changeset="10466765" timestamp="2012-01-22T16:55:12Z" user="Christian Perrier" uid="60669" lat="48.7234908" lon="1.8561628"/>
+ <node id="1927495383" visible="true" version="1" changeset="13209173" timestamp="2012-09-22T16:08:56Z" user="bourlpi" uid="326537" lat="48.7196803" lon="1.8543970"/>
+ <node id="2098120924" visible="true" version="1" changeset="14550138" timestamp="2013-01-06T14:53:43Z" user="Christian Perrier" uid="60669" lat="48.7261520" lon="1.8501252"/>
+ <node id="2098120927" visible="true" version="1" changeset="14550138" timestamp="2013-01-06T14:53:43Z" user="Christian Perrier" uid="60669" lat="48.7275540" lon="1.8564007"/>
+ <node id="2098120932" visible="true" version="1" changeset="14550138" timestamp="2013-01-06T14:53:43Z" user="Christian Perrier" uid="60669" lat="48.7304375" lon="1.8545483"/>
+ <node id="2357407029" visible="true" version="1" changeset="16671668" timestamp="2013-06-23T16:00:14Z" user="Christian Perrier" uid="60669" lat="48.7195637" lon="1.8549131"/>
+ <node id="2954324411" visible="true" version="1" changeset="24026512" timestamp="2014-07-08T14:16:53Z" user="ylark" uid="858513" lat="48.7258638" lon="1.8353233"/>
+ <node id="2954324412" visible="true" version="1" changeset="24026512" timestamp="2014-07-08T14:16:53Z" user="ylark" uid="858513" lat="48.7259749" lon="1.8344025"/>
+ <node id="2954324421" visible="true" version="1" changeset="24026512" timestamp="2014-07-08T14:16:53Z" user="ylark" uid="858513" lat="48.7265734" lon="1.8292739"/>
+ <node id="2954324424" visible="true" version="1" changeset="24026512" timestamp="2014-07-08T14:16:53Z" user="ylark" uid="858513" lat="48.7269804" lon="1.8256589"/>
+ <node id="4808352268" visible="true" version="1" changeset="48015611" timestamp="2017-04-21T20:39:35Z" user="GeorgeKaplan" uid="1198089" lat="48.7331403" lon="1.8340637"/>
+ <node id="4853657941" visible="true" version="1" changeset="48673987" timestamp="2017-05-14T13:51:00Z" user="jluc95240" uid="2378798" lat="48.7189253" lon="1.8484535"/>
+ <node id="4853657942" visible="true" version="1" changeset="48673987" timestamp="2017-05-14T13:51:00Z" user="jluc95240" uid="2378798" lat="48.7244173" lon="1.8540626"/>
+ <node id="5145359553" visible="true" version="1" changeset="52600314" timestamp="2017-10-03T16:07:19Z" user="VELODB" uid="568960" lat="48.7251526" lon="1.8430904"/>
+ <way id="38482878" visible="true" version="10" changeset="86449039" timestamp="2020-06-10T08:20:35Z" user="J34nf1" uid="11186082">
+  <nd ref="454993678"/>
+  <nd ref="1461684735"/>
+  <nd ref="2098120927"/>
+  <nd ref="454993679"/>
+  <nd ref="1338990422"/>
+  <nd ref="5145359553"/>
+  <nd ref="454993681"/>
+  <nd ref="2954324411"/>
+  <nd ref="2954324412"/>
+  <nd ref="2954324421"/>
+  <nd ref="2954324424"/>
+  <nd ref="1296249524"/>
+  <nd ref="1296249625"/>
+  <tag k="bicycle" v="yes"/>
+  <tag k="foot" v="yes"/>
+  <tag k="highway" v="track"/>
+  <tag k="name" v="Route du Grand Maître"/>
+  <tag k="tracktype" v="grade4"/>
+ </way>
+ <way id="72286411" visible="true" version="9" changeset="116533614" timestamp="2022-01-24T10:04:36Z" user="yann1408" uid="14125135">
+  <nd ref="454993679"/>
+  <nd ref="2098120924"/>
+  <nd ref="860216272"/>
+  <nd ref="905136020"/>
+  <nd ref="1531304071"/>
+  <nd ref="4808352268"/>
+  <nd ref="703372112"/>
+  <tag k="bicycle" v="designated"/>
+  <tag k="highway" v="unclassified"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Route Goron"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="72286421" visible="true" version="10" changeset="136047165" timestamp="2023-05-13T10:06:19Z" user="Dave92" uid="246487">
+  <nd ref="858879436"/>
+  <nd ref="1601389562"/>
+  <nd ref="1461684731"/>
+  <nd ref="4853657942"/>
+  <nd ref="454993679"/>
+  <tag k="bicycle" v="designated"/>
+  <tag k="highway" v="unclassified"/>
+  <tag k="lane_markings" v="no"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Route Goron"/>
+  <tag k="oneway" v="no"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="width" v="3"/>
+ </way>
+ <way id="119096667" visible="true" version="2" changeset="16496501" timestamp="2013-06-10T14:01:44Z" user="cantece" uid="15908">
+  <nd ref="1338990493"/>
+  <nd ref="1338990422"/>
+  <tag k="highway" v="track"/>
+ </way>
+ <way id="132857267" visible="true" version="4" changeset="132113989" timestamp="2023-02-05T15:15:11Z" user="Dave92" uid="246487">
+  <nd ref="1461684735"/>
+  <nd ref="1461684731"/>
+  <tag k="check_date:surface" v="2023-02-05"/>
+  <tag k="highway" v="track"/>
+  <tag k="source" v="GPS"/>
+  <tag k="surface" v="dirt"/>
+  <tag k="tracktype" v="grade4"/>
+ </way>
+ <way id="133107800" visible="true" version="2" changeset="11634810" timestamp="2012-05-18T16:39:03Z" user="didier2020" uid="300459">
+  <nd ref="1464582660"/>
+  <nd ref="1464582694"/>
+  <nd ref="1464582724"/>
+  <nd ref="1464582687"/>
+  <nd ref="1464582660"/>
+  <tag k="building" v="yes"/>
+  <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
+  <tag k="wall" v="no"/>
+ </way>
+ <way id="138312605" visible="true" version="9" changeset="136047165" timestamp="2023-05-13T10:06:41Z" user="Dave92" uid="246487">
+  <nd ref="899141276"/>
+  <nd ref="2357407029"/>
+  <nd ref="1927495383"/>
+  <nd ref="1601389551"/>
+  <nd ref="858879436"/>
+  <tag k="bicycle" v="designated"/>
+  <tag k="highway" v="unclassified"/>
+  <tag k="lane_markings" v="no"/>
+  <tag k="motor_vehicle" v="no"/>
+  <tag k="name" v="Route Royale"/>
+  <tag k="oneway" v="no"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="width" v="3"/>
+ </way>
+ <way id="146918008" visible="true" version="2" changeset="123982314" timestamp="2022-07-23T16:42:45Z" user="Dave92" uid="246487">
+  <nd ref="1601389562"/>
+  <nd ref="1601389553"/>
+  <tag k="highway" v="path"/>
+  <tag k="surface" v="dirt"/>
+ </way>
+ <way id="146918018" visible="true" version="2" changeset="123982314" timestamp="2022-07-23T16:46:36Z" user="Dave92" uid="246487">
+  <nd ref="1601389551"/>
+  <nd ref="1601389552"/>
+  <nd ref="1601389553"/>
+  <nd ref="1601389554"/>
+  <tag k="highway" v="path"/>
+  <tag k="surface" v="dirt"/>
+ </way>
+ <way id="199816728" visible="true" version="1" changeset="14550138" timestamp="2013-01-06T14:53:43Z" user="Christian Perrier" uid="60669">
+  <nd ref="2098120932"/>
+  <nd ref="2098120924"/>
+  <tag k="highway" v="track"/>
+  <tag k="tracktype" v="grade5"/>
+ </way>
+ <way id="493450489" visible="true" version="3" changeset="125942536" timestamp="2022-09-08T13:20:09Z" user="Dave92" uid="246487">
+  <nd ref="4853657941"/>
+  <nd ref="4853657942"/>
+  <tag k="highway" v="track"/>
+  <tag k="surface" v="dirt"/>
+  <tag k="tracktype" v="grade3"/>
+ </way>
+</osm>

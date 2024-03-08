@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.8.10 (761176 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.8.10 (3875821 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.6474278" minlon="1.8237305" maxlat="48.6546858" maxlon="1.8347168"/>
  <node id="248426246" visible="true" version="5" changeset="15660390" timestamp="2013-04-08T22:46:13Z" user="Ptigrouick" uid="195175" lat="48.6568424" lon="1.8210358"/>
  <node id="248426553" visible="true" version="4" changeset="15660390" timestamp="2013-04-08T22:46:13Z" user="Ptigrouick" uid="195175" lat="48.6520133" lon="1.8216231"/>
@@ -25616,7 +25616,7 @@
   <nd ref="10941363283"/>
   <tag k="building" v="yes"/>
  </way>
- <relation id="5456598" visible="true" version="18" changeset="122013766" timestamp="2022-06-06T09:13:00Z" user="Esperanza36" uid="83557">
+ <relation id="5456598" visible="true" version="19" changeset="146645494" timestamp="2024-01-24T20:08:14Z" user="chabe01" uid="502891">
   <member type="way" ref="59577566" role="outer"/>
   <member type="way" ref="156988002" role="outer"/>
   <member type="way" ref="156992454" role="outer"/>
@@ -25664,6 +25664,7 @@
   <member type="way" ref="80475836" role="outer"/>
   <member type="way" ref="80475163" role="outer"/>
   <member type="way" ref="80475161" role="outer"/>
+  <member type="way" ref="1242609872" role="outer"/>
   <member type="way" ref="366945558" role="outer"/>
   <member type="way" ref="366945557" role="outer"/>
   <member type="way" ref="366945551" role="outer"/>
@@ -25783,7 +25784,7 @@
   <tag k="wikidata" v="Q3122482"/>
   <tag k="wikipedia" v="fr:Guéville"/>
  </relation>
- <relation id="7153759" visible="true" version="25" changeset="145809362" timestamp="2024-01-02T18:11:46Z" user="nlehuby" uid="1424448">
+ <relation id="7153759" visible="true" version="27" changeset="146989251" timestamp="2024-02-02T15:05:05Z" user="Harvesterify" uid="6060820">
   <member type="node" ref="2936519452" role="stop_entry_only"/>
   <member type="node" ref="5884633952" role="platform_entry_only"/>
   <member type="node" ref="5884634227" role="platform"/>
@@ -25850,6 +25851,11 @@
   <member type="way" ref="740517329" role=""/>
   <member type="way" ref="740517330" role=""/>
   <member type="way" ref="487948334" role=""/>
+  <member type="way" ref="1244962430" role=""/>
+  <member type="way" ref="1244962431" role=""/>
+  <member type="way" ref="1244962432" role=""/>
+  <member type="way" ref="1244962433" role=""/>
+  <member type="way" ref="1244962434" role=""/>
   <member type="way" ref="23023646" role=""/>
   <member type="way" ref="234992217" role=""/>
   <member type="way" ref="1112030044" role=""/>
@@ -25872,6 +25878,9 @@
   <member type="way" ref="707546436" role=""/>
   <member type="way" ref="571065534" role=""/>
   <member type="way" ref="488027576" role=""/>
+  <member type="way" ref="1245579800" role=""/>
+  <member type="way" ref="1245579801" role=""/>
+  <member type="way" ref="1245579799" role=""/>
   <member type="way" ref="42757285" role=""/>
   <member type="way" ref="42757281" role=""/>
   <member type="way" ref="92929744" role=""/>
@@ -26053,7 +26062,7 @@
   <tag k="route_master" v="bus"/>
   <tag k="type" v="route_master"/>
  </relation>
- <relation id="8122985" visible="true" version="22" changeset="145809362" timestamp="2024-01-02T18:11:46Z" user="nlehuby" uid="1424448">
+ <relation id="8122985" visible="true" version="23" changeset="146910086" timestamp="2024-01-31T15:36:44Z" user="Harvesterify" uid="6060820">
   <member type="node" ref="6649113908" role="stop_entry_only"/>
   <member type="node" ref="5884634267" role="platform_entry_only"/>
   <member type="node" ref="5884633939" role="platform"/>
@@ -26117,7 +26126,9 @@
   <member type="way" ref="623864709" role=""/>
   <member type="way" ref="707546435" role=""/>
   <member type="way" ref="571065534" role=""/>
+  <member type="way" ref="1244962434" role=""/>
   <member type="way" ref="487948334" role=""/>
+  <member type="way" ref="1244962430" role=""/>
   <member type="way" ref="216544754" role=""/>
   <member type="way" ref="707545955" role=""/>
   <member type="way" ref="1024364491" role=""/>
@@ -26162,7 +26173,7 @@
   <tag k="to" v="Rouget de Lisle"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="8191339" visible="true" version="27" changeset="145809362" timestamp="2024-01-02T18:11:46Z" user="nlehuby" uid="1424448">
+ <relation id="8191339" visible="true" version="28" changeset="146989251" timestamp="2024-02-02T15:05:05Z" user="Harvesterify" uid="6060820">
   <member type="node" ref="5884632877" role="platform_entry_only"/>
   <member type="node" ref="4614929740" role="platform"/>
   <member type="node" ref="4614929741" role="platform"/>
@@ -26225,7 +26236,7 @@
   <member type="way" ref="180410154" role=""/>
   <member type="way" ref="145459649" role=""/>
   <member type="way" ref="23023646" role=""/>
-  <member type="way" ref="488027576" role=""/>
+  <member type="way" ref="1245579799" role=""/>
   <member type="way" ref="146232360" role=""/>
   <member type="way" ref="488027570" role=""/>
   <member type="way" ref="577806738" role=""/>
@@ -26363,7 +26374,7 @@
   <tag k="type" v="collection"/>
   <tag k="website" v="https://www.parcs-naturels-regionaux.fr/"/>
  </relation>
- <relation id="9190794" visible="true" version="11" changeset="145809362" timestamp="2024-01-02T18:11:46Z" user="nlehuby" uid="1424448">
+ <relation id="9190794" visible="true" version="12" changeset="146989251" timestamp="2024-02-02T15:05:05Z" user="Harvesterify" uid="6060820">
   <member type="node" ref="4803963266" role="platform"/>
   <member type="node" ref="2431031187" role="platform"/>
   <member type="node" ref="5884634289" role="platform"/>
@@ -26400,7 +26411,9 @@
   <member type="way" ref="867799064" role=""/>
   <member type="way" ref="42757282" role=""/>
   <member type="way" ref="867799065" role=""/>
-  <member type="way" ref="488027576" role=""/>
+  <member type="way" ref="1245579800" role=""/>
+  <member type="way" ref="1245579801" role=""/>
+  <member type="way" ref="1245579799" role=""/>
   <member type="way" ref="146232360" role=""/>
   <tag k="colour" v="fuchsia"/>
   <tag k="from" v="Gare de Rambouillet [Prud'Homme]"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.8.10 (2622614 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.8.10 (3585476 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.7199612" minlon="1.8347168" maxlat="48.7272088" maxlon="1.8457031"/>
  <node id="248823240" visible="true" version="4" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7165151" lon="1.8505836"/>
  <node id="248823247" visible="true" version="5" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7185961" lon="1.8487648"/>
@@ -993,7 +993,7 @@
   <tag k="highway" v="footway"/>
   <tag k="source" v="Bing"/>
  </way>
- <relation id="122645" visible="true" version="17" changeset="116044014" timestamp="2022-01-11T22:52:16Z" user="cquest_bot" uid="541379">
+ <relation id="122645" visible="true" version="18" changeset="147994909" timestamp="2024-02-28T02:07:57Z" user="Olyon" uid="1443767">
   <member type="node" ref="26695956" role="admin_centre"/>
   <member type="way" ref="33812635" role="outer"/>
   <member type="way" ref="61751530" role="outer"/>
@@ -1009,13 +1009,14 @@
   <tag k="population" v="6668"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="78690"/>
+  <tag k="ref:FR:SIREN" v="217802206"/>
   <tag k="ref:INSEE" v="78220"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
   <tag k="wikidata" v="Q94484"/>
   <tag k="wikipedia" v="fr:Les Essarts-le-Roi"/>
  </relation>
- <relation id="957124" visible="true" version="10" changeset="116044014" timestamp="2022-01-11T22:53:23Z" user="cquest_bot" uid="541379">
+ <relation id="957124" visible="true" version="11" changeset="147995237" timestamp="2024-02-28T02:40:37Z" user="Olyon" uid="1443767">
   <member type="way" ref="151706752" role="outer"/>
   <member type="way" ref="61506636" role="outer"/>
   <member type="way" ref="61596116" role="outer"/>
@@ -1029,13 +1030,14 @@
   <tag k="population" v="6597"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="78610"/>
+  <tag k="ref:FR:SIREN" v="217804863"/>
   <tag k="ref:INSEE" v="78486"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
   <tag k="wikidata" v="Q1421965"/>
   <tag k="wikipedia" v="fr:Le Perray-en-Yvelines"/>
  </relation>
- <relation id="959276" visible="true" version="13" changeset="116044014" timestamp="2022-01-11T22:51:53Z" user="cquest_bot" uid="541379">
+ <relation id="959276" visible="true" version="14" changeset="147995237" timestamp="2024-02-28T02:40:37Z" user="Olyon" uid="1443767">
   <member type="way" ref="147507173" role="outer"/>
   <member type="way" ref="61751527" role="outer"/>
   <member type="way" ref="61596118" role="outer"/>
@@ -1050,6 +1052,7 @@
   <tag k="population" v="1305"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="78610"/>
+  <tag k="ref:FR:SIREN" v="217801083"/>
   <tag k="ref:INSEE" v="78108"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
@@ -1072,7 +1075,7 @@
   <tag k="landuse" v="forest"/>
   <tag k="type" v="multipolygon"/>
  </relation>
- <relation id="6355264" visible="true" version="30" changeset="146040911" timestamp="2024-01-08T19:16:53Z" user="Patrick78" uid="10232116">
+ <relation id="6355264" visible="true" version="32" changeset="146675654" timestamp="2024-01-25T14:21:15Z" user="Furdrien" uid="6696140">
   <member type="way" ref="561125667" role=""/>
   <member type="way" ref="49706207" role=""/>
   <member type="way" ref="49747278" role=""/>
@@ -1157,6 +1160,8 @@
   <member type="way" ref="561198042" role=""/>
   <member type="way" ref="561198044" role=""/>
   <member type="way" ref="749799609" role=""/>
+  <member type="way" ref="1242838370" role=""/>
+  <member type="way" ref="1242838369" role=""/>
   <member type="way" ref="561194540" role=""/>
   <member type="way" ref="318394641" role=""/>
   <member type="way" ref="375699956" role=""/>
@@ -1181,7 +1186,12 @@
   <member type="way" ref="929885753" role=""/>
   <member type="way" ref="896220959" role=""/>
   <member type="way" ref="929885766" role=""/>
+  <member type="way" ref="1241573406" role=""/>
+  <member type="way" ref="1241573401" role=""/>
   <member type="way" ref="929885767" role=""/>
+  <member type="way" ref="1241573408" role=""/>
+  <member type="way" ref="1241573403" role=""/>
+  <member type="way" ref="1241573405" role=""/>
   <member type="way" ref="503127184" role=""/>
   <member type="way" ref="1116499323" role=""/>
   <member type="way" ref="1116499322" role=""/>
@@ -1306,8 +1316,8 @@
   <tag k="restriction" v="no_u_turn"/>
   <tag k="type" v="restriction"/>
  </relation>
- <relation id="13196835" visible="true" version="1" changeset="111085382" timestamp="2021-09-12T07:50:11Z" user="MacDony" uid="3701940">
-  <member type="way" ref="929885767" role="from"/>
+ <relation id="13196835" visible="true" version="2" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <member type="way" ref="1241573405" role="from"/>
   <member type="node" ref="8330848601" role="via"/>
   <member type="way" ref="929885766" role="to"/>
   <tag k="restriction" v="no_u_turn"/>

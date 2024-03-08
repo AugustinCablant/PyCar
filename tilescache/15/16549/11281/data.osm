@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.8.10 (436694 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.8.10 (953834 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.7923902" minlon="1.8127441" maxlat="48.7996274" maxlon="1.8237305"/>
  <node id="257740332" visible="true" version="8" changeset="86146157" timestamp="2020-06-03T16:45:26Z" user="_phiphou_" uid="570635" lat="48.8001527" lon="1.8155078"/>
  <node id="262460484" visible="true" version="6" changeset="86146157" timestamp="2020-06-03T16:45:26Z" user="_phiphou_" uid="570635" lat="48.7999945" lon="1.8158612"/>
@@ -1873,7 +1873,7 @@
   <tag k="source" v="BDOrtho IGN - available 2021 at the latest"/>
   <tag k="water" v="basin"/>
  </way>
- <relation id="6356804" visible="true" version="11" changeset="140176643" timestamp="2023-08-21T11:31:32Z" user="pyrog" uid="270456">
+ <relation id="6356804" visible="true" version="12" changeset="146675654" timestamp="2024-01-25T14:21:15Z" user="Furdrien" uid="6696140">
   <member type="way" ref="24402584" role=""/>
   <member type="way" ref="1172548135" role=""/>
   <member type="way" ref="1172548136" role=""/>
@@ -1904,6 +1904,7 @@
   <member type="way" ref="24241203" role=""/>
   <member type="way" ref="561327645" role=""/>
   <member type="way" ref="561327654" role=""/>
+  <member type="way" ref="1242838390" role=""/>
   <member type="way" ref="603575159" role=""/>
   <member type="way" ref="503128724" role=""/>
   <member type="way" ref="561336291" role=""/>

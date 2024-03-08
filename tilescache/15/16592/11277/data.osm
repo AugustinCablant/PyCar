@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.8.10 (500102 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.8.10 (3089229 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.8213325" minlon="2.2851562" maxlat="48.8285655" maxlon="2.2961426"/>
  <node id="25078039" visible="true" version="7" changeset="783044" timestamp="2008-11-23T11:50:20Z" user="tbonfort" uid="12959" lat="48.8306728" lon="2.2850329"/>
  <node id="25078040" visible="true" version="16" changeset="783044" timestamp="2008-11-23T11:50:02Z" user="tbonfort" uid="12959" lat="48.8302095" lon="2.2857453"/>
@@ -9455,11 +9455,12 @@
  <node id="2516331421" visible="true" version="2" changeset="105350232" timestamp="2021-05-26T10:40:12Z" user="patman37" uid="311391" lat="48.8261014" lon="2.2949934"/>
  <node id="2516331423" visible="true" version="1" changeset="18654087" timestamp="2013-11-01T16:18:58Z" user="Pieren" uid="17286" lat="48.8261463" lon="2.2949410"/>
  <node id="2516335105" visible="true" version="2" changeset="105350232" timestamp="2021-05-26T10:40:12Z" user="patman37" uid="311391" lat="48.8255970" lon="2.2946154"/>
- <node id="2566345566" visible="true" version="2" changeset="34843828" timestamp="2015-10-24T16:19:22Z" user="GeorgeKaplan" uid="1198089" lat="48.8280105" lon="2.2928508">
+ <node id="2566345566" visible="true" version="4" changeset="146754210" timestamp="2024-01-27T18:17:22Z" user="cquest" uid="158826" lat="48.8280105" lon="2.2928508">
   <tag k="amenity" v="parking_space"/>
   <tag k="capacity:disabled" v="1"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="préfecture de police de Paris - opendata nov 2013 - arrêté 2008-012"/>
-  <tag k="wheelchair" v="designated"/>
+  <tag k="wheelchair" v="yes"/>
  </node>
  <node id="2710711282" visible="true" version="4" changeset="131950404" timestamp="2023-02-01T07:25:27Z" user="overflorian" uid="125897" lat="48.8246800" lon="2.3837944"/>
  <node id="2752646603" visible="true" version="4" changeset="83614201" timestamp="2020-04-15T21:40:24Z" user="jerome92370" uid="4346095" lat="48.8220894" lon="2.2855644">
@@ -10671,113 +10672,136 @@
  <node id="3316129720" visible="true" version="1" changeset="28459107" timestamp="2015-01-28T07:25:51Z" user="yxoc" uid="57126" lat="48.8232968" lon="2.2890880"/>
  <node id="3316129721" visible="true" version="1" changeset="28459107" timestamp="2015-01-28T07:25:51Z" user="yxoc" uid="57126" lat="48.8233142" lon="2.2890586"/>
  <node id="3316129722" visible="true" version="1" changeset="28459107" timestamp="2015-01-28T07:25:51Z" user="yxoc" uid="57126" lat="48.8233544" lon="2.2888739"/>
- <node id="3349936681" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:42Z" user="cquest" uid="158826" lat="48.8215374" lon="2.2876670">
+ <node id="3349936681" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8215374" lon="2.2876670">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349936683" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:42Z" user="cquest" uid="158826" lat="48.8216159" lon="2.2942458">
+ <node id="3349936683" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8216159" lon="2.2942458">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349936686" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:42Z" user="cquest" uid="158826" lat="48.8217193" lon="2.2894279">
+ <node id="3349936686" visible="true" version="3" changeset="146755343" timestamp="2024-01-27T18:56:55Z" user="cquest" uid="158826" lat="48.8217172" lon="2.2894230">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349936692" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:43Z" user="cquest" uid="158826" lat="48.8220094" lon="2.2916719">
+ <node id="3349936692" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8220094" lon="2.2916719">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349936995" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:43Z" user="cquest" uid="158826" lat="48.8220653" lon="2.2892587">
+ <node id="3349936995" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8220653" lon="2.2892587">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349936997" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:43Z" user="cquest" uid="158826" lat="48.8220853" lon="2.2892977">
+ <node id="3349936997" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8220853" lon="2.2892977">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937002" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:43Z" user="cquest" uid="158826" lat="48.8221759" lon="2.2940917">
+ <node id="3349937002" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8221759" lon="2.2940917">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937021" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:44Z" user="cquest" uid="158826" lat="48.8229415" lon="2.2895820">
+ <node id="3349937021" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8229415" lon="2.2895820">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937022" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:44Z" user="cquest" uid="158826" lat="48.8230353" lon="2.2911099">
+ <node id="3349937022" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8230353" lon="2.2911099">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937037" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:45Z" user="cquest" uid="158826" lat="48.8236260" lon="2.2924045">
+ <node id="3349937037" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8236260" lon="2.2924045">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937044" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:45Z" user="cquest" uid="158826" lat="48.8238558" lon="2.2949536">
+ <node id="3349937044" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8238558" lon="2.2949536">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937045" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:45Z" user="cquest" uid="158826" lat="48.8238790" lon="2.2882507">
+ <node id="3349937045" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8238790" lon="2.2882507">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937048" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:45Z" user="cquest" uid="158826" lat="48.8240156" lon="2.2896830">
+ <node id="3349937048" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8240156" lon="2.2896830">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937056" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:46Z" user="cquest" uid="158826" lat="48.8244296" lon="2.2920409">
+ <node id="3349937056" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8244296" lon="2.2920409">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937065" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:46Z" user="cquest" uid="158826" lat="48.8250039" lon="2.2890034">
+ <node id="3349937065" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8250039" lon="2.2890034">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937067" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:46Z" user="cquest" uid="158826" lat="48.8250891" lon="2.2938295">
+ <node id="3349937067" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8250891" lon="2.2938295">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937073" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:46Z" user="cquest" uid="158826" lat="48.8253567" lon="2.2928782">
+ <node id="3349937073" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8253567" lon="2.2928782">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937083" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:47Z" user="cquest" uid="158826" lat="48.8257669" lon="2.2910846">
+ <node id="3349937083" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8257669" lon="2.2910846">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937503" visible="true" version="2" changeset="145792864" timestamp="2024-01-02T10:54:38Z" user="Eklo Hôtel" uid="19727196" lat="48.8269556" lon="2.2907438">
+ <node id="3349937503" visible="true" version="3" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8269556" lon="2.2907438">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937505" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:48Z" user="cquest" uid="158826" lat="48.8264627" lon="2.2922903">
+ <node id="3349937505" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8264627" lon="2.2922903">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937507" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:48Z" user="cquest" uid="158826" lat="48.8265165" lon="2.2922857">
+ <node id="3349937507" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8265165" lon="2.2922857">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
- <node id="3349937513" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:48Z" user="cquest" uid="158826" lat="48.8270094" lon="2.2861645">
+ <node id="3349937513" visible="true" version="3" changeset="147309831" timestamp="2024-02-10T21:59:07Z" user="cquest" uid="158826" lat="48.8270275" lon="2.2861511">
   <tag k="amenity" v="parking_space"/>
+  <tag k="capacity" v="1"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
@@ -14879,7 +14903,7 @@
  <node id="6753923175" visible="true" version="1" changeset="73851612" timestamp="2019-08-28T17:12:23Z" user="osmmaker" uid="210173" lat="48.8201458" lon="2.3262745"/>
  <node id="6753923176" visible="true" version="1" changeset="73851612" timestamp="2019-08-28T17:12:23Z" user="osmmaker" uid="210173" lat="48.8202941" lon="2.3257863"/>
  <node id="6753923177" visible="true" version="1" changeset="73851612" timestamp="2019-08-28T17:12:23Z" user="osmmaker" uid="210173" lat="48.8201740" lon="2.3257703"/>
- <node id="6753923178" visible="true" version="1" changeset="73851612" timestamp="2019-08-28T17:12:23Z" user="osmmaker" uid="210173" lat="48.8204955" lon="2.3243219"/>
+ <node id="6753923178" visible="true" version="2" changeset="146709065" timestamp="2024-01-26T12:54:50Z" user="overflorian" uid="125897" lat="48.8204836" lon="2.3242837"/>
  <node id="6753923179" visible="true" version="1" changeset="73851612" timestamp="2019-08-28T17:12:23Z" user="osmmaker" uid="210173" lat="48.8206156" lon="2.3241717"/>
  <node id="6753923180" visible="true" version="1" changeset="73851612" timestamp="2019-08-28T17:12:23Z" user="osmmaker" uid="210173" lat="48.8209193" lon="2.3226696"/>
  <node id="6753923181" visible="true" version="1" changeset="73851612" timestamp="2019-08-28T17:12:23Z" user="osmmaker" uid="210173" lat="48.8210041" lon="2.3220259"/>
@@ -21447,6 +21471,17 @@
  <node id="11165157248" visible="true" version="1" changeset="140762440" timestamp="2023-09-03T14:50:24Z" user="Papusa" uid="10704460" lat="48.8214015" lon="2.2900818"/>
  <node id="11165157249" visible="true" version="1" changeset="140762440" timestamp="2023-09-03T14:50:24Z" user="Papusa" uid="10704460" lat="48.8213411" lon="2.2899248"/>
  <node id="11440015666" visible="true" version="1" changeset="145385944" timestamp="2023-12-21T21:27:03Z" user="Britzz" uid="7550430" lat="48.8803121" lon="2.4013165"/>
+ <node id="11521399816" visible="true" version="1" changeset="146316095" timestamp="2024-01-16T09:46:55Z" user="BR_pebble" uid="15458791" lat="48.8226254" lon="2.2949758"/>
+ <node id="11521399817" visible="true" version="1" changeset="146316095" timestamp="2024-01-16T09:46:55Z" user="BR_pebble" uid="15458791" lat="48.8224866" lon="2.2950724"/>
+ <node id="11521399818" visible="true" version="1" changeset="146316095" timestamp="2024-01-16T09:46:55Z" user="BR_pebble" uid="15458791" lat="48.8223727" lon="2.2951770"/>
+ <node id="11521399819" visible="true" version="1" changeset="146316095" timestamp="2024-01-16T09:46:55Z" user="BR_pebble" uid="15458791" lat="48.8223339" lon="2.2952306"/>
+ <node id="11521399820" visible="true" version="1" changeset="146316095" timestamp="2024-01-16T09:46:55Z" user="BR_pebble" uid="15458791" lat="48.8221052" lon="2.2955109"/>
+ <node id="11608678713" visible="true" version="1" changeset="147309831" timestamp="2024-02-10T21:59:03Z" user="cquest" uid="158826" lat="48.8257197" lon="2.2913243">
+  <tag k="amenity" v="parking_space"/>
+  <tag k="capacity" v="1"/>
+  <tag k="parking_space" v="disabled"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
  <way id="13621545" visible="true" version="24" changeset="129361856" timestamp="2022-11-25T10:33:22Z" user="joesse" uid="117168">
   <nd ref="7636507895"/>
   <nd ref="9901851599"/>
@@ -21742,7 +21777,7 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2015"/>
   <tag k="surface" v="asphalt"/>
  </way>
- <way id="14036394" visible="true" version="35" changeset="141998927" timestamp="2023-10-01T17:47:04Z" user="JeroenvanderGun" uid="11963177">
+ <way id="14036394" visible="true" version="36" changeset="148280303" timestamp="2024-03-06T07:58:25Z" user="didier2020" uid="300459">
   <nd ref="25078040"/>
   <nd ref="25078042"/>
   <nd ref="7480147984"/>
@@ -21750,6 +21785,7 @@
   <tag k="bicycle" v="no"/>
   <tag k="bridge" v="viaduct"/>
   <tag k="foot" v="no"/>
+  <tag k="grande_circulation" v="yes"/>
   <tag k="hazmat:E" v="no"/>
   <tag k="highway" v="trunk"/>
   <tag k="horse" v="no"/>
@@ -21839,13 +21875,14 @@
   <nd ref="2415916706"/>
   <nd ref="148950288"/>
  </way>
- <way id="16106764" visible="true" version="23" changeset="141998927" timestamp="2023-10-01T17:47:04Z" user="JeroenvanderGun" uid="11963177">
+ <way id="16106764" visible="true" version="24" changeset="148280303" timestamp="2024-03-06T07:58:25Z" user="didier2020" uid="300459">
   <nd ref="25238600"/>
   <nd ref="25238594"/>
   <nd ref="7480147983"/>
   <nd ref="25078045"/>
   <tag k="bicycle" v="no"/>
   <tag k="foot" v="no"/>
+  <tag k="grande_circulation" v="yes"/>
   <tag k="hazmat:E" v="no"/>
   <tag k="highway" v="trunk"/>
   <tag k="horse" v="no"/>
@@ -21865,11 +21902,12 @@
   <tag k="toll" v="no"/>
   <tag k="zone:traffic" v="FR:urban"/>
  </way>
- <way id="16106767" visible="true" version="24" changeset="141998927" timestamp="2023-10-01T17:47:04Z" user="JeroenvanderGun" uid="11963177">
+ <way id="16106767" visible="true" version="25" changeset="148280303" timestamp="2024-03-06T07:58:25Z" user="didier2020" uid="300459">
   <nd ref="25238674"/>
   <nd ref="6888255690"/>
   <tag k="bicycle" v="no"/>
   <tag k="foot" v="no"/>
+  <tag k="grande_circulation" v="yes"/>
   <tag k="hazmat:E" v="no"/>
   <tag k="highway" v="trunk"/>
   <tag k="horse" v="no"/>
@@ -21916,13 +21954,14 @@
   <tag k="start_date" v="1963-11"/>
   <tag k="surface" v="asphalt"/>
  </way>
- <way id="16108247" visible="true" version="20" changeset="141998927" timestamp="2023-10-01T17:47:04Z" user="JeroenvanderGun" uid="11963177">
+ <way id="16108247" visible="true" version="21" changeset="148280303" timestamp="2024-03-06T07:58:25Z" user="didier2020" uid="300459">
   <nd ref="162296675"/>
   <nd ref="162311367"/>
   <nd ref="5332418052"/>
   <nd ref="25238674"/>
   <tag k="bicycle" v="no"/>
   <tag k="foot" v="no"/>
+  <tag k="grande_circulation" v="yes"/>
   <tag k="hazmat:E" v="no"/>
   <tag k="highway" v="trunk"/>
   <tag k="horse" v="no"/>
@@ -22780,11 +22819,12 @@
   <nd ref="597687337"/>
   <tag k="highway" v="service"/>
  </way>
- <way id="46773366" visible="true" version="22" changeset="141998927" timestamp="2023-10-01T17:47:04Z" user="JeroenvanderGun" uid="11963177">
+ <way id="46773366" visible="true" version="23" changeset="148280303" timestamp="2024-03-06T07:58:25Z" user="didier2020" uid="300459">
   <nd ref="25238598"/>
   <nd ref="6888255692"/>
   <tag k="bicycle" v="no"/>
   <tag k="foot" v="no"/>
+  <tag k="grande_circulation" v="yes"/>
   <tag k="hazmat:E" v="no"/>
   <tag k="highway" v="trunk"/>
   <tag k="horse" v="no"/>
@@ -40307,7 +40347,7 @@
   <tag k="school:FR" v="primaire"/>
   <tag k="source" v="Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"/>
  </way>
- <way id="129135460" visible="true" version="24" changeset="142525085" timestamp="2023-10-13T13:43:56Z" user="codll" uid="59347">
+ <way id="129135460" visible="true" version="26" changeset="148258359" timestamp="2024-03-05T16:25:40Z" user="Julien39" uid="195017">
   <nd ref="677772014"/>
   <nd ref="5924704824"/>
   <nd ref="5924704825"/>
@@ -40464,17 +40504,20 @@
   <tag k="barrier" v="fence"/>
   <tag k="description" v="Parc des Expositions de Paris (Porte de Versailles)"/>
   <tag k="fence_type" v="metal"/>
-  <tag k="name" v="Parc des Expositions de Paris"/>
+  <tag k="name" v="Paris Expo Porte de Versailles"/>
   <tag k="name:de" v="Messe Paris Expo Porte de Versailles"/>
   <tag k="name:en" v="Trade Fair Paris Expo Porte de Versailles"/>
   <tag k="official_name" v="Parc des Expositions"/>
+  <tag k="old_name" v="Parc des Expositions de Paris"/>
   <tag k="operator" v="Unibail - Rodamco"/>
+  <tag k="operator:type" v="private"/>
+  <tag k="owner" v="Ville de Paris"/>
   <tag k="phone" v="+33140682222"/>
-  <tag k="tourism" v="attraction"/>
+  <tag k="tourism" v="yes"/>
   <tag k="website" v="https://www.viparis.com/nos-lieux/paris-expo-porte-de-versailles"/>
   <tag k="wheelchair" v="yes"/>
   <tag k="wikidata" v="Q3364319"/>
-  <tag k="wikipedia" v="fr:Parc des expositions de la porte de Versailles"/>
+  <tag k="wikipedia" v="fr:Paris Expo Porte de Versailles"/>
  </way>
  <way id="132799700" visible="true" version="3" changeset="48422943" timestamp="2017-05-05T10:45:49Z" user="fmiet" uid="1843201">
   <nd ref="1461078856"/>
@@ -40509,7 +40552,7 @@
   <tag k="access" v="private"/>
   <tag k="highway" v="service"/>
  </way>
- <way id="132799710" visible="true" version="3" changeset="123892866" timestamp="2022-07-21T12:44:11Z" user="benoitdd" uid="1205555">
+ <way id="132799710" visible="true" version="4" changeset="147361521" timestamp="2024-02-12T10:58:48Z" user="Murrumbidgee" uid="20432891">
   <nd ref="9901868733"/>
   <nd ref="9901868732"/>
   <nd ref="9901868742"/>
@@ -40517,8 +40560,6 @@
   <nd ref="9901868730"/>
   <nd ref="1461078846"/>
   <nd ref="1461078856"/>
-  <nd ref="1461078882"/>
-  <nd ref="1461078885"/>
   <tag k="access" v="private"/>
   <tag k="highway" v="service"/>
  </way>
@@ -40542,12 +40583,13 @@
   <tag k="boundary" v="administrative"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="184764542" visible="true" version="16" changeset="141998927" timestamp="2023-10-01T17:47:04Z" user="JeroenvanderGun" uid="11963177">
+ <way id="184764542" visible="true" version="17" changeset="148280303" timestamp="2024-03-06T07:58:25Z" user="didier2020" uid="300459">
   <nd ref="25238673"/>
   <nd ref="7814598609"/>
   <nd ref="162314294"/>
   <tag k="bicycle" v="no"/>
   <tag k="foot" v="no"/>
+  <tag k="grande_circulation" v="yes"/>
   <tag k="hazmat:E" v="no"/>
   <tag k="highway" v="trunk"/>
   <tag k="horse" v="no"/>
@@ -42549,12 +42591,13 @@
   <tag k="access" v="permissive"/>
   <tag k="highway" v="service"/>
  </way>
- <way id="362885123" visible="true" version="11" changeset="141998927" timestamp="2023-10-01T17:47:04Z" user="JeroenvanderGun" uid="11963177">
+ <way id="362885123" visible="true" version="12" changeset="148280303" timestamp="2024-03-06T07:58:25Z" user="didier2020" uid="300459">
   <nd ref="25078044"/>
   <nd ref="25238593"/>
   <nd ref="25238598"/>
   <tag k="bicycle" v="no"/>
   <tag k="foot" v="no"/>
+  <tag k="grande_circulation" v="yes"/>
   <tag k="hazmat:E" v="no"/>
   <tag k="highway" v="trunk"/>
   <tag k="horse" v="no"/>
@@ -42574,7 +42617,7 @@
   <tag k="toll" v="no"/>
   <tag k="zone:traffic" v="FR:urban"/>
  </way>
- <way id="362885125" visible="true" version="11" changeset="141998927" timestamp="2023-10-01T17:47:04Z" user="JeroenvanderGun" uid="11963177">
+ <way id="362885125" visible="true" version="12" changeset="148280303" timestamp="2024-03-06T07:58:25Z" user="didier2020" uid="300459">
   <nd ref="25078045"/>
   <nd ref="25078043"/>
   <nd ref="25078041"/>
@@ -42582,6 +42625,7 @@
   <tag k="bicycle" v="no"/>
   <tag k="bridge" v="viaduct"/>
   <tag k="foot" v="no"/>
+  <tag k="grande_circulation" v="yes"/>
   <tag k="hazmat:E" v="no"/>
   <tag k="highway" v="trunk"/>
   <tag k="horse" v="no"/>
@@ -43982,11 +44026,12 @@
   <tag k="name" v="Rue Michel-Ange"/>
   <tag k="service" v="alley"/>
  </way>
- <way id="735425415" visible="true" version="7" changeset="141998927" timestamp="2023-10-01T17:47:04Z" user="JeroenvanderGun" uid="11963177">
+ <way id="735425415" visible="true" version="8" changeset="148280303" timestamp="2024-03-06T07:58:25Z" user="didier2020" uid="300459">
   <nd ref="6888255690"/>
   <nd ref="6888255691"/>
   <tag k="bicycle" v="no"/>
   <tag k="foot" v="no"/>
+  <tag k="grande_circulation" v="yes"/>
   <tag k="hazmat:E" v="no"/>
   <tag k="highway" v="trunk"/>
   <tag k="horse" v="no"/>
@@ -44008,11 +44053,12 @@
   <tag k="toll" v="no"/>
   <tag k="zone:traffic" v="FR:urban"/>
  </way>
- <way id="735425416" visible="true" version="7" changeset="141998927" timestamp="2023-10-01T17:47:04Z" user="JeroenvanderGun" uid="11963177">
+ <way id="735425416" visible="true" version="8" changeset="148280303" timestamp="2024-03-06T07:58:25Z" user="didier2020" uid="300459">
   <nd ref="6888255691"/>
   <nd ref="25238600"/>
   <tag k="bicycle" v="no"/>
   <tag k="foot" v="no"/>
+  <tag k="grande_circulation" v="yes"/>
   <tag k="hazmat:E" v="no"/>
   <tag k="highway" v="trunk"/>
   <tag k="horse" v="no"/>
@@ -44036,11 +44082,12 @@
   <tag k="tunnel" v="yes"/>
   <tag k="zone:traffic" v="FR:urban"/>
  </way>
- <way id="735425417" visible="true" version="7" changeset="141998927" timestamp="2023-10-01T17:47:04Z" user="JeroenvanderGun" uid="11963177">
+ <way id="735425417" visible="true" version="8" changeset="148280303" timestamp="2024-03-06T07:58:25Z" user="didier2020" uid="300459">
   <nd ref="6888255692"/>
   <nd ref="6888255689"/>
   <tag k="bicycle" v="no"/>
   <tag k="foot" v="no"/>
+  <tag k="grande_circulation" v="yes"/>
   <tag k="hazmat:E" v="no"/>
   <tag k="highway" v="trunk"/>
   <tag k="horse" v="no"/>
@@ -44062,11 +44109,12 @@
   <tag k="toll" v="no"/>
   <tag k="zone:traffic" v="FR:urban"/>
  </way>
- <way id="735425418" visible="true" version="7" changeset="141998927" timestamp="2023-10-01T17:47:04Z" user="JeroenvanderGun" uid="11963177">
+ <way id="735425418" visible="true" version="8" changeset="148280303" timestamp="2024-03-06T07:58:25Z" user="didier2020" uid="300459">
   <nd ref="6888255689"/>
   <nd ref="25238673"/>
   <tag k="bicycle" v="no"/>
   <tag k="foot" v="no"/>
+  <tag k="grande_circulation" v="yes"/>
   <tag k="hazmat:E" v="no"/>
   <tag k="highway" v="trunk"/>
   <tag k="horse" v="no"/>
@@ -44270,11 +44318,12 @@
   <tag k="oneway" v="yes"/>
   <tag k="surface" v="sett"/>
  </way>
- <way id="797009072" visible="true" version="12" changeset="132059677" timestamp="2023-02-03T22:21:28Z" user="faidherbard" uid="15533296">
+ <way id="797009072" visible="true" version="13" changeset="146316095" timestamp="2024-01-16T09:46:55Z" user="BR_pebble" uid="15458791">
   <nd ref="132779908"/>
   <nd ref="2079256366"/>
   <nd ref="10583785549"/>
   <nd ref="3175074541"/>
+  <nd ref="11521399816"/>
   <nd ref="2079256375"/>
   <nd ref="176751770"/>
   <nd ref="2079256377"/>
@@ -47441,11 +47490,12 @@
   <nd ref="10219499835"/>
   <tag k="amenity" v="parking_space"/>
  </way>
- <way id="1117344034" visible="true" version="1" changeset="129398732" timestamp="2022-11-26T11:36:41Z" user="Papusa" uid="10704460">
+ <way id="1117344034" visible="true" version="2" changeset="146755343" timestamp="2024-01-27T19:00:34Z" user="cquest" uid="158826">
   <nd ref="10219499838"/>
   <nd ref="10219499839"/>
   <nd ref="10219499840"/>
   <nd ref="10219499841"/>
+  <nd ref="3349936686"/>
   <nd ref="10219499838"/>
   <tag k="amenity" v="parking_space"/>
   <tag k="capacity" v="1"/>
@@ -47769,7 +47819,23 @@
   <nd ref="11165157248"/>
   <nd ref="7948175630"/>
  </way>
- <relation id="7444" visible="true" version="199" changeset="135338494" timestamp="2023-04-25T11:07:40Z" user="TabulaPeutingeriana" uid="2830995">
+ <way id="1240107490" visible="true" version="1" changeset="146316095" timestamp="2024-01-16T09:46:55Z" user="BR_pebble" uid="15458791">
+  <nd ref="11521399820"/>
+  <nd ref="11521399819"/>
+  <nd ref="11521399818"/>
+  <nd ref="11521399817"/>
+  <nd ref="11521399816"/>
+  <tag k="highway" v="service"/>
+ </way>
+ <way id="1249445513" visible="true" version="1" changeset="147361521" timestamp="2024-02-12T10:58:48Z" user="Murrumbidgee" uid="20432891">
+  <nd ref="1461078856"/>
+  <nd ref="1461078882"/>
+  <nd ref="1461078885"/>
+  <tag k="access" v="private"/>
+  <tag k="highway" v="service"/>
+  <tag k="level" v="1"/>
+ </way>
+ <relation id="7444" visible="true" version="200" changeset="147994909" timestamp="2024-02-28T02:07:09Z" user="Olyon" uid="1443767">
   <member type="node" ref="17807753" role="admin_centre"/>
   <member type="way" ref="29065284" role="outer"/>
   <member type="way" ref="28956823" role="outer"/>
@@ -48032,6 +48098,7 @@
   <tag k="population" v="2187526"/>
   <tag k="postal_code" v="75000;75001;75002;75003;75004;75005;75006;75007;75008;75009;75010;75011;75012;75013;75014;75015;75016;75017;75018;75019;75020;75116"/>
   <tag k="ref:FR:MGP" v="T1"/>
+  <tag k="ref:FR:SIREN" v="217500016"/>
   <tag k="ref:INSEE" v="75056"/>
   <tag k="source:population" v="INSEE 2020"/>
   <tag k="type" v="boundary"/>
@@ -48682,7 +48749,7 @@
   <tag k="wikidata" v="Q191066"/>
   <tag k="wikipedia" v="fr:15e arrondissement de Paris"/>
  </relation>
- <relation id="59321" visible="true" version="35" changeset="116044833" timestamp="2022-01-11T23:39:32Z" user="cquest_bot" uid="541379">
+ <relation id="59321" visible="true" version="36" changeset="147994909" timestamp="2024-02-28T02:07:09Z" user="Olyon" uid="1443767">
   <member type="node" ref="26692429" role="admin_centre"/>
   <member type="way" ref="589582609" role="outer"/>
   <member type="way" ref="23636205" role="outer"/>
@@ -48707,6 +48774,7 @@
   <tag k="population" v="27846"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="92170"/>
+  <tag k="ref:FR:SIREN" v="219200755"/>
   <tag k="ref:INSEE" v="92075"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
@@ -48964,7 +49032,7 @@
   <tag k="wikidata" v="Q90"/>
   <tag k="wikipedia" v="fr:Paris"/>
  </relation>
- <relation id="85527" visible="true" version="37" changeset="123181410" timestamp="2022-07-04T09:38:43Z" user="Truchin" uid="138059">
+ <relation id="85527" visible="true" version="38" changeset="147994909" timestamp="2024-02-28T02:07:20Z" user="Olyon" uid="1443767">
   <member type="node" ref="26692000" role="admin_centre"/>
   <member type="way" ref="591399735" role="outer"/>
   <member type="way" ref="29091653" role="outer"/>
@@ -48996,6 +49064,7 @@
   <tag k="population" v="67981"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="92130"/>
+  <tag k="ref:FR:SIREN" v="219200409"/>
   <tag k="ref:INSEE" v="92040"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
@@ -49997,7 +50066,7 @@
   <tag k="type" v="route"/>
   <tag k="wheelchair" v="yes"/>
  </relation>
- <relation id="1246645" visible="true" version="134" changeset="145489068" timestamp="2023-12-25T08:47:23Z" user="Yves Le Jan" uid="8366928">
+ <relation id="1246645" visible="true" version="135" changeset="146422477" timestamp="2024-01-18T22:12:28Z" user="Britzz" uid="7550430">
   <member type="node" ref="2578895634" role="platform_entry_only"/>
   <member type="node" ref="4565760738" role="stop_entry_only"/>
   <member type="node" ref="2378416435" role="platform"/>
@@ -50233,7 +50302,6 @@
   <member type="way" ref="425721603" role=""/>
   <member type="way" ref="611974681" role=""/>
   <member type="way" ref="380412201" role=""/>
-  <member type="way" ref="425721599" role=""/>
   <member type="way" ref="346879724" role=""/>
   <member type="way" ref="17039602" role=""/>
   <member type="way" ref="85145858" role=""/>
@@ -52301,7 +52369,7 @@
   <tag k="source" v="data.gouv.fr:Ministère de l'Intérieur - 03/2012"/>
   <tag k="type" v="boundary"/>
  </relation>
- <relation id="2981754" visible="true" version="118" changeset="145225113" timestamp="2023-12-17T18:31:05Z" user="yxoc" uid="57126">
+ <relation id="2981754" visible="true" version="119" changeset="146422477" timestamp="2024-01-18T22:12:28Z" user="Britzz" uid="7550430">
   <member type="node" ref="7439445597" role="stop_entry_only"/>
   <member type="node" ref="7439445596" role="platform_entry_only"/>
   <member type="node" ref="232037368" role="stop"/>
@@ -52458,7 +52526,6 @@
   <member type="way" ref="1024145518" role=""/>
   <member type="way" ref="611974681" role=""/>
   <member type="way" ref="380412201" role=""/>
-  <member type="way" ref="425721599" role=""/>
   <member type="way" ref="425721601" role=""/>
   <member type="way" ref="108025091" role=""/>
   <member type="way" ref="14002559" role=""/>
@@ -54922,7 +54989,7 @@
   <tag k="to" v="Porte de Saint-Cloud"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="5540003" visible="true" version="163" changeset="146056146" timestamp="2024-01-09T08:15:55Z" user="Benoît C MdP" uid="7512839">
+ <relation id="5540003" visible="true" version="165" changeset="147114598" timestamp="2024-02-06T01:07:23Z" user="yxoc" uid="57126">
   <member type="node" ref="27681706" role="stop_entry_only"/>
   <member type="node" ref="3527149990" role="platform_entry_only"/>
   <member type="node" ref="2877448911" role="stop"/>
@@ -54992,6 +55059,7 @@
   <member type="node" ref="7798869839" role="stop"/>
   <member type="node" ref="5402931050" role="platform"/>
   <member type="node" ref="3567281605" role="platform"/>
+  <member type="node" ref="2430198762" role="stop"/>
   <member type="node" ref="2430198763" role="platform"/>
   <member type="node" ref="2430198746" role="platform"/>
   <member type="node" ref="3603845655" role="platform"/>
@@ -55174,7 +55242,7 @@
   <member type="way" ref="27181557" role=""/>
   <member type="way" ref="27515088" role=""/>
   <member type="way" ref="27515087" role=""/>
-  <member type="way" ref="351163525" role=""/>
+  <member type="way" ref="1245617019" role=""/>
   <member type="way" ref="482038408" role=""/>
   <member type="way" ref="20628917" role=""/>
   <member type="way" ref="24714352" role=""/>
@@ -55298,7 +55366,7 @@
   <tag k="route_master" v="bus"/>
   <tag k="type" v="route_master"/>
  </relation>
- <relation id="5540006" visible="true" version="135" changeset="145590493" timestamp="2023-12-27T19:54:45Z" user="yxoc" uid="57126">
+ <relation id="5540006" visible="true" version="137" changeset="146994151" timestamp="2024-02-02T17:25:42Z" user="Harvesterify" uid="6060820">
   <member type="node" ref="5983129942" role="stop_entry_only"/>
   <member type="node" ref="3516281706" role="platform_entry_only"/>
   <member type="node" ref="4596777381" role="platform"/>
@@ -55460,6 +55528,9 @@
   <member type="way" ref="235710979" role=""/>
   <member type="way" ref="20629554" role=""/>
   <member type="way" ref="351163525" role=""/>
+  <member type="way" ref="1245617016" role=""/>
+  <member type="way" ref="1245617017" role=""/>
+  <member type="way" ref="1245617018" role=""/>
   <member type="way" ref="27515087" role=""/>
   <member type="way" ref="27515088" role=""/>
   <member type="way" ref="27181557" role=""/>
@@ -55517,7 +55588,6 @@
   <member type="way" ref="797009071" role=""/>
   <member type="way" ref="17041223" role=""/>
   <member type="way" ref="428740672" role=""/>
-  <member type="way" ref="425721599" role=""/>
   <member type="way" ref="425721601" role=""/>
   <member type="way" ref="108025091" role=""/>
   <member type="way" ref="425721604" role=""/>
@@ -56048,7 +56118,7 @@
   <tag k="route_master" v="bus"/>
   <tag k="type" v="route_master"/>
  </relation>
- <relation id="5962792" visible="true" version="26" changeset="105875399" timestamp="2021-06-05T10:23:42Z" user="Super-Map" uid="709289">
+ <relation id="5962792" visible="true" version="27" changeset="148074820" timestamp="2024-02-29T23:08:12Z" user="Dren ar Frankig" uid="11707888">
   <member type="way" ref="29065284" role="outer"/>
   <member type="way" ref="28956823" role="outer"/>
   <member type="way" ref="164510742" role="outer"/>
@@ -56140,6 +56210,8 @@
   <tag k="boundary_type:FR" v="circonscription académique"/>
   <tag k="holiday_zone" v="Zone C"/>
   <tag k="name" v="Académie de Paris"/>
+  <tag k="name:br" v="Akademiezh Pariz"/>
+  <tag k="source:name:br" v="proper translation"/>
   <tag k="type" v="boundary"/>
   <tag k="website:regulation" v="https://www.legifrance.gouv.fr/affichCode.do?idArticle=LEGIARTI000039413364"/>
   <tag k="wikidata" v="Q2822323"/>
@@ -56610,21 +56682,29 @@
   <tag k="short_name" v="Centre-Ville / Corentin Celton / Les Varennes"/>
   <tag k="type" v="boundary"/>
  </relation>
- <relation id="9353392" visible="true" version="78" changeset="138956928" timestamp="2023-07-24T19:57:58Z" user="pyrog" uid="270456">
+ <relation id="9353392" visible="true" version="80" changeset="146567157" timestamp="2024-01-22T19:42:34Z" user="yxoc" uid="57126">
   <member type="node" ref="6171190790" role="platform_entry_only"/>
+  <member type="node" ref="4826917803" role="stop"/>
   <member type="node" ref="981167512" role="platform"/>
+  <member type="node" ref="4826917802" role="stop"/>
   <member type="node" ref="5979568504" role="platform"/>
+  <member type="node" ref="5689798807" role="stop"/>
   <member type="node" ref="2077165367" role="platform"/>
+  <member type="node" ref="5689798806" role="stop"/>
   <member type="node" ref="2077165370" role="platform"/>
   <member type="node" ref="6430488206" role="platform"/>
   <member type="node" ref="6301830879" role="platform"/>
   <member type="node" ref="6301828603" role="platform"/>
+  <member type="node" ref="4606447077" role="stop"/>
   <member type="node" ref="983637961" role="platform"/>
+  <member type="node" ref="8285179555" role="stop"/>
   <member type="node" ref="983637950" role="platform"/>
+  <member type="node" ref="7745312082" role="stop"/>
   <member type="node" ref="983637953" role="platform"/>
   <member type="node" ref="4848188006" role="stop"/>
   <member type="node" ref="968514788" role="platform"/>
   <member type="node" ref="6292610241" role="platform"/>
+  <member type="node" ref="11540848383" role="stop"/>
   <member type="node" ref="6292610240" role="platform"/>
   <member type="node" ref="6301887363" role="platform"/>
   <member type="node" ref="6301887362" role="platform"/>
@@ -56637,7 +56717,6 @@
   <member type="node" ref="3587845442" role="platform"/>
   <member type="node" ref="3761381691" role="platform"/>
   <member type="node" ref="6653701250" role="platform_exit_only"/>
-  <member type="way" ref="2570" role=""/>
   <member type="way" ref="773816528" role=""/>
   <member type="way" ref="529087055" role=""/>
   <member type="way" ref="53799097" role=""/>
@@ -56675,12 +56754,10 @@
   <member type="way" ref="600250366" role=""/>
   <member type="way" ref="30020732" role=""/>
   <member type="way" ref="708459256" role=""/>
-  <member type="way" ref="1075051459" role=""/>
-  <member type="way" ref="1030132482" role=""/>
-  <member type="way" ref="938736168" role=""/>
-  <member type="way" ref="825444720" role=""/>
-  <member type="way" ref="825444721" role=""/>
-  <member type="way" ref="1075051458" role=""/>
+  <member type="way" ref="1240742001" role=""/>
+  <member type="way" ref="1240742000" role=""/>
+  <member type="way" ref="1240741999" role=""/>
+  <member type="way" ref="671970554" role=""/>
   <member type="way" ref="4040670" role=""/>
   <member type="way" ref="36450740" role=""/>
   <member type="way" ref="282530461" role=""/>
@@ -56752,7 +56829,7 @@
   <tag k="to" v="Gare de Clamart"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="9353393" visible="true" version="67" changeset="136339190" timestamp="2023-05-20T14:17:33Z" user="DeryClem" uid="9657215">
+ <relation id="9353393" visible="true" version="68" changeset="146422477" timestamp="2024-01-18T22:12:28Z" user="Britzz" uid="7550430">
   <member type="node" ref="6653701250" role="platform_entry_only"/>
   <member type="node" ref="6430488202" role="platform"/>
   <member type="node" ref="5905122801" role="platform"/>
@@ -56800,7 +56877,6 @@
   <member type="way" ref="797009071" role=""/>
   <member type="way" ref="17041223" role=""/>
   <member type="way" ref="428740672" role=""/>
-  <member type="way" ref="425721599" role=""/>
   <member type="way" ref="425721601" role=""/>
   <member type="way" ref="108025091" role=""/>
   <member type="way" ref="425721604" role=""/>
@@ -56921,17 +56997,18 @@
   <tag k="landuse" v="grass"/>
   <tag k="type" v="multipolygon"/>
  </relation>
- <relation id="10413217" visible="true" version="134" changeset="145581247" timestamp="2023-12-27T15:31:33Z" user="youbab" uid="8899269">
-  <member type="node" ref="7058346124" role="stop"/>
-  <member type="node" ref="4758383707" role="platform"/>
+ <relation id="10413217" visible="true" version="139" changeset="147853040" timestamp="2024-02-24T12:32:19Z" user="mga_geo" uid="341930">
+  <member type="node" ref="7058346124" role="stop_entry_only"/>
+  <member type="node" ref="4758383707" role="platform_entry_only"/>
   <member type="node" ref="6724016276" role="stop"/>
   <member type="node" ref="6724026496" role="platform"/>
   <member type="node" ref="7058150804" role="stop"/>
   <member type="node" ref="6250572092" role="platform"/>
   <member type="node" ref="4922631202" role="stop"/>
   <member type="way" ref="501456696" role="platform"/>
+  <member type="node" ref="11380517810" role="stop"/>
   <member type="node" ref="5266084640" role="platform"/>
-  <member type="node" ref="5435709535" role="stop"/>
+  <member type="node" ref="5435709535" role="stop_exit_only"/>
   <member type="way" ref="755678949" role=""/>
   <member type="way" ref="689719965" role=""/>
   <member type="way" ref="495077571" role=""/>
@@ -56950,20 +57027,22 @@
   <member type="way" ref="1043718679" role=""/>
   <member type="way" ref="513713193" role=""/>
   <member type="way" ref="48772996" role=""/>
-  <member type="way" ref="817928238" role=""/>
-  <member type="way" ref="23805427" role=""/>
+  <member type="way" ref="1243450636" role=""/>
+  <member type="way" ref="1243450634" role=""/>
+  <member type="way" ref="1245619643" role=""/>
   <member type="way" ref="24293239" role=""/>
-  <member type="way" ref="24207028" role=""/>
+  <member type="way" ref="1245619648" role=""/>
+  <member type="way" ref="1245619649" role=""/>
   <member type="way" ref="24207029" role=""/>
   <member type="way" ref="940507278" role=""/>
   <member type="way" ref="940507277" role=""/>
-  <member type="way" ref="590840025" role=""/>
+  <member type="way" ref="1243405315" role=""/>
+  <member type="way" ref="1245619673" role=""/>
   <member type="way" ref="23698034" role=""/>
   <member type="way" ref="23698240" role=""/>
   <member type="way" ref="23627666" role=""/>
-  <member type="way" ref="937086351" role=""/>
+  <member type="way" ref="1241684305" role=""/>
   <member type="way" ref="112996852" role=""/>
-  <member type="way" ref="113688567" role=""/>
   <member type="way" ref="631219071" role=""/>
   <member type="way" ref="48772991" role=""/>
   <member type="way" ref="407675212" role=""/>
@@ -56979,7 +57058,11 @@
   <member type="way" ref="662862330" role=""/>
   <member type="way" ref="259940214" role=""/>
   <member type="way" ref="662862332" role=""/>
-  <member type="way" ref="590840004" role=""/>
+  <member type="way" ref="1245619662" role=""/>
+  <member type="way" ref="1245619663" role=""/>
+  <member type="way" ref="1245619664" role=""/>
+  <member type="way" ref="1245619665" role=""/>
+  <member type="way" ref="1245619666" role=""/>
   <member type="way" ref="259940322" role=""/>
   <member type="way" ref="755678951" role=""/>
   <member type="way" ref="23232768" role=""/>
@@ -57036,13 +57119,19 @@
   <member type="way" ref="14024507" role=""/>
   <member type="way" ref="14024506" role=""/>
   <member type="way" ref="14024503" role=""/>
-  <member type="way" ref="11980018" role=""/>
+  <member type="way" ref="1245619636" role=""/>
+  <member type="way" ref="1245619637" role=""/>
+  <member type="way" ref="1245619638" role=""/>
+  <member type="way" ref="1245619639" role=""/>
   <member type="way" ref="171900789" role=""/>
   <member type="way" ref="755666894" role=""/>
   <member type="way" ref="538094895" role=""/>
   <member type="way" ref="715445332" role=""/>
   <member type="way" ref="755666891" role=""/>
+  <member type="way" ref="1245619639" role=""/>
+  <member type="way" ref="1245619640" role=""/>
   <member type="way" ref="11980018" role=""/>
+  <member type="way" ref="1245619641" role=""/>
   <member type="way" ref="715445340" role=""/>
   <member type="way" ref="14024506" role=""/>
   <member type="way" ref="729140515" role=""/>
@@ -57091,7 +57180,9 @@
   <member type="way" ref="165333783" role=""/>
   <member type="way" ref="262659769" role=""/>
   <member type="way" ref="299088266" role=""/>
-  <member type="way" ref="336004939" role=""/>
+  <member type="way" ref="1245619652" role=""/>
+  <member type="way" ref="1245619653" role=""/>
+  <member type="way" ref="1245619654" role=""/>
   <member type="way" ref="8002961" role=""/>
   <member type="way" ref="10711992" role=""/>
   <member type="way" ref="165335883" role=""/>
@@ -57101,9 +57192,13 @@
   <member type="way" ref="667576434" role=""/>
   <member type="way" ref="755666903" role=""/>
   <member type="way" ref="667576433" role=""/>
-  <member type="way" ref="1026202329" role=""/>
+  <member type="way" ref="1245619693" role=""/>
+  <member type="way" ref="1245619694" role=""/>
+  <member type="way" ref="1245619695" role=""/>
   <member type="way" ref="165336751" role=""/>
   <member type="way" ref="1026201996" role=""/>
+  <member type="way" ref="1245619688" role=""/>
+  <member type="way" ref="1245619689" role=""/>
   <member type="way" ref="890090926" role=""/>
   <member type="way" ref="1026201514" role=""/>
   <member type="way" ref="890090927" role=""/>
@@ -57123,6 +57218,12 @@
   <member type="way" ref="106512517" role=""/>
   <member type="way" ref="106512519" role=""/>
   <member type="way" ref="668069180" role=""/>
+  <member type="way" ref="1245619679" role=""/>
+  <member type="way" ref="1245619680" role=""/>
+  <member type="way" ref="1245619681" role=""/>
+  <member type="way" ref="1245619682" role=""/>
+  <member type="way" ref="1245619683" role=""/>
+  <member type="way" ref="1245619684" role=""/>
   <member type="way" ref="31908362" role=""/>
   <member type="way" ref="86462873" role=""/>
   <member type="way" ref="668069176" role=""/>
@@ -57377,6 +57478,7 @@
   <member type="way" ref="600325786" role=""/>
   <member type="way" ref="600325777" role=""/>
   <member type="way" ref="600325769" role=""/>
+  <member type="way" ref="1254304507" role=""/>
   <member type="way" ref="183418714" role=""/>
   <member type="way" ref="757918889" role=""/>
   <member type="way" ref="143991828" role=""/>
@@ -57967,7 +58069,7 @@
   <tag k="to" v="Paris, Bercy Seine"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="10468455" visible="true" version="122" changeset="145581247" timestamp="2023-12-27T15:31:33Z" user="youbab" uid="8899269">
+ <relation id="10468455" visible="true" version="128" changeset="147853040" timestamp="2024-02-24T12:32:19Z" user="mga_geo" uid="341930">
   <member type="node" ref="5435709535" role="stop"/>
   <member type="node" ref="5266084640" role="platform"/>
   <member type="node" ref="4922631202" role="stop"/>
@@ -58480,6 +58582,7 @@
   <member type="way" ref="600325786" role=""/>
   <member type="way" ref="600325777" role=""/>
   <member type="way" ref="600325769" role=""/>
+  <member type="way" ref="1254304507" role=""/>
   <member type="way" ref="183418714" role=""/>
   <member type="way" ref="757918889" role=""/>
   <member type="way" ref="143991828" role=""/>
@@ -58778,7 +58881,11 @@
   <member type="way" ref="175914081" role=""/>
   <member type="way" ref="758229642" role=""/>
   <member type="way" ref="13799962" role=""/>
-  <member type="way" ref="668069180" role=""/>
+  <member type="way" ref="1245619682" role=""/>
+  <member type="way" ref="1245619683" role=""/>
+  <member type="way" ref="1245619684" role=""/>
+  <member type="way" ref="1245619685" role=""/>
+  <member type="way" ref="1245619686" role=""/>
   <member type="way" ref="106512497" role=""/>
   <member type="way" ref="106512517" role=""/>
   <member type="way" ref="192472972" role=""/>
@@ -58788,7 +58895,7 @@
   <member type="way" ref="625678829" role=""/>
   <member type="way" ref="403283221" role=""/>
   <member type="way" ref="1026199165" role=""/>
-  <member type="way" ref="403283222" role=""/>
+  <member type="way" ref="1245619660" role=""/>
   <member type="way" ref="1026198729" role=""/>
   <member type="way" ref="167661728" role=""/>
   <member type="way" ref="165337458" role=""/>
@@ -58797,9 +58904,11 @@
   <member type="way" ref="890090927" role=""/>
   <member type="way" ref="1026201514" role=""/>
   <member type="way" ref="1026201513" role=""/>
-  <member type="way" ref="1026201996" role=""/>
+  <member type="way" ref="1245619691" role=""/>
   <member type="way" ref="299119207" role=""/>
+  <member type="way" ref="1245619697" role=""/>
   <member type="way" ref="1026202329" role=""/>
+  <member type="way" ref="1245619693" role=""/>
   <member type="way" ref="165336746" role=""/>
   <member type="way" ref="668069913" role=""/>
   <member type="way" ref="667576434" role=""/>
@@ -58808,6 +58917,8 @@
   <member type="way" ref="10711992" role=""/>
   <member type="way" ref="10711993" role=""/>
   <member type="way" ref="336004939" role=""/>
+  <member type="way" ref="1245619655" role=""/>
+  <member type="way" ref="1245619656" role=""/>
   <member type="way" ref="10711994" role=""/>
   <member type="way" ref="262659769" role=""/>
   <member type="way" ref="165333783" role=""/>
@@ -58843,12 +58954,16 @@
   <member type="way" ref="840313894" role=""/>
   <member type="way" ref="840313893" role=""/>
   <member type="way" ref="156977292" role=""/>
-  <member type="way" ref="11980018" role=""/>
+  <member type="way" ref="1245619637" role=""/>
+  <member type="way" ref="1245619638" role=""/>
+  <member type="way" ref="1245619639" role=""/>
   <member type="way" ref="171900789" role=""/>
   <member type="way" ref="755666894" role=""/>
   <member type="way" ref="538094895" role=""/>
   <member type="way" ref="715445332" role=""/>
   <member type="way" ref="755666891" role=""/>
+  <member type="way" ref="1245619639" role=""/>
+  <member type="way" ref="1245619640" role=""/>
   <member type="way" ref="11980018" role=""/>
   <member type="way" ref="40860786" role=""/>
   <member type="way" ref="570109224" role=""/>
@@ -58916,7 +59031,11 @@
   <member type="way" ref="23698313" role=""/>
   <member type="way" ref="23698312" role=""/>
   <member type="way" ref="259940248" role=""/>
+  <member type="way" ref="1245619670" role=""/>
+  <member type="way" ref="1245619671" role=""/>
+  <member type="way" ref="1245619672" role=""/>
   <member type="way" ref="590840004" role=""/>
+  <member type="way" ref="1245619667" role=""/>
   <member type="way" ref="259940215" role=""/>
   <member type="way" ref="482904044" role=""/>
   <member type="way" ref="259940212" role=""/>
@@ -58930,21 +59049,28 @@
   <member type="way" ref="407675212" role=""/>
   <member type="way" ref="48772991" role=""/>
   <member type="way" ref="631219071" role=""/>
-  <member type="way" ref="113688567" role=""/>
   <member type="way" ref="112996852" role=""/>
-  <member type="way" ref="937086351" role=""/>
+  <member type="way" ref="1241684305" role=""/>
   <member type="way" ref="23627666" role=""/>
   <member type="way" ref="23698240" role=""/>
   <member type="way" ref="590839813" role=""/>
   <member type="way" ref="590839814" role=""/>
+  <member type="way" ref="1245619675" role=""/>
+  <member type="way" ref="1245619676" role=""/>
+  <member type="way" ref="1245619677" role=""/>
+  <member type="way" ref="1245619678" role=""/>
   <member type="way" ref="590840025" role=""/>
+  <member type="way" ref="1243405315" role=""/>
   <member type="way" ref="940507277" role=""/>
   <member type="way" ref="940507278" role=""/>
   <member type="way" ref="24207029" role=""/>
-  <member type="way" ref="24207028" role=""/>
+  <member type="way" ref="1245619650" role=""/>
   <member type="way" ref="24293240" role=""/>
+  <member type="way" ref="1245619647" role=""/>
   <member type="way" ref="23805427" role=""/>
+  <member type="way" ref="1245619644" role=""/>
   <member type="way" ref="817928238" role=""/>
+  <member type="way" ref="1243450636" role=""/>
   <member type="way" ref="48772996" role=""/>
   <member type="way" ref="557654235" role=""/>
   <member type="way" ref="557654229" role=""/>
@@ -58976,7 +59102,7 @@
   <tag k="to" v="Lorient, Gare d'Échanges"/>
   <tag k="type" v="route_master"/>
  </relation>
- <relation id="10495658" visible="true" version="76" changeset="145581247" timestamp="2023-12-27T15:31:33Z" user="youbab" uid="8899269">
+ <relation id="10495658" visible="true" version="78" changeset="147853040" timestamp="2024-02-24T12:32:19Z" user="mga_geo" uid="341930">
   <member type="node" ref="6622303995" role="stop"/>
   <member type="node" ref="4922631202" role="stop"/>
   <member type="way" ref="501456696" role="platform"/>
@@ -59009,6 +59135,7 @@
   <member type="way" ref="1098756255" role=""/>
   <member type="way" ref="188034467" role=""/>
   <member type="way" ref="753558853" role=""/>
+  <member type="way" ref="1250189623" role=""/>
   <member type="way" ref="158485897" role=""/>
   <member type="way" ref="1098756252" role=""/>
   <member type="way" ref="144943813" role=""/>
@@ -59196,6 +59323,7 @@
   <member type="way" ref="600325786" role=""/>
   <member type="way" ref="600325777" role=""/>
   <member type="way" ref="600325769" role=""/>
+  <member type="way" ref="1254304507" role=""/>
   <member type="way" ref="183418714" role=""/>
   <member type="way" ref="757918889" role=""/>
   <member type="way" ref="143991828" role=""/>
@@ -59825,7 +59953,7 @@
   <tag k="to" v="Paris, Gallieni"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="10495659" visible="true" version="79" changeset="145581247" timestamp="2023-12-27T15:31:33Z" user="youbab" uid="8899269">
+ <relation id="10495659" visible="true" version="80" changeset="147853040" timestamp="2024-02-24T12:32:19Z" user="mga_geo" uid="341930">
   <member type="node" ref="7089654470" role="stop"/>
   <member type="node" ref="5266084640" role="platform"/>
   <member type="node" ref="4922631202" role="stop"/>
@@ -60375,6 +60503,7 @@
   <member type="way" ref="600325786" role=""/>
   <member type="way" ref="600325777" role=""/>
   <member type="way" ref="600325769" role=""/>
+  <member type="way" ref="1254304507" role=""/>
   <member type="way" ref="183418714" role=""/>
   <member type="way" ref="757918889" role=""/>
   <member type="way" ref="143991828" role=""/>

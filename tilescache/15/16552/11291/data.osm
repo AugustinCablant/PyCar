@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.8.10 (969093 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.8.10 (953834 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.7199612" minlon="1.8457031" maxlat="48.7272088" maxlon="1.8566895"/>
  <node id="454993678" visible="true" version="2" changeset="10466765" timestamp="2012-01-22T16:55:47Z" user="Christian Perrier" uid="60669" lat="48.7290719" lon="1.8614988"/>
  <node id="454993679" visible="true" version="4" changeset="43882454" timestamp="2016-11-22T22:27:27Z" user="LeTopographeFou" uid="3178375" lat="48.7258380" lon="1.8508420">
@@ -16,7 +16,9 @@
   <tag k="junction" v="yes"/>
   <tag k="name" v="Carrefour du Trou au Loup"/>
  </node>
- <node id="899141276" visible="true" version="3" changeset="13209173" timestamp="2012-09-22T16:08:57Z" user="bourlpi" uid="326537" lat="48.7195170" lon="1.8551201"/>
+ <node id="899141276" visible="true" version="4" changeset="146503239" timestamp="2024-01-21T08:10:48Z" user="mat" uid="3085" lat="48.7195170" lon="1.8551201">
+  <tag k="highway" v="turning_circle"/>
+ </node>
  <node id="905136020" visible="true" version="4" changeset="43882454" timestamp="2016-11-22T22:27:29Z" user="LeTopographeFou" uid="3178375" lat="48.7316252" lon="1.8374841">
   <tag k="junction" v="yes"/>
   <tag k="name" v="Carrefour des Cuisines"/>

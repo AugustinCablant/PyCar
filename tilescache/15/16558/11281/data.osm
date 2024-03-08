@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.8.10 (2636142 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.8.10 (2853595 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.7923902" minlon="1.9116211" maxlat="48.7996274" maxlon="1.9226074"/>
  <node id="34963151" visible="true" version="4" changeset="3998013" timestamp="2010-02-28T13:42:13Z" user="Charlie Echo" uid="41390" lat="48.7985877" lon="1.9244838"/>
  <node id="34963152" visible="true" version="5" changeset="84521224" timestamp="2020-05-02T13:25:31Z" user="didier2020" uid="300459" lat="48.7989683" lon="1.9195524"/>
@@ -80,6 +80,7 @@
  <node id="243192093" visible="true" version="7" changeset="115297571" timestamp="2021-12-23T12:50:45Z" user="zorglubu" uid="6466263" lat="48.7983481" lon="1.9296685"/>
  <node id="243192240" visible="true" version="3" changeset="115297571" timestamp="2021-12-23T12:50:45Z" user="zorglubu" uid="6466263" lat="48.7984604" lon="1.9299293"/>
  <node id="243192362" visible="true" version="2" changeset="15883815" timestamp="2013-04-27T14:33:29Z" user="starf" uid="1380557" lat="48.7992310" lon="1.9289642"/>
+ <node id="245920253" visible="true" version="2" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7375339" lon="2.2400888"/>
  <node id="255141814" visible="true" version="2" changeset="15924432" timestamp="2013-04-30T19:17:44Z" user="starf" uid="1380557" lat="48.7980779" lon="1.9114625"/>
  <node id="255141818" visible="true" version="1" changeset="438031" timestamp="2008-03-31T21:13:34Z" user="laguiche" uid="28228" lat="48.7980371" lon="1.9122983"/>
  <node id="255141820" visible="true" version="3" changeset="15924432" timestamp="2013-04-30T19:17:44Z" user="starf" uid="1380557" lat="48.7979775" lon="1.9134464"/>
@@ -4822,6 +4823,28 @@
  <node id="11261969103" visible="true" version="1" changeset="142563231" timestamp="2023-10-14T06:25:59Z" user="tanemika" uid="835083" lat="48.7919001" lon="1.9114052"/>
  <node id="11261969104" visible="true" version="1" changeset="142563231" timestamp="2023-10-14T06:25:59Z" user="tanemika" uid="835083" lat="48.7919976" lon="1.9112419"/>
  <node id="11261969105" visible="true" version="1" changeset="142563231" timestamp="2023-10-14T06:25:59Z" user="tanemika" uid="835083" lat="48.7920345" lon="1.9112087"/>
+ <node id="11623831795" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7801756" lon="1.9143670"/>
+ <node id="11623831796" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7973663" lon="1.9129937"/>
+ <node id="11623831797" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7991755" lon="1.6843407"/>
+ <node id="11623831798" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7665998" lon="1.7351525"/>
+ <node id="11623831799" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7575472" lon="1.7262261"/>
+ <node id="11623831800" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7462292" lon="1.7056268"/>
+ <node id="11623831801" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.8199767" lon="1.9933312"/>
+ <node id="11623831802" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7828903" lon="2.0832818"/>
+ <node id="11623831803" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7620737" lon="2.1855920"/>
+ <node id="11623831822" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7172436" lon="1.6149895"/>
+ <node id="11623831823" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7109007" lon="1.6658013"/>
+ <node id="11623831824" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7140722" lon="1.7420190"/>
+ <node id="11623831825" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7367202" lon="1.7399590"/>
+ <node id="11623831826" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7919383" lon="1.7131799"/>
+ <node id="11623831827" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.8118381" lon="1.6767876"/>
+ <node id="11623831828" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.8140990" lon="1.6918938"/>
+ <node id="11623831829" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.8046027" lon="1.7447655"/>
+ <node id="11623831830" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7869621" lon="1.8031304"/>
+ <node id="11623831831" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7521149" lon="1.8257897"/>
+ <node id="11623831832" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7507567" lon="1.8573754"/>
+ <node id="11623831833" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.7593579" lon="1.8704217"/>
+ <node id="11623831834" visible="true" version="1" changeset="147462083" timestamp="2024-02-14T18:28:19Z" user="Penegal" uid="2815659" lat="48.8249496" lon="1.8882745"/>
  <way id="13978559" visible="true" version="17" changeset="96197289" timestamp="2020-12-21T13:00:11Z" user="didier2020" uid="300459">
   <nd ref="99342286"/>
   <nd ref="99342285"/>
@@ -11677,7 +11700,32 @@
   <nd ref="11261969105"/>
   <tag k="barrier" v="hedge"/>
  </way>
- <relation id="1767187" visible="true" version="92" changeset="145983573" timestamp="2024-01-07T09:45:47Z" user="TripleBee" uid="497177">
+ <way id="1250492471" visible="true" version="2" changeset="147496271" timestamp="2024-02-15T15:19:26Z" user="Penegal" uid="2815659">
+  <nd ref="245920253"/>
+  <nd ref="11623831803"/>
+  <nd ref="11623831802"/>
+  <nd ref="11623831801"/>
+  <nd ref="11623831834"/>
+  <nd ref="11623831796"/>
+  <nd ref="11623831795"/>
+  <nd ref="11623831833"/>
+  <nd ref="11623831832"/>
+  <nd ref="11623831831"/>
+  <nd ref="11623831830"/>
+  <nd ref="11623831829"/>
+  <nd ref="11623831828"/>
+  <nd ref="11623831827"/>
+  <nd ref="11623831797"/>
+  <nd ref="11623831826"/>
+  <nd ref="11623831798"/>
+  <nd ref="11623831799"/>
+  <nd ref="11623831800"/>
+  <nd ref="11623831825"/>
+  <nd ref="11623831824"/>
+  <nd ref="11623831823"/>
+  <nd ref="11623831822"/>
+ </way>
+ <relation id="1767187" visible="true" version="95" changeset="147488392" timestamp="2024-02-15T12:08:47Z" user="Maksim Sazanovich" uid="19969905">
   <member type="way" ref="38576226" role=""/>
   <member type="way" ref="31144239" role=""/>
   <member type="way" ref="31144238" role=""/>
@@ -11760,6 +11808,8 @@
   <member type="way" ref="45066515" role=""/>
   <member type="way" ref="100056998" role=""/>
   <member type="way" ref="1066297928" role=""/>
+  <member type="way" ref="1246346011" role=""/>
+  <member type="way" ref="1246346010" role=""/>
   <member type="way" ref="100056999" role=""/>
   <member type="way" ref="1232093514" role=""/>
   <member type="way" ref="1072666623" role=""/>
@@ -11856,6 +11906,8 @@
   <member type="way" ref="100056996" role=""/>
   <member type="way" ref="100056997" role=""/>
   <member type="way" ref="1039108121" role=""/>
+  <member type="way" ref="1246346013" role=""/>
+  <member type="way" ref="1246346012" role=""/>
   <member type="way" ref="1072666624" role=""/>
   <member type="way" ref="1072666625" role=""/>
   <member type="way" ref="1039108119" role=""/>
@@ -12327,8 +12379,14 @@
   <member type="way" ref="610002746" role=""/>
   <member type="way" ref="25911055" role=""/>
   <member type="way" ref="156257536" role=""/>
-  <member type="way" ref="610002741" role=""/>
+  <member type="way" ref="1250769702" role=""/>
+  <member type="way" ref="1250769701" role=""/>
+  <member type="way" ref="1250769704" role=""/>
+  <member type="way" ref="1250769703" role=""/>
+  <member type="way" ref="1250769705" role=""/>
+  <member type="way" ref="1250769700" role=""/>
   <member type="way" ref="1237729555" role=""/>
+  <member type="way" ref="610002741" role=""/>
   <member type="way" ref="156257535" role=""/>
   <member type="way" ref="156257534" role=""/>
   <member type="way" ref="1237573230" role=""/>
@@ -12890,9 +12948,13 @@
   <member type="way" ref="1119299842" role=""/>
   <member type="way" ref="558109686" role=""/>
   <member type="way" ref="223645996" role=""/>
+  <member type="way" ref="1247562871" role=""/>
+  <member type="way" ref="1247562870" role=""/>
   <member type="way" ref="35337988" role=""/>
   <member type="way" ref="223645995" role=""/>
   <member type="way" ref="674382719" role=""/>
+  <member type="way" ref="1247562868" role=""/>
+  <member type="way" ref="1247562869" role=""/>
   <member type="way" ref="35337987" role=""/>
   <member type="way" ref="558109683" role=""/>
   <member type="way" ref="35337979" role=""/>
@@ -13343,7 +13405,7 @@
   <tag k="route" v="road"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="6355276" visible="true" version="41" changeset="136061334" timestamp="2023-05-13T17:15:19Z" user="Anton_Klebanovich" uid="18416863">
+ <relation id="6355276" visible="true" version="43" changeset="146675654" timestamp="2024-01-25T14:21:15Z" user="Furdrien" uid="6696140">
   <member type="way" ref="416230960" role=""/>
   <member type="way" ref="741303593" role=""/>
   <member type="way" ref="331720232" role=""/>
@@ -13370,7 +13432,10 @@
   <member type="way" ref="1157779310" role=""/>
   <member type="way" ref="1157779309" role=""/>
   <member type="way" ref="1157779308" role=""/>
+  <member type="way" ref="1242838361" role=""/>
+  <member type="way" ref="1242838360" role=""/>
   <member type="way" ref="23424600" role=""/>
+  <member type="way" ref="1242838359" role=""/>
   <member type="way" ref="50829173" role=""/>
   <member type="way" ref="22911401" role=""/>
   <member type="way" ref="127254584" role=""/>
@@ -13386,9 +13451,6 @@
   <member type="way" ref="997746217" role=""/>
   <member type="way" ref="23562017" role=""/>
   <member type="way" ref="22492379" role=""/>
-  <member type="way" ref="22616629" role=""/>
-  <member type="way" ref="620023311" role=""/>
-  <member type="way" ref="620023314" role=""/>
   <member type="way" ref="379883455" role=""/>
   <member type="way" ref="997746214" role=""/>
   <member type="way" ref="23709094" role=""/>
@@ -13429,8 +13491,11 @@
   <member type="way" ref="826485235" role=""/>
   <member type="way" ref="220276167" role=""/>
   <member type="way" ref="220276169" role=""/>
+  <member type="way" ref="1242420023" role=""/>
   <member type="way" ref="857467387" role=""/>
   <member type="way" ref="561322875" role=""/>
+  <member type="way" ref="1242838364" role=""/>
+  <member type="way" ref="1242838365" role=""/>
   <member type="way" ref="23424522" role=""/>
   <member type="way" ref="570398588" role=""/>
   <member type="way" ref="561322946" role=""/>
@@ -13469,6 +13534,8 @@
   <member type="way" ref="542612469" role=""/>
   <member type="way" ref="848168894" role=""/>
   <member type="way" ref="23023495" role=""/>
+  <member type="way" ref="1242838363" role=""/>
+  <member type="way" ref="1242838362" role=""/>
   <member type="way" ref="559964969" role=""/>
   <member type="way" ref="168980302" role=""/>
   <member type="way" ref="559958948" role=""/>
@@ -13502,44 +13569,203 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020 + BDOrtho OGN"/>
   <tag k="type" v="multipolygon"/>
  </relation>
- <relation id="8401664" visible="true" version="70" changeset="143321432" timestamp="2023-10-29T16:53:58Z" user="didier2020" uid="300459">
+ <relation id="8401664" visible="true" version="76" changeset="148378047" timestamp="2024-03-08T10:47:14Z" user="michel60" uid="211063">
   <member type="node" ref="5931775362" role="platform_entry_only"/>
-  <member type="node" ref="5931796941" role="platform"/>
-  <member type="node" ref="5710616700" role="platform"/>
-  <member type="node" ref="5931774832" role="platform"/>
-  <member type="node" ref="5931796978" role="platform"/>
-  <member type="node" ref="5931774925" role="platform"/>
-  <member type="node" ref="5931774935" role="platform"/>
-  <member type="node" ref="5931774942" role="platform"/>
-  <member type="node" ref="5931775357" role="platform"/>
-  <member type="node" ref="5931776624" role="platform"/>
-  <member type="node" ref="5931775350" role="platform"/>
-  <member type="node" ref="5931774876" role="platform"/>
-  <member type="node" ref="5931774949" role="platform"/>
-  <member type="node" ref="5931802098" role="platform"/>
-  <member type="node" ref="5931796950" role="platform"/>
-  <member type="node" ref="5931775378" role="platform"/>
-  <member type="node" ref="5931774820" role="platform"/>
-  <member type="node" ref="5931774819" role="platform"/>
-  <member type="node" ref="5931774975" role="platform"/>
-  <member type="node" ref="5931774864" role="platform"/>
-  <member type="node" ref="5931275702" role="platform"/>
-  <member type="node" ref="5931802105" role="platform"/>
+  <member type="node" ref="11520295296" role="stop_entry_only"/>
   <member type="node" ref="5931775344" role="platform"/>
-  <member type="node" ref="5931773873" role="platform"/>
+  <member type="node" ref="9975882478" role="stop"/>
   <member type="node" ref="5931776592" role="platform"/>
-  <member type="node" ref="5931774984" role="platform"/>
-  <member type="node" ref="5931774863" role="platform"/>
-  <member type="node" ref="5931774824" role="platform"/>
-  <member type="node" ref="5931773810" role="platform"/>
-  <member type="node" ref="5931796959" role="platform"/>
+  <member type="node" ref="9975882122" role="stop"/>
+  <member type="node" ref="5931796978" role="platform"/>
+  <member type="node" ref="9975882121" role="stop"/>
+  <member type="node" ref="5931774925" role="platform"/>
+  <member type="node" ref="11520295295" role="stop"/>
+  <member type="node" ref="5931773873" role="platform"/>
+  <member type="node" ref="11520295294" role="stop"/>
+  <member type="node" ref="5931775350" role="platform"/>
+  <member type="node" ref="11520295292" role="stop"/>
+  <member type="node" ref="5931774876" role="platform"/>
+  <member type="node" ref="11520295290" role="stop"/>
   <member type="node" ref="5931796932" role="platform"/>
+  <member type="node" ref="11520295288" role="stop"/>
+  <member type="node" ref="5931275702" role="platform"/>
+  <member type="node" ref="11520295287" role="stop"/>
+  <member type="node" ref="5931775357" role="platform"/>
+  <member type="node" ref="11520295286" role="stop"/>
+  <member type="node" ref="5931774832" role="platform"/>
+  <member type="node" ref="11520295284" role="stop"/>
+  <member type="node" ref="5931774975" role="platform"/>
+  <member type="node" ref="11520295282" role="stop"/>
+  <member type="node" ref="5931774935" role="platform"/>
+  <member type="node" ref="5729563545" role="stop"/>
+  <member type="node" ref="5931773810" role="platform"/>
+  <member type="node" ref="11520295280" role="stop"/>
+  <member type="node" ref="5931796959" role="platform"/>
+  <member type="node" ref="11520295278" role="stop"/>
+  <member type="node" ref="5931796950" role="platform"/>
+  <member type="node" ref="11520295276" role="stop"/>
+  <member type="node" ref="5931774949" role="platform"/>
+  <member type="node" ref="11520295273" role="stop"/>
+  <member type="node" ref="5931774824" role="platform"/>
+  <member type="node" ref="11520295271" role="stop"/>
+  <member type="node" ref="5931802105" role="platform"/>
+  <member type="node" ref="8653046192" role="stop"/>
+  <member type="node" ref="5931776624" role="platform"/>
+  <member type="node" ref="11520295270" role="stop"/>
+  <member type="node" ref="5931802098" role="platform"/>
+  <member type="node" ref="11520295267" role="stop"/>
+  <member type="node" ref="5931774820" role="platform"/>
+  <member type="node" ref="11520295266" role="stop"/>
+  <member type="node" ref="5931775378" role="platform"/>
+  <member type="node" ref="11520295263" role="stop"/>
+  <member type="node" ref="5931774864" role="platform"/>
+  <member type="node" ref="11520295262" role="stop"/>
+  <member type="node" ref="5931796941" role="platform"/>
+  <member type="node" ref="11520295259" role="stop"/>
+  <member type="node" ref="5931774863" role="platform"/>
+  <member type="node" ref="11520295258" role="stop"/>
+  <member type="node" ref="5931774819" role="platform"/>
+  <member type="node" ref="11520295257" role="stop"/>
+  <member type="node" ref="5931774942" role="platform"/>
+  <member type="node" ref="11520295256" role="stop"/>
+  <member type="node" ref="5931774984" role="platform"/>
+  <member type="node" ref="11520295255" role="stop"/>
   <member type="node" ref="5931774904" role="platform"/>
+  <member type="node" ref="11520295254" role="stop"/>
   <member type="node" ref="2283141046" role="platform"/>
+  <member type="node" ref="5858628354" role="stop"/>
   <member type="node" ref="4728022370" role="platform"/>
+  <member type="node" ref="5858628363" role="stop"/>
   <member type="node" ref="5931776631" role="platform"/>
+  <member type="node" ref="11520295251" role="stop"/>
   <member type="node" ref="6186799992" role="platform"/>
+  <member type="node" ref="10767164385" role="stop"/>
+  <member type="node" ref="5710616700" role="platform"/>
+  <member type="node" ref="10767164384" role="stop"/>
   <member type="node" ref="5931774953" role="platform_exit_only"/>
+  <member type="node" ref="11520295250" role="stop_exit_only"/>
+  <member type="way" ref="1242838397" role=""/>
+  <member type="way" ref="984694225" role=""/>
+  <member type="way" ref="1088933231" role=""/>
+  <member type="way" ref="1088014286" role=""/>
+  <member type="way" ref="1092715462" role=""/>
+  <member type="way" ref="1088106824" role=""/>
+  <member type="way" ref="1089459494" role=""/>
+  <member type="way" ref="683649608" role=""/>
+  <member type="way" ref="683649610" role=""/>
+  <member type="way" ref="46158973" role=""/>
+  <member type="way" ref="1088933239" role=""/>
+  <member type="way" ref="984694223" role=""/>
+  <member type="way" ref="403681826" role=""/>
+  <member type="way" ref="1088014284" role=""/>
+  <member type="way" ref="1089821635" role=""/>
+  <member type="way" ref="403681827" role=""/>
+  <member type="way" ref="42354215" role=""/>
+  <member type="way" ref="741297104" role=""/>
+  <member type="way" ref="560301940" role=""/>
+  <member type="way" ref="47050416" role=""/>
+  <member type="way" ref="42354214" role=""/>
+  <member type="way" ref="683651545" role=""/>
+  <member type="way" ref="42354211" role=""/>
+  <member type="way" ref="1088933230" role=""/>
+  <member type="way" ref="24592875" role=""/>
+  <member type="way" ref="984694219" role=""/>
+  <member type="way" ref="137089960" role=""/>
+  <member type="way" ref="137089957" role=""/>
+  <member type="way" ref="55798684" role=""/>
+  <member type="way" ref="1240022367" role=""/>
+  <member type="way" ref="1240022368" role=""/>
+  <member type="way" ref="55798674" role=""/>
+  <member type="way" ref="55798825" role=""/>
+  <member type="way" ref="1106421693" role=""/>
+  <member type="way" ref="600766137" role=""/>
+  <member type="way" ref="55798693" role=""/>
+  <member type="way" ref="559381342" role=""/>
+  <member type="way" ref="559381341" role=""/>
+  <member type="way" ref="560225606" role=""/>
+  <member type="way" ref="560225604" role=""/>
+  <member type="way" ref="560225605" role=""/>
+  <member type="way" ref="217921531" role=""/>
+  <member type="way" ref="218758436" role=""/>
+  <member type="way" ref="1240022365" role=""/>
+  <member type="way" ref="218758441" role=""/>
+  <member type="way" ref="1172782166" role=""/>
+  <member type="way" ref="1172782167" role=""/>
+  <member type="way" ref="1240022363" role=""/>
+  <member type="way" ref="1240022362" role=""/>
+  <member type="way" ref="559807211" role=""/>
+  <member type="way" ref="559807215" role=""/>
+  <member type="way" ref="561376951" role=""/>
+  <member type="way" ref="561376950" role=""/>
+  <member type="way" ref="242716982" role=""/>
+  <member type="way" ref="561376948" role=""/>
+  <member type="way" ref="561376949" role=""/>
+  <member type="way" ref="1240022361" role=""/>
+  <member type="way" ref="1240022359" role=""/>
+  <member type="way" ref="242716987" role=""/>
+  <member type="way" ref="24580168" role=""/>
+  <member type="way" ref="1240022352" role=""/>
+  <member type="way" ref="1240022351" role=""/>
+  <member type="way" ref="561369512" role=""/>
+  <member type="way" ref="505668306" role=""/>
+  <member type="way" ref="505668305" role=""/>
+  <member type="way" ref="23028308" role=""/>
+  <member type="way" ref="561370670" role=""/>
+  <member type="way" ref="561370667" role=""/>
+  <member type="way" ref="561370666" role=""/>
+  <member type="way" ref="561373351" role=""/>
+  <member type="way" ref="561373346" role=""/>
+  <member type="way" ref="561373343" role=""/>
+  <member type="way" ref="561373340" role=""/>
+  <member type="way" ref="23028309" role=""/>
+  <member type="way" ref="561373333" role=""/>
+  <member type="way" ref="561373335" role=""/>
+  <member type="way" ref="561374698" role=""/>
+  <member type="way" ref="561374696" role=""/>
+  <member type="way" ref="561374697" role=""/>
+  <member type="way" ref="1024971942" role=""/>
+  <member type="way" ref="61501039" role=""/>
+  <member type="way" ref="561371926" role=""/>
+  <member type="way" ref="561374695" role=""/>
+  <member type="way" ref="116077895" role=""/>
+  <member type="way" ref="116079663" role=""/>
+  <member type="way" ref="561371922" role=""/>
+  <member type="way" ref="1242838393" role=""/>
+  <member type="way" ref="60994540" role=""/>
+  <member type="way" ref="561371918" role=""/>
+  <member type="way" ref="561371915" role=""/>
+  <member type="way" ref="205543286" role=""/>
+  <member type="way" ref="205543285" role=""/>
+  <member type="way" ref="60905512" role=""/>
+  <member type="way" ref="169012831" role=""/>
+  <member type="way" ref="1242838391" role=""/>
+  <member type="way" ref="24240692" role=""/>
+  <member type="way" ref="1242838392" role=""/>
+  <member type="way" ref="1242838391" role=""/>
+  <member type="way" ref="1242838390" role=""/>
+  <member type="way" ref="131894199" role=""/>
+  <member type="way" ref="131894197" role=""/>
+  <member type="way" ref="183388105" role=""/>
+  <member type="way" ref="1242838387" role=""/>
+  <member type="way" ref="1242838382" role=""/>
+  <member type="way" ref="1242838381" role=""/>
+  <member type="way" ref="1242838380" role=""/>
+  <member type="way" ref="1242838383" role=""/>
+  <member type="way" ref="1024971940" role=""/>
+  <member type="way" ref="561194550" role=""/>
+  <member type="way" ref="1024971939" role=""/>
+  <member type="way" ref="561194549" role=""/>
+  <member type="way" ref="561194547" role=""/>
+  <member type="way" ref="24592529" role=""/>
+  <member type="way" ref="561194543" role=""/>
+  <member type="way" ref="561194544" role=""/>
+  <member type="way" ref="561194545" role=""/>
+  <member type="way" ref="561194546" role=""/>
+  <member type="way" ref="1242838377" role=""/>
+  <member type="way" ref="1242838376" role=""/>
+  <member type="way" ref="24240689" role=""/>
+  <member type="way" ref="1242838374" role=""/>
+  <member type="way" ref="201930761" role=""/>
   <member type="way" ref="741303590" role=""/>
   <member type="way" ref="561141854" role=""/>
   <member type="way" ref="561194541" role=""/>
@@ -13550,7 +13776,8 @@
   <member type="way" ref="988389631" role=""/>
   <member type="way" ref="24240151" role=""/>
   <member type="way" ref="332894996" role=""/>
-  <member type="way" ref="22561404" role=""/>
+  <member type="way" ref="1242838366" role=""/>
+  <member type="way" ref="1242838370" role=""/>
   <member type="way" ref="749799609" role=""/>
   <member type="way" ref="1161796076" role=""/>
   <member type="way" ref="749800653" role=""/>
@@ -13562,26 +13789,27 @@
   <member type="way" ref="919345145" role=""/>
   <member type="way" ref="570398588" role=""/>
   <member type="way" ref="23424522" role=""/>
-  <member type="way" ref="561322875" role=""/>
+  <member type="way" ref="1242838365" role=""/>
+  <member type="way" ref="1242838364" role=""/>
   <member type="way" ref="23424600" role=""/>
+  <member type="way" ref="1242838363" role=""/>
   <member type="way" ref="23023495" role=""/>
   <member type="way" ref="848168894" role=""/>
   <member type="way" ref="542612469" role=""/>
   <member type="way" ref="1162446147" role=""/>
   <member type="way" ref="23023496" role=""/>
-  <member type="way" ref="620166578" role=""/>
-  <member type="way" ref="749789810" role=""/>
-  <member type="way" ref="32839268" role=""/>
+  <member type="way" ref="219543029" role=""/>
   <member type="way" ref="49794899" role=""/>
   <member type="way" ref="23424462" role=""/>
   <member type="way" ref="228607474" role=""/>
   <member type="way" ref="23424459" role=""/>
   <member type="way" ref="561322869" role=""/>
   <member type="way" ref="561141852" role=""/>
+  <member type="way" ref="600612587" role=""/>
   <member type="way" ref="22561496" role=""/>
   <member type="way" ref="749490239" role=""/>
   <member type="way" ref="22561400" role=""/>
-  <member type="way" ref="22561226" role=""/>
+  <member type="way" ref="1242838354" role=""/>
   <member type="way" ref="494871675" role=""/>
   <member type="way" ref="228607487" role=""/>
   <member type="way" ref="22561225" role=""/>
@@ -13589,7 +13817,7 @@
   <member type="way" ref="22561646" role=""/>
   <member type="way" ref="416230964" role=""/>
   <member type="way" ref="22673694" role=""/>
-  <member type="way" ref="22561222" role=""/>
+  <member type="way" ref="1242838344" role=""/>
   <member type="way" ref="22673678" role=""/>
   <member type="way" ref="575570458" role=""/>
   <member type="way" ref="575570456" role=""/>
@@ -13598,7 +13826,7 @@
   <member type="way" ref="741303592" role=""/>
   <member type="way" ref="22673608" role=""/>
   <member type="way" ref="22673593" role=""/>
-  <member type="way" ref="22616988" role=""/>
+  <member type="way" ref="1242838350" role=""/>
   <member type="way" ref="22616991" role=""/>
   <member type="way" ref="220276166" role=""/>
   <member type="way" ref="561322892" role=""/>
@@ -13610,13 +13838,7 @@
   <member type="way" ref="22616655" role=""/>
   <member type="way" ref="620023305" role=""/>
   <member type="way" ref="109089970" role=""/>
-  <member type="way" ref="1157779316" role=""/>
-  <member type="way" ref="1157779315" role=""/>
-  <member type="way" ref="1157779314" role=""/>
   <member type="way" ref="22492379" role=""/>
-  <member type="way" ref="22616629" role=""/>
-  <member type="way" ref="620023311" role=""/>
-  <member type="way" ref="620023314" role=""/>
   <member type="way" ref="379883455" role=""/>
   <member type="way" ref="997746214" role=""/>
   <member type="way" ref="23709094" role=""/>
@@ -13625,26 +13847,17 @@
   <member type="way" ref="338168897" role=""/>
   <member type="way" ref="997746220" role=""/>
   <member type="way" ref="1157779313" role=""/>
-  <member type="way" ref="1157779312" role=""/>
-  <member type="way" ref="881607679" role=""/>
-  <member type="way" ref="1157779311" role=""/>
   <member type="way" ref="881607677" role=""/>
   <member type="way" ref="22616666" role=""/>
-  <member type="way" ref="22492382" role=""/>
-  <member type="way" ref="1157779310" role=""/>
   <member type="way" ref="1157779309" role=""/>
-  <member type="way" ref="1157779308" role=""/>
   <member type="way" ref="22536231" role=""/>
   <member type="way" ref="22534080" role=""/>
   <member type="way" ref="1165229173" role=""/>
   <member type="way" ref="594983931" role=""/>
-  <member type="way" ref="22536570" role=""/>
-  <member type="way" ref="1080383823" role=""/>
-  <member type="way" ref="1080383824" role=""/>
-  <member type="way" ref="1165229171" role=""/>
-  <member type="way" ref="1165229169" role=""/>
-  <member type="way" ref="1165229168" role=""/>
-  <member type="way" ref="75055726" role=""/>
+  <member type="way" ref="1165229167" role=""/>
+  <member type="way" ref="1165229172" role=""/>
+  <member type="way" ref="1165229166" role=""/>
+  <member type="way" ref="1242838337" role=""/>
   <member type="way" ref="552161487" role=""/>
   <member type="way" ref="552161488" role=""/>
   <member type="way" ref="75055721" role=""/>
@@ -13652,63 +13865,149 @@
   <member type="way" ref="1112075296" role=""/>
   <member type="way" ref="1112075298" role=""/>
   <member type="way" ref="22752571" role=""/>
-  <member type="way" ref="209505411" role=""/>
+  <member type="way" ref="1242838335" role=""/>
   <member type="way" ref="209505417" role=""/>
-  <member type="way" ref="551118625" role=""/>
-  <tag k="colour" v="blue"/>
-  <tag k="fixme" v="Incomplete (first ways missing), sequence of stops needs sorting."/>
+  <member type="way" ref="551136307" role=""/>
+  <member type="way" ref="136183465" role=""/>
+  <member type="way" ref="136183466" role=""/>
+  <member type="way" ref="583185167" role=""/>
+  <member type="way" ref="209505406" role=""/>
+  <member type="way" ref="209505408" role=""/>
+  <member type="way" ref="136183464" role=""/>
+  <member type="way" ref="1242838332" role=""/>
+  <tag k="colour" v="#3bb2ff"/>
   <tag k="from" v="Gare Routière de Mantes-la-Ville"/>
-  <tag k="name" v="Bus 78 Express : Gare Routière de Mantes-la-Ville → Gare de Saint-Quentin-en-Yvelines - Gare Routière Delouvrier"/>
-  <tag k="network" v="Hourtoule"/>
-  <tag k="operator" v="Cars Hourtoule"/>
+  <tag k="name" v="Bus Express 78 : Gare Routière de Mantes-la-Ville → Gare de Saint-Quentin-en-Yvelines - Gare Routière Delouvrier"/>
+  <tag k="network" v="Lignes Île-de-France Ouest"/>
+  <tag k="operator" v="Francilité Express Ouest"/>
   <tag k="public_transport:version" v="2"/>
-  <tag k="ref" v="78 Express"/>
+  <tag k="ref" v="78"/>
   <tag k="ref:FR:STIF:direction_id" v="1"/>
   <tag k="route" v="bus"/>
   <tag k="to" v="Gare de Saint-Quentin-en-Yvelines - Gare Routière Delouvrier"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="8401665" visible="true" version="64" changeset="134898794" timestamp="2023-04-14T11:38:56Z" user="_Mathieu_" uid="53964">
-  <member type="node" ref="5931774960" role="platform"/>
-  <member type="node" ref="5931776590" role="platform"/>
-  <member type="node" ref="5931796969" role="platform"/>
-  <member type="node" ref="5931773802" role="platform"/>
-  <member type="node" ref="5931774935" role="platform"/>
-  <member type="node" ref="5931774925" role="platform"/>
-  <member type="node" ref="5931802106" role="platform"/>
-  <member type="node" ref="1251179002" role="platform"/>
-  <member type="node" ref="5931776620" role="platform"/>
-  <member type="node" ref="5931774849" role="platform"/>
-  <member type="node" ref="5931773831" role="platform"/>
-  <member type="node" ref="5931776598" role="platform"/>
-  <member type="node" ref="4323051876" role="platform"/>
-  <member type="node" ref="5931802091" role="platform"/>
-  <member type="node" ref="5931775362" role="platform_exit_only"/>
-  <member type="node" ref="5931774917" role="platform"/>
-  <member type="node" ref="5931774894" role="platform"/>
-  <member type="node" ref="5931774969" role="platform"/>
-  <member type="node" ref="5931773839" role="platform"/>
-  <member type="node" ref="5931774858" role="platform"/>
-  <member type="node" ref="5931773848" role="platform"/>
-  <member type="node" ref="5931775312" role="platform"/>
+ <relation id="8401665" visible="true" version="74" changeset="148383460" timestamp="2024-03-08T13:03:08Z" user="michel60" uid="211063">
   <member type="node" ref="5322499471" role="platform_entry_only"/>
-  <member type="node" ref="5931773843" role="platform"/>
-  <member type="node" ref="5931775369" role="platform"/>
-  <member type="node" ref="5931774843" role="platform"/>
-  <member type="node" ref="5931776385" role="platform"/>
-  <member type="node" ref="5931796928" role="platform"/>
-  <member type="node" ref="5931774888" role="platform"/>
-  <member type="node" ref="5931775305" role="platform"/>
-  <member type="node" ref="5931796983" role="platform"/>
-  <member type="node" ref="5931776607" role="platform"/>
-  <member type="node" ref="5931776614" role="platform"/>
+  <member type="node" ref="10767164383" role="stop"/>
+  <member type="node" ref="5931776590" role="platform"/>
+  <member type="node" ref="5711425993" role="stop"/>
   <member type="node" ref="5931796977" role="platform"/>
+  <member type="node" ref="8198973173" role="stop"/>
+  <member type="node" ref="5931773843" role="platform"/>
+  <member type="node" ref="11520295252" role="stop"/>
+  <member type="node" ref="4323051876" role="platform"/>
+  <member type="node" ref="9964626332" role="stop"/>
+  <member type="node" ref="1251179002" role="platform"/>
+  <member type="node" ref="11520295253" role="stop"/>
+  <member type="node" ref="5931774858" role="platform"/>
+  <member type="node" ref="11520295249" role="stop"/>
+  <member type="node" ref="5931796969" role="platform"/>
+  <member type="node" ref="11520295256" role="stop"/>
+  <member type="node" ref="5931802106" role="platform"/>
+  <member type="node" ref="11520295248" role="stop"/>
+  <member type="node" ref="5931773839" role="platform"/>
+  <member type="node" ref="11520295258" role="stop"/>
+  <member type="node" ref="5931775305" role="platform"/>
+  <member type="node" ref="11520295260" role="stop"/>
+  <member type="node" ref="5931774960" role="platform"/>
+  <member type="node" ref="11520295261" role="stop"/>
+  <member type="node" ref="5931775312" role="platform"/>
+  <member type="node" ref="11520295264" role="stop"/>
+  <member type="node" ref="5931774969" role="platform"/>
+  <member type="node" ref="11520295265" role="stop"/>
+  <member type="node" ref="5931773831" role="platform"/>
+  <member type="node" ref="11520295268" role="stop"/>
+  <member type="node" ref="5931774917" role="platform"/>
+  <member type="node" ref="11520295269" role="stop"/>
+  <member type="node" ref="5931776620" role="platform"/>
+  <member type="node" ref="8653046191" role="stop"/>
+  <member type="node" ref="5931775369" role="platform"/>
+  <member type="node" ref="11520295272" role="stop"/>
+  <member type="node" ref="5931796983" role="platform"/>
+  <member type="node" ref="11520295274" role="stop"/>
+  <member type="node" ref="5931802091" role="platform"/>
+  <member type="node" ref="11520295275" role="stop"/>
+  <member type="node" ref="5931774894" role="platform"/>
+  <member type="node" ref="11520295279" role="stop"/>
+  <member type="node" ref="5931776607" role="platform"/>
+  <member type="node" ref="5729563545" role="stop"/>
+  <member type="node" ref="5931774935" role="platform"/>
+  <member type="node" ref="11520295281" role="stop"/>
+  <member type="node" ref="5931773848" role="platform"/>
+  <member type="node" ref="11520295283" role="stop"/>
+  <member type="node" ref="5931773802" role="platform"/>
+  <member type="node" ref="11520295285" role="stop"/>
+  <member type="node" ref="5931774849" role="platform"/>
+  <member type="node" ref="11520295288" role="stop"/>
   <member type="node" ref="5931773855" role="platform"/>
+  <member type="node" ref="11520295289" role="stop"/>
+  <member type="node" ref="5931776598" role="platform"/>
+  <member type="node" ref="11520295291" role="stop"/>
+  <member type="node" ref="5931796928" role="platform"/>
+  <member type="node" ref="11520295293" role="stop"/>
+  <member type="node" ref="5931776385" role="platform"/>
+  <member type="node" ref="11520295295" role="stop"/>
+  <member type="node" ref="5931774925" role="platform"/>
+  <member type="node" ref="5710376287" role="stop"/>
+  <member type="node" ref="5931776614" role="platform"/>
+  <member type="node" ref="9975882199" role="stop"/>
+  <member type="node" ref="5931774888" role="platform"/>
+  <member type="node" ref="9975882476" role="stop"/>
+  <member type="node" ref="5931774843" role="platform"/>
+  <member type="node" ref="5931775362" role="platform_exit_only"/>
+  <member type="way" ref="793289438" role=""/>
+  <member type="way" ref="793289437" role=""/>
+  <member type="way" ref="583185170" role=""/>
+  <member type="way" ref="583185167" role=""/>
+  <member type="way" ref="209505406" role=""/>
+  <member type="way" ref="209505408" role=""/>
+  <member type="way" ref="136183464" role=""/>
+  <member type="way" ref="1242838332" role=""/>
+  <member type="way" ref="136183468" role=""/>
+  <member type="way" ref="1242838335" role=""/>
+  <member type="way" ref="209505419" role=""/>
+  <member type="way" ref="363185344" role=""/>
+  <member type="way" ref="11774533" role=""/>
+  <member type="way" ref="75055719" role=""/>
+  <member type="way" ref="340113282" role=""/>
+  <member type="way" ref="109994361" role=""/>
+  <member type="way" ref="109994362" role=""/>
+  <member type="way" ref="22475968" role=""/>
+  <member type="way" ref="22533727" role=""/>
+  <member type="way" ref="22534080" role=""/>
+  <member type="way" ref="22533314" role=""/>
+  <member type="way" ref="22492382" role=""/>
+  <member type="way" ref="22492384" role=""/>
+  <member type="way" ref="997746223" role=""/>
+  <member type="way" ref="881607679" role=""/>
+  <member type="way" ref="675987716" role=""/>
+  <member type="way" ref="997746217" role=""/>
+  <member type="way" ref="23709093" role=""/>
+  <member type="way" ref="23709094" role=""/>
+  <member type="way" ref="997746214" role=""/>
+  <member type="way" ref="379883455" role=""/>
+  <member type="way" ref="22492377" role=""/>
+  <member type="way" ref="1157779315" role=""/>
+  <member type="way" ref="1157779314" role=""/>
+  <member type="way" ref="1242838338" role=""/>
+  <member type="way" ref="22616649" role=""/>
+  <member type="way" ref="1087578595" role=""/>
+  <member type="way" ref="1087578594" role=""/>
+  <member type="way" ref="1242838342" role=""/>
+  <member type="way" ref="22616973" role=""/>
+  <member type="way" ref="826485239" role=""/>
+  <member type="way" ref="220276167" role=""/>
+  <member type="way" ref="220276164" role=""/>
+  <member type="way" ref="561322891" role=""/>
+  <member type="way" ref="220276166" role=""/>
+  <member type="way" ref="220276169" role=""/>
+  <member type="way" ref="22616988" role=""/>
   <member type="way" ref="22673570" role=""/>
   <member type="way" ref="22673608" role=""/>
   <member type="way" ref="741303592" role=""/>
   <member type="way" ref="22673582" role=""/>
-  <member type="way" ref="22673604" role=""/>
+  <member type="way" ref="1242838346" role=""/>
   <member type="way" ref="22673676" role=""/>
   <member type="way" ref="575570457" role=""/>
   <member type="way" ref="575570459" role=""/>
@@ -13717,7 +14016,7 @@
   <member type="way" ref="598986767" role=""/>
   <member type="way" ref="416230964" role=""/>
   <member type="way" ref="22561646" role=""/>
-  <member type="way" ref="22561224" role=""/>
+  <member type="way" ref="1242838352" role=""/>
   <member type="way" ref="22561225" role=""/>
   <member type="way" ref="228607487" role=""/>
   <member type="way" ref="749515775" role=""/>
@@ -13725,26 +14024,28 @@
   <member type="way" ref="22561400" role=""/>
   <member type="way" ref="749490239" role=""/>
   <member type="way" ref="22561496" role=""/>
+  <member type="way" ref="1242838355" role=""/>
+  <member type="way" ref="1242838356" role=""/>
   <member type="way" ref="561141852" role=""/>
   <member type="way" ref="561322869" role=""/>
   <member type="way" ref="23424459" role=""/>
   <member type="way" ref="228607474" role=""/>
   <member type="way" ref="23424462" role=""/>
-  <member type="way" ref="49794899" role=""/>
-  <member type="way" ref="32839268" role=""/>
-  <member type="way" ref="749789810" role=""/>
-  <member type="way" ref="620166578" role=""/>
-  <member type="way" ref="23023496" role=""/>
+  <member type="way" ref="219543511" role=""/>
+  <member type="way" ref="23424484" role=""/>
+  <member type="way" ref="1242838357" role=""/>
   <member type="way" ref="1162446147" role=""/>
   <member type="way" ref="542612469" role=""/>
   <member type="way" ref="848168894" role=""/>
   <member type="way" ref="23023495" role=""/>
-  <member type="way" ref="23424600" role=""/>
+  <member type="way" ref="1242838362" role=""/>
+  <member type="way" ref="1242838361" role=""/>
   <member type="way" ref="561322875" role=""/>
+  <member type="way" ref="1242838365" role=""/>
   <member type="way" ref="23424522" role=""/>
   <member type="way" ref="570398588" role=""/>
   <member type="way" ref="919345144" role=""/>
-  <member type="way" ref="22561401" role=""/>
+  <member type="way" ref="1242057750" role=""/>
   <member type="way" ref="919345141" role=""/>
   <member type="way" ref="22561402" role=""/>
   <member type="way" ref="561198042" role=""/>
@@ -13752,6 +14053,7 @@
   <member type="way" ref="749800653" role=""/>
   <member type="way" ref="1161796076" role=""/>
   <member type="way" ref="749799609" role=""/>
+  <member type="way" ref="1242838369" role=""/>
   <member type="way" ref="22561404" role=""/>
   <member type="way" ref="24240150" role=""/>
   <member type="way" ref="24240151" role=""/>
@@ -13763,36 +14065,156 @@
   <member type="way" ref="561194541" role=""/>
   <member type="way" ref="561141854" role=""/>
   <member type="way" ref="741303590" role=""/>
-  <tag k="colour" v="blue"/>
-  <tag k="fixme" v="Incomplete (first+last ways missing), sequence of stops needs sorting."/>
+  <member type="way" ref="201930761" role=""/>
+  <member type="way" ref="1242838375" role=""/>
+  <member type="way" ref="1242838371" role=""/>
+  <member type="way" ref="549728978" role=""/>
+  <member type="way" ref="1242838377" role=""/>
+  <member type="way" ref="561194546" role=""/>
+  <member type="way" ref="561194545" role=""/>
+  <member type="way" ref="561194544" role=""/>
+  <member type="way" ref="561194543" role=""/>
+  <member type="way" ref="24592529" role=""/>
+  <member type="way" ref="561194547" role=""/>
+  <member type="way" ref="561194549" role=""/>
+  <member type="way" ref="1024971939" role=""/>
+  <member type="way" ref="561194550" role=""/>
+  <member type="way" ref="1024971940" role=""/>
+  <member type="way" ref="1242838383" role=""/>
+  <member type="way" ref="561194551" role=""/>
+  <member type="way" ref="1242838378" role=""/>
+  <member type="way" ref="1242838382" role=""/>
+  <member type="way" ref="1242838389" role=""/>
+  <member type="way" ref="1242838384" role=""/>
+  <member type="way" ref="183388105" role=""/>
+  <member type="way" ref="131894197" role=""/>
+  <member type="way" ref="131894199" role=""/>
+  <member type="way" ref="1242838390" role=""/>
+  <member type="way" ref="24240692" role=""/>
+  <member type="way" ref="1242838392" role=""/>
+  <member type="way" ref="169012831" role=""/>
+  <member type="way" ref="60905512" role=""/>
+  <member type="way" ref="205543285" role=""/>
+  <member type="way" ref="205543286" role=""/>
+  <member type="way" ref="600751405" role=""/>
+  <member type="way" ref="1242838331" role=""/>
+  <member type="way" ref="1242838393" role=""/>
+  <member type="way" ref="116077890" role=""/>
+  <member type="way" ref="561371921" role=""/>
+  <member type="way" ref="116077895" role=""/>
+  <member type="way" ref="561374695" role=""/>
+  <member type="way" ref="561371926" role=""/>
+  <member type="way" ref="61501039" role=""/>
+  <member type="way" ref="1024971942" role=""/>
+  <member type="way" ref="561374697" role=""/>
+  <member type="way" ref="561374696" role=""/>
+  <member type="way" ref="561374698" role=""/>
+  <member type="way" ref="561373335" role=""/>
+  <member type="way" ref="561373333" role=""/>
+  <member type="way" ref="23028309" role=""/>
+  <member type="way" ref="561373340" role=""/>
+  <member type="way" ref="561373343" role=""/>
+  <member type="way" ref="561373346" role=""/>
+  <member type="way" ref="561373351" role=""/>
+  <member type="way" ref="561370666" role=""/>
+  <member type="way" ref="561370667" role=""/>
+  <member type="way" ref="561370670" role=""/>
+  <member type="way" ref="23028308" role=""/>
+  <member type="way" ref="505668305" role=""/>
+  <member type="way" ref="505668306" role=""/>
+  <member type="way" ref="1242838396" role=""/>
+  <member type="way" ref="561369514" role=""/>
+  <member type="way" ref="1240022352" role=""/>
+  <member type="way" ref="24580168" role=""/>
+  <member type="way" ref="1240022358" role=""/>
+  <member type="way" ref="1240022359" role=""/>
+  <member type="way" ref="1240022361" role=""/>
+  <member type="way" ref="1240022360" role=""/>
+  <member type="way" ref="561376948" role=""/>
+  <member type="way" ref="242716982" role=""/>
+  <member type="way" ref="561376950" role=""/>
+  <member type="way" ref="561376951" role=""/>
+  <member type="way" ref="559807215" role=""/>
+  <member type="way" ref="559807211" role=""/>
+  <member type="way" ref="217921530" role=""/>
+  <member type="way" ref="1240022363" role=""/>
+  <member type="way" ref="1172782165" role=""/>
+  <member type="way" ref="1172782166" role=""/>
+  <member type="way" ref="218758441" role=""/>
+  <member type="way" ref="1240022365" role=""/>
+  <member type="way" ref="1240022364" role=""/>
+  <member type="way" ref="217921531" role=""/>
+  <member type="way" ref="560225605" role=""/>
+  <member type="way" ref="560225604" role=""/>
+  <member type="way" ref="560225606" role=""/>
+  <member type="way" ref="559381341" role=""/>
+  <member type="way" ref="559381342" role=""/>
+  <member type="way" ref="55798693" role=""/>
+  <member type="way" ref="1242838329" role=""/>
+  <member type="way" ref="1106421693" role=""/>
+  <member type="way" ref="600766137" role=""/>
+  <member type="way" ref="1242838329" role=""/>
+  <member type="way" ref="55798825" role=""/>
+  <member type="way" ref="55798674" role=""/>
+  <member type="way" ref="1240022368" role=""/>
+  <member type="way" ref="1240022366" role=""/>
+  <member type="way" ref="55798684" role=""/>
+  <member type="way" ref="600589685" role=""/>
+  <member type="way" ref="855340660" role=""/>
+  <member type="way" ref="984694227" role=""/>
+  <member type="way" ref="600589683" role=""/>
+  <member type="way" ref="984694226" role=""/>
+  <member type="way" ref="1088933246" role=""/>
+  <member type="way" ref="1165587702" role=""/>
+  <member type="way" ref="1088933248" role=""/>
+  <member type="way" ref="203583744" role=""/>
+  <member type="way" ref="1255641222" role=""/>
+  <member type="way" ref="1243305443" role=""/>
+  <member type="way" ref="600589682" role=""/>
+  <member type="way" ref="855340659" role=""/>
+  <member type="way" ref="683651543" role=""/>
+  <member type="way" ref="1088933241" role=""/>
+  <member type="way" ref="683651544" role=""/>
+  <member type="way" ref="42354212" role=""/>
+  <member type="way" ref="288039366" role=""/>
+  <member type="way" ref="1137934501" role=""/>
+  <member type="way" ref="47050416" role=""/>
+  <member type="way" ref="560301940" role=""/>
+  <member type="way" ref="741297104" role=""/>
+  <member type="way" ref="42354215" role=""/>
+  <member type="way" ref="403681827" role=""/>
+  <member type="way" ref="1089821635" role=""/>
+  <member type="way" ref="1088014284" role=""/>
+  <member type="way" ref="403681826" role=""/>
+  <member type="way" ref="984694223" role=""/>
+  <member type="way" ref="1088933235" role=""/>
+  <member type="way" ref="1088106838" role=""/>
+  <member type="way" ref="683649607" role=""/>
+  <member type="way" ref="211479262" role=""/>
+  <tag k="colour" v="#3bb2ff"/>
   <tag k="from" v="Gare de Saint-Quentin-en-Yvelines - Gare Routière Delouvrier"/>
-  <tag k="name" v="Bus 78 Express : Gare de Saint-Quentin-en-Yvelines - Gare Routière Delouvrier → Gare Routière de Mantes-la-Ville"/>
-  <tag k="network" v="Hourtoule"/>
-  <tag k="operator" v="Cars Hourtoule"/>
+  <tag k="name" v="Bus Express 78 : Gare de Saint-Quentin-en-Yvelines - Gare Routière Delouvrier → Gare Routière de Mantes-la-Ville"/>
+  <tag k="network" v="Lignes Île-de-France Ouest"/>
+  <tag k="operator" v="Francilité Express Ouest"/>
   <tag k="public_transport:version" v="2"/>
-  <tag k="ref" v="78 Express"/>
+  <tag k="ref" v="78"/>
   <tag k="ref:FR:STIF:direction_id" v="0"/>
   <tag k="route" v="bus"/>
   <tag k="to" v="Gare Routière de Mantes-la-Ville"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="8401666" visible="true" version="9" changeset="79354681" timestamp="2020-01-08T20:13:19Z" user="Kristjan ESPERANTO" uid="77904">
+ <relation id="8401666" visible="true" version="11" changeset="146725496" timestamp="2024-01-26T21:21:37Z" user="Furdrien" uid="6696140">
   <member type="relation" ref="8401665" role=""/>
   <member type="relation" ref="8401664" role=""/>
-  <member type="way" ref="749789810" role=""/>
-  <member type="way" ref="32839268" role=""/>
-  <member type="way" ref="620166578" role=""/>
-  <member type="way" ref="49794899" role=""/>
-  <member type="way" ref="23023496" role=""/>
-  <tag k="name" v="Bus 78 Express : Gare Routière de Mantes-la-Ville ↔ Saint-Quentin-en-Yvelines - Gare Routière Delouvrier"/>
-  <tag k="network" v="Hourtoule"/>
-  <tag k="operator" v="Cars Hourtoule"/>
-  <tag k="ref" v="78 Express"/>
+  <tag k="name" v="Bus Express 78 : Gare Routière de Mantes-la-Ville ↔ Saint-Quentin-en-Yvelines - Gare Routière Delouvrier"/>
+  <tag k="network" v="Lignes Île-de-France Ouest"/>
+  <tag k="operator" v="Francilité Express Ouest"/>
+  <tag k="ref" v="78"/>
   <tag k="ref:FR:STIF:ExternalCode_Line" v="027328078:78EXPRES"/>
   <tag k="route_master" v="bus"/>
   <tag k="type" v="route_master"/>
  </relation>
- <relation id="9176245" visible="true" version="64" changeset="145966022" timestamp="2024-01-06T17:52:29Z" user="Patrick78" uid="10232116">
+ <relation id="9176245" visible="true" version="72" changeset="148378047" timestamp="2024-03-08T10:47:14Z" user="michel60" uid="211063">
   <member type="node" ref="6178547047" role="stop_entry_only"/>
   <member type="node" ref="6178440909" role="platform_entry_only"/>
   <member type="node" ref="6178440908" role="platform"/>
@@ -13888,7 +14310,9 @@
   <member type="way" ref="1015403264" role=""/>
   <member type="way" ref="164855860" role=""/>
   <member type="way" ref="164855868" role=""/>
-  <member type="way" ref="1015403263" role=""/>
+  <member type="way" ref="1245585012" role=""/>
+  <member type="way" ref="1245585013" role=""/>
+  <member type="way" ref="1245585008" role=""/>
   <member type="way" ref="164855864" role=""/>
   <member type="way" ref="1015403262" role=""/>
   <member type="way" ref="559962806" role=""/>
@@ -13904,7 +14328,6 @@
   <member type="way" ref="22911371" role=""/>
   <member type="way" ref="854155873" role=""/>
   <member type="way" ref="741297071" role=""/>
-  <member type="way" ref="741297094" role=""/>
   <member type="way" ref="1212880574" role=""/>
   <member type="way" ref="218543397" role=""/>
   <member type="way" ref="127388424" role=""/>
@@ -13987,11 +14410,16 @@
   <member type="way" ref="561333591" role=""/>
   <member type="way" ref="109915314" role=""/>
   <member type="way" ref="561333598" role=""/>
-  <member type="way" ref="23964764" role=""/>
+  <member type="way" ref="1255637012" role=""/>
+  <member type="way" ref="1255637010" role=""/>
+  <member type="way" ref="1255637011" role=""/>
   <member type="way" ref="1128034746" role=""/>
   <member type="way" ref="109915327" role=""/>
   <member type="way" ref="996957836" role=""/>
-  <member type="way" ref="23964768" role=""/>
+  <member type="way" ref="1255637014" role=""/>
+  <member type="way" ref="1255637015" role=""/>
+  <member type="way" ref="1255637016" role=""/>
+  <member type="way" ref="1255637017" role=""/>
   <member type="way" ref="996957834" role=""/>
   <member type="way" ref="109915302" role=""/>
   <member type="way" ref="996957840" role=""/>
@@ -13999,11 +14427,15 @@
   <member type="way" ref="996957841" role=""/>
   <member type="way" ref="1008820052" role=""/>
   <member type="way" ref="175974743" role=""/>
-  <member type="way" ref="175974747" role=""/>
+  <member type="way" ref="1255637032" role=""/>
+  <member type="way" ref="1255637033" role=""/>
   <member type="way" ref="1008818288" role=""/>
   <member type="way" ref="109915304" role=""/>
   <member type="way" ref="577186872" role=""/>
-  <member type="way" ref="175974746" role=""/>
+  <member type="way" ref="1255637025" role=""/>
+  <member type="way" ref="1255637026" role=""/>
+  <member type="way" ref="1255637027" role=""/>
+  <member type="way" ref="1255637028" role=""/>
   <member type="way" ref="503606459" role=""/>
   <member type="way" ref="175974744" role=""/>
   <member type="way" ref="1008820049" role=""/>
@@ -14070,7 +14502,12 @@
   <member type="way" ref="988389631" role=""/>
   <member type="way" ref="24240151" role=""/>
   <member type="way" ref="332894996" role=""/>
+  <member type="way" ref="1242838368" role=""/>
   <member type="way" ref="22561404" role=""/>
+  <member type="way" ref="1242838367" role=""/>
+  <member type="way" ref="1242838366" role=""/>
+  <member type="way" ref="1242838370" role=""/>
+  <member type="way" ref="1242838369" role=""/>
   <member type="way" ref="749799609" role=""/>
   <member type="way" ref="1161796076" role=""/>
   <member type="way" ref="749800653" role=""/>
@@ -14078,17 +14515,29 @@
   <member type="way" ref="561198042" role=""/>
   <member type="way" ref="22561402" role=""/>
   <member type="way" ref="919345140" role=""/>
+  <member type="way" ref="1242057750" role=""/>
+  <member type="way" ref="1242057749" role=""/>
   <member type="way" ref="22561401" role=""/>
+  <member type="way" ref="1242057748" role=""/>
   <member type="way" ref="919345145" role=""/>
   <member type="way" ref="570398588" role=""/>
   <member type="way" ref="23424522" role=""/>
+  <member type="way" ref="1242838365" role=""/>
   <member type="way" ref="561322875" role=""/>
+  <member type="way" ref="1242838364" role=""/>
+  <member type="way" ref="1242838361" role=""/>
+  <member type="way" ref="1242838360" role=""/>
   <member type="way" ref="23424600" role=""/>
+  <member type="way" ref="1242838359" role=""/>
+  <member type="way" ref="1242838363" role=""/>
+  <member type="way" ref="1242838362" role=""/>
   <member type="way" ref="23023495" role=""/>
   <member type="way" ref="848168894" role=""/>
   <member type="way" ref="542612469" role=""/>
   <member type="way" ref="1162446147" role=""/>
   <member type="way" ref="23023496" role=""/>
+  <member type="way" ref="1242838358" role=""/>
+  <member type="way" ref="1242838357" role=""/>
   <member type="way" ref="620166578" role=""/>
   <member type="way" ref="749789810" role=""/>
   <member type="way" ref="23562922" role=""/>
@@ -14104,6 +14553,9 @@
   <member type="way" ref="22673608" role=""/>
   <member type="way" ref="22673593" role=""/>
   <member type="way" ref="22616988" role=""/>
+  <member type="way" ref="1242838351" role=""/>
+  <member type="way" ref="1242838350" role=""/>
+  <member type="way" ref="1242838349" role=""/>
   <member type="way" ref="22616991" role=""/>
   <member type="way" ref="220276166" role=""/>
   <member type="way" ref="561322892" role=""/>
@@ -14111,7 +14563,10 @@
   <member type="way" ref="220276167" role=""/>
   <member type="way" ref="220276168" role=""/>
   <member type="way" ref="826485235" role=""/>
+  <member type="way" ref="1242838342" role=""/>
+  <member type="way" ref="1242838341" role=""/>
   <member type="way" ref="109239639" role=""/>
+  <member type="way" ref="1242838340" role=""/>
   <member type="way" ref="22520227" role=""/>
   <member type="way" ref="1157779331" role=""/>
   <member type="way" ref="28530365" role=""/>
@@ -14173,9 +14628,10 @@
   <member type="way" ref="1112075300" role=""/>
   <member type="way" ref="31662720" role=""/>
   <member type="way" ref="31662721" role=""/>
-  <member type="way" ref="209505411" role=""/>
+  <member type="way" ref="1242838335" role=""/>
   <member type="way" ref="209505417" role=""/>
   <member type="way" ref="551118625" role=""/>
+  <member type="way" ref="1243278515" role=""/>
   <member type="way" ref="1172548142" role=""/>
   <tag k="from" v="ZAC la Prévôté"/>
   <tag k="name" v="Bus 67 : ZAC la Prévôté → Gare Routière Paul Delouvrier"/>
@@ -14189,7 +14645,7 @@
   <tag k="to" v="Gare Routière Paul Delouvrier"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="9176246" visible="true" version="59" changeset="145966022" timestamp="2024-01-06T17:52:29Z" user="Patrick78" uid="10232116">
+ <relation id="9176246" visible="true" version="69" changeset="148377124" timestamp="2024-03-08T10:26:17Z" user="michel60" uid="211063">
   <member type="node" ref="7417737941" role="stop_entry_only"/>
   <member type="node" ref="5322499469" role="platform_entry_only"/>
   <member type="node" ref="5930164028" role="platform"/>
@@ -14298,7 +14754,10 @@
   <member type="way" ref="1157779330" role=""/>
   <member type="way" ref="1157779329" role=""/>
   <member type="way" ref="22520488" role=""/>
+  <member type="way" ref="1242838342" role=""/>
+  <member type="way" ref="1242838341" role=""/>
   <member type="way" ref="109239639" role=""/>
+  <member type="way" ref="1242838340" role=""/>
   <member type="way" ref="22616973" role=""/>
   <member type="way" ref="826485239" role=""/>
   <member type="way" ref="220276167" role=""/>
@@ -14307,11 +14766,17 @@
   <member type="way" ref="220276166" role=""/>
   <member type="way" ref="220276169" role=""/>
   <member type="way" ref="22616988" role=""/>
+  <member type="way" ref="1242838351" role=""/>
+  <member type="way" ref="1242838350" role=""/>
+  <member type="way" ref="1242838349" role=""/>
   <member type="way" ref="22673570" role=""/>
   <member type="way" ref="22673608" role=""/>
   <member type="way" ref="741303592" role=""/>
   <member type="way" ref="22673582" role=""/>
+  <member type="way" ref="1242838348" role=""/>
   <member type="way" ref="22673604" role=""/>
+  <member type="way" ref="1242838347" role=""/>
+  <member type="way" ref="1242838346" role=""/>
   <member type="way" ref="23562432" role=""/>
   <member type="way" ref="561322905" role=""/>
   <member type="way" ref="53508617" role=""/>
@@ -14324,16 +14789,28 @@
   <member type="way" ref="749789810" role=""/>
   <member type="way" ref="620166578" role=""/>
   <member type="way" ref="23023496" role=""/>
+  <member type="way" ref="1242838358" role=""/>
+  <member type="way" ref="1242838357" role=""/>
   <member type="way" ref="1162446147" role=""/>
   <member type="way" ref="542612469" role=""/>
   <member type="way" ref="848168894" role=""/>
   <member type="way" ref="23023495" role=""/>
+  <member type="way" ref="1242838363" role=""/>
+  <member type="way" ref="1242838362" role=""/>
+  <member type="way" ref="1242838361" role=""/>
+  <member type="way" ref="1242838360" role=""/>
   <member type="way" ref="23424600" role=""/>
+  <member type="way" ref="1242838359" role=""/>
   <member type="way" ref="561322875" role=""/>
+  <member type="way" ref="1242838364" role=""/>
+  <member type="way" ref="1242838365" role=""/>
   <member type="way" ref="23424522" role=""/>
   <member type="way" ref="570398588" role=""/>
   <member type="way" ref="919345144" role=""/>
+  <member type="way" ref="1242057750" role=""/>
+  <member type="way" ref="1242057749" role=""/>
   <member type="way" ref="22561401" role=""/>
+  <member type="way" ref="1242057748" role=""/>
   <member type="way" ref="919345141" role=""/>
   <member type="way" ref="22561402" role=""/>
   <member type="way" ref="561198042" role=""/>
@@ -14341,7 +14818,12 @@
   <member type="way" ref="749800653" role=""/>
   <member type="way" ref="1161796076" role=""/>
   <member type="way" ref="749799609" role=""/>
+  <member type="way" ref="1242838370" role=""/>
+  <member type="way" ref="1242838369" role=""/>
+  <member type="way" ref="1242838368" role=""/>
   <member type="way" ref="22561404" role=""/>
+  <member type="way" ref="1242838367" role=""/>
+  <member type="way" ref="1242838366" role=""/>
   <member type="way" ref="24240150" role=""/>
   <member type="way" ref="24240151" role=""/>
   <member type="way" ref="988389631" role=""/>
@@ -14412,12 +14894,14 @@
   <member type="way" ref="1008820049" role=""/>
   <member type="way" ref="175974744" role=""/>
   <member type="way" ref="741288305" role=""/>
-  <member type="way" ref="175974746" role=""/>
+  <member type="way" ref="1255637030" role=""/>
   <member type="way" ref="503606460" role=""/>
   <member type="way" ref="1008818289" role=""/>
   <member type="way" ref="109915304" role=""/>
   <member type="way" ref="1008818288" role=""/>
   <member type="way" ref="175974747" role=""/>
+  <member type="way" ref="1255637034" role=""/>
+  <member type="way" ref="1255637035" role=""/>
   <member type="way" ref="175974743" role=""/>
   <member type="way" ref="1008820052" role=""/>
   <member type="way" ref="996957842" role=""/>
@@ -14427,11 +14911,23 @@
   <member type="way" ref="996957840" role=""/>
   <member type="way" ref="109915302" role=""/>
   <member type="way" ref="996957834" role=""/>
+  <member type="way" ref="1255637019" role=""/>
+  <member type="way" ref="1255637020" role=""/>
+  <member type="way" ref="1255637021" role=""/>
   <member type="way" ref="23964768" role=""/>
+  <member type="way" ref="1255637018" role=""/>
+  <member type="way" ref="1255637014" role=""/>
+  <member type="way" ref="1255637015" role=""/>
+  <member type="way" ref="1255637016" role=""/>
+  <member type="way" ref="1255637017" role=""/>
   <member type="way" ref="1128034746" role=""/>
   <member type="way" ref="109915327" role=""/>
   <member type="way" ref="996957836" role=""/>
   <member type="way" ref="23964764" role=""/>
+  <member type="way" ref="1255637012" role=""/>
+  <member type="way" ref="1255637010" role=""/>
+  <member type="way" ref="1255637011" role=""/>
+  <member type="way" ref="1255637013" role=""/>
   <member type="way" ref="561333598" role=""/>
   <member type="way" ref="109915314" role=""/>
   <member type="way" ref="561333591" role=""/>
@@ -14516,10 +15012,8 @@
   <member type="way" ref="127388424" role=""/>
   <member type="way" ref="218543397" role=""/>
   <member type="way" ref="1212880574" role=""/>
-  <member type="way" ref="741297094" role=""/>
   <member type="way" ref="127254590" role=""/>
   <member type="way" ref="632173499" role=""/>
-  <member type="way" ref="1163655435" role=""/>
   <member type="way" ref="1163655434" role=""/>
   <member type="way" ref="168567344" role=""/>
   <member type="way" ref="741303588" role=""/>
@@ -14534,7 +15028,7 @@
   <member type="way" ref="164855863" role=""/>
   <member type="way" ref="559962806" role=""/>
   <member type="way" ref="164855862" role=""/>
-  <member type="way" ref="1015403263" role=""/>
+  <member type="way" ref="1245585010" role=""/>
   <member type="way" ref="22911399" role=""/>
   <member type="way" ref="164855860" role=""/>
   <member type="way" ref="1015403264" role=""/>
@@ -14637,5 +15131,20 @@
   <tag k="waterway" v="stream"/>
   <tag k="wikidata" v="Q3446400"/>
   <tag k="wikipedia" v="fr:Ru d'Élancourt"/>
+ </relation>
+ <relation id="17213459" visible="true" version="2" changeset="147496271" timestamp="2024-02-15T15:19:26Z" user="Penegal" uid="2815659">
+  <member type="way" ref="1250831311" role="outer"/>
+  <member type="way" ref="1250492471" role="outer"/>
+  <member type="way" ref="1250492470" role="outer"/>
+  <tag k="alt_name" v="Yveline;Haute vallée de Chevreuse"/>
+  <tag k="boundary" v="natural"/>
+  <tag k="fuzzy" v="yes"/>
+  <tag k="name" v="Pays d’Yveline"/>
+  <tag k="note" v="Natural area = fuzzy boundaries"/>
+  <tag k="place" v="region"/>
+  <tag k="region:type" v="natural_area"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikidata" v="Q16802034"/>
+  <tag k="wikipedia" v="fr:Pays d'Yveline/Haute Vallée de Chevreuse"/>
  </relation>
 </osm>

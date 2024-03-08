@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.8.10 (3509530 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.8.10 (3067234 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.7272088" minlon="1.8347168" maxlat="48.7344554" maxlon="1.8457031"/>
  <node id="248823256" visible="true" version="4" changeset="97642578" timestamp="2021-01-17T15:43:58Z" user="Kioska Journo" uid="402585" lat="48.7231683" lon="1.8393668"/>
  <node id="250924777" visible="true" version="2" changeset="48015611" timestamp="2017-04-21T20:39:36Z" user="GeorgeKaplan" uid="1198089" lat="48.7387470" lon="1.8385260"/>
@@ -299,7 +299,7 @@
  <node id="8623339567" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7312588" lon="1.8348753"/>
  <node id="8623339568" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7312419" lon="1.8346577"/>
  <node id="8623339569" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7306761" lon="1.8353098"/>
- <node id="8623339570" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7310275" lon="1.8351204"/>
+ <node id="8623339570" visible="true" version="2" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085" lat="48.7310277" lon="1.8351213"/>
  <node id="8623339571" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7314523" lon="1.8348886"/>
  <node id="8623339572" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7317931" lon="1.8346975"/>
  <node id="8623339573" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7317733" lon="1.8346320"/>
@@ -324,12 +324,12 @@
  <node id="8623339592" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7312859" lon="1.8349043"/>
  <node id="8623339593" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7313101" lon="1.8349172"/>
  <node id="8623339594" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7313451" lon="1.8349258"/>
- <node id="8623339595" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7313812" lon="1.8349274"/>
+ <node id="8623339595" visible="true" version="2" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085" lat="48.7313814" lon="1.8349283"/>
  <node id="8623339596" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7312133" lon="1.8348252"/>
  <node id="8623339597" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7311912" lon="1.8348815"/>
  <node id="8623339598" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7311625" lon="1.8349290"/>
  <node id="8623339599" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7312734" lon="1.8349429"/>
- <node id="8623339600" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7312818" lon="1.8349817"/>
+ <node id="8623339600" visible="true" version="2" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085" lat="48.7312782" lon="1.8349847"/>
  <node id="9008045724" visible="true" version="1" changeset="109702510" timestamp="2021-08-15T14:09:41Z" user="ahhj" uid="10115613" lat="48.7149417" lon="1.8448319"/>
  <node id="9444299378" visible="true" version="1" changeset="116534245" timestamp="2022-01-24T10:21:07Z" user="yann1408" uid="14125135" lat="48.7302965" lon="1.8496543"/>
  <node id="9862601472" visible="true" version="1" changeset="123126737" timestamp="2022-07-02T16:48:47Z" user="Papusa" uid="10704460" lat="48.7554657" lon="1.8369533"/>
@@ -477,16 +477,6 @@
   <tag k="highway" v="path"/>
   <tag k="source" v="GPS,bing"/>
   <tag k="surface" v="compacted"/>
- </way>
- <way id="174663059" visible="true" version="4" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140">
-  <nd ref="8623339567"/>
-  <nd ref="8623339599"/>
-  <nd ref="8623339600"/>
-  <nd ref="905136020"/>
-  <nd ref="2098120945"/>
-  <nd ref="1853180061"/>
-  <tag k="highway" v="track"/>
-  <tag k="source" v="GPS,bing"/>
  </way>
  <way id="199816726" visible="true" version="1" changeset="14550138" timestamp="2013-01-06T14:53:43Z" user="Christian Perrier" uid="60669">
   <nd ref="2098120945"/>
@@ -826,12 +816,92 @@
   <tag k="name" v="Route de Mantes"/>
   <tag k="ref" v="D 191"/>
  </way>
- <way id="929885766" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140">
+ <way id="929885766" visible="true" version="2" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
   <nd ref="8330848601"/>
   <nd ref="8623339569"/>
   <nd ref="8623339580"/>
   <nd ref="8623339570"/>
   <nd ref="8623339600"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="D 191"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="929885767" visible="true" version="2" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <nd ref="8623339579"/>
+  <nd ref="8623339573"/>
+  <nd ref="8623339574"/>
+  <nd ref="8623339575"/>
+  <nd ref="8623339585"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="D 191"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="929885768" visible="true" version="2" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <nd ref="8623339580"/>
+  <nd ref="8623339581"/>
+  <nd ref="8623339599"/>
+  <nd ref="8623339582"/>
+  <nd ref="8623339593"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="D 60"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="929885769" visible="true" version="2" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <nd ref="8623339568"/>
+  <nd ref="8623339588"/>
+  <nd ref="8623339589"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="D 60"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="929885770" visible="true" version="2" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <nd ref="8623339589"/>
+  <nd ref="8623339596"/>
+  <nd ref="8623339597"/>
+  <nd ref="8623339598"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="D 60"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="1241573399" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <nd ref="8623339593"/>
+  <nd ref="8623339583"/>
+  <nd ref="8623339584"/>
+  <nd ref="8623339585"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="D 60"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="1241573400" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <nd ref="8623339593"/>
+  <nd ref="8623339594"/>
+  <nd ref="8623339595"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="D 60"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="1241573401" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
   <nd ref="8623339595"/>
   <nd ref="8623339571"/>
   <nd ref="8623339572"/>
@@ -843,13 +913,40 @@
   <tag k="ref" v="D 191"/>
   <tag k="surface" v="asphalt"/>
  </way>
- <way id="929885767" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140">
-  <nd ref="8623339579"/>
-  <nd ref="8623339573"/>
-  <nd ref="8623339574"/>
-  <nd ref="8623339575"/>
-  <nd ref="8623339585"/>
+ <way id="1241573402" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
   <nd ref="8623339567"/>
+  <nd ref="8623339592"/>
+  <nd ref="8623339593"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="D 60"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="1241573403" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <nd ref="8623339567"/>
+  <nd ref="8623339598"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="D 191"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="1241573404" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <nd ref="8623339589"/>
+  <nd ref="8623339590"/>
+  <nd ref="8623339591"/>
+  <nd ref="8623339567"/>
+  <tag k="highway" v="tertiary"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="D 60"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="1241573405" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
   <nd ref="8623339598"/>
   <nd ref="8623339576"/>
   <nd ref="8623339577"/>
@@ -862,14 +959,33 @@
   <tag k="ref" v="D 191"/>
   <tag k="surface" v="asphalt"/>
  </way>
- <way id="929885768" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140">
-  <nd ref="8623339580"/>
-  <nd ref="8623339581"/>
-  <nd ref="8623339599"/>
-  <nd ref="8623339582"/>
+ <way id="1241573406" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <nd ref="8623339600"/>
+  <nd ref="8623339595"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="D 191"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="1241573407" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
   <nd ref="8623339593"/>
-  <nd ref="8623339583"/>
-  <nd ref="8623339584"/>
+  <nd ref="8623339600"/>
+  <tag k="highway" v="track"/>
+  <tag k="source" v="GPS,bing"/>
+ </way>
+ <way id="1241573408" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <nd ref="8623339585"/>
+  <nd ref="8623339567"/>
+  <tag k="highway" v="primary"/>
+  <tag k="lanes" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="oneway" v="yes"/>
+  <tag k="ref" v="D 191"/>
+  <tag k="surface" v="asphalt"/>
+ </way>
+ <way id="1241573409" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
   <nd ref="8623339585"/>
   <nd ref="8623339586"/>
   <nd ref="8623339587"/>
@@ -881,34 +997,13 @@
   <tag k="ref" v="D 60"/>
   <tag k="surface" v="asphalt"/>
  </way>
- <way id="929885769" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140">
-  <nd ref="8623339568"/>
-  <nd ref="8623339588"/>
-  <nd ref="8623339589"/>
-  <nd ref="8623339590"/>
-  <nd ref="8623339591"/>
-  <nd ref="8623339567"/>
-  <nd ref="8623339592"/>
-  <nd ref="8623339593"/>
-  <nd ref="8623339594"/>
-  <nd ref="8623339595"/>
-  <tag k="highway" v="tertiary"/>
-  <tag k="lanes" v="1"/>
-  <tag k="maxspeed" v="80"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="D 60"/>
-  <tag k="surface" v="asphalt"/>
- </way>
- <way id="929885770" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140">
-  <nd ref="8623339589"/>
-  <nd ref="8623339596"/>
-  <nd ref="8623339597"/>
-  <nd ref="8623339598"/>
-  <tag k="highway" v="tertiary"/>
-  <tag k="lanes" v="1"/>
-  <tag k="maxspeed" v="80"/>
-  <tag k="ref" v="D 60"/>
-  <tag k="surface" v="asphalt"/>
+ <way id="1241573410" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <nd ref="8623339600"/>
+  <nd ref="905136020"/>
+  <nd ref="2098120945"/>
+  <nd ref="1853180061"/>
+  <tag k="highway" v="track"/>
+  <tag k="source" v="GPS,bing"/>
  </way>
  <relation id="1654909" visible="true" version="4" changeset="116696698" timestamp="2022-01-28T08:24:17Z" user="Witska" uid="717770">
   <member type="way" ref="467310710" role="outer"/>
@@ -926,7 +1021,7 @@
   <tag k="landuse" v="forest"/>
   <tag k="type" v="multipolygon"/>
  </relation>
- <relation id="6355264" visible="true" version="30" changeset="146040911" timestamp="2024-01-08T19:16:53Z" user="Patrick78" uid="10232116">
+ <relation id="6355264" visible="true" version="32" changeset="146675654" timestamp="2024-01-25T14:21:15Z" user="Furdrien" uid="6696140">
   <member type="way" ref="561125667" role=""/>
   <member type="way" ref="49706207" role=""/>
   <member type="way" ref="49747278" role=""/>
@@ -1011,6 +1106,8 @@
   <member type="way" ref="561198042" role=""/>
   <member type="way" ref="561198044" role=""/>
   <member type="way" ref="749799609" role=""/>
+  <member type="way" ref="1242838370" role=""/>
+  <member type="way" ref="1242838369" role=""/>
   <member type="way" ref="561194540" role=""/>
   <member type="way" ref="318394641" role=""/>
   <member type="way" ref="375699956" role=""/>
@@ -1035,7 +1132,12 @@
   <member type="way" ref="929885753" role=""/>
   <member type="way" ref="896220959" role=""/>
   <member type="way" ref="929885766" role=""/>
+  <member type="way" ref="1241573406" role=""/>
+  <member type="way" ref="1241573401" role=""/>
   <member type="way" ref="929885767" role=""/>
+  <member type="way" ref="1241573408" role=""/>
+  <member type="way" ref="1241573403" role=""/>
+  <member type="way" ref="1241573405" role=""/>
   <member type="way" ref="503127184" role=""/>
   <member type="way" ref="1116499323" role=""/>
   <member type="way" ref="1116499322" role=""/>
@@ -1107,18 +1209,67 @@
   <tag k="route" v="road"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="13196835" visible="true" version="1" changeset="111085382" timestamp="2021-09-12T07:50:11Z" user="MacDony" uid="3701940">
-  <member type="way" ref="929885767" role="from"/>
+ <relation id="13196835" visible="true" version="2" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <member type="way" ref="1241573405" role="from"/>
   <member type="node" ref="8330848601" role="via"/>
   <member type="way" ref="929885766" role="to"/>
   <tag k="restriction" v="no_u_turn"/>
   <tag k="type" v="restriction"/>
  </relation>
- <relation id="13196836" visible="true" version="1" changeset="111085382" timestamp="2021-09-12T07:50:11Z" user="MacDony" uid="3701940">
-  <member type="way" ref="929885766" role="from"/>
+ <relation id="13196836" visible="true" version="2" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <member type="way" ref="1241573401" role="from"/>
   <member type="node" ref="8623339579" role="via"/>
   <member type="way" ref="929885767" role="to"/>
   <tag k="restriction" v="no_u_turn"/>
+  <tag k="type" v="restriction"/>
+ </relation>
+ <relation id="17058813" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <member type="way" ref="1241573404" role="from"/>
+  <member type="node" ref="8623339567" role="via"/>
+  <member type="way" ref="1241573403" role="to"/>
+  <tag k="restriction" v="no_right_turn"/>
+  <tag k="type" v="restriction"/>
+ </relation>
+ <relation id="17058814" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <member type="way" ref="1241573402" role="from"/>
+  <member type="node" ref="8623339593" role="via"/>
+  <member type="way" ref="1241573400" role="to"/>
+  <tag k="restriction" v="only_straight_on"/>
+  <tag k="type" v="restriction"/>
+ </relation>
+ <relation id="17058815" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <member type="way" ref="1241573409" role="from"/>
+  <member type="node" ref="8623339568" role="via"/>
+  <member type="way" ref="224941899" role="to"/>
+  <tag k="restriction" v="only_right_turn"/>
+  <tag k="type" v="restriction"/>
+ </relation>
+ <relation id="17058816" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <member type="way" ref="1241573399" role="from"/>
+  <member type="node" ref="8623339585" role="via"/>
+  <member type="way" ref="1241573408" role="to"/>
+  <tag k="restriction" v="no_left_turn"/>
+  <tag k="type" v="restriction"/>
+ </relation>
+ <relation id="17058817" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <member type="way" ref="929885768" role="from"/>
+  <member type="node" ref="8623339593" role="via"/>
+  <member type="way" ref="1241573407" role="to"/>
+  <tag k="restriction" v="no_right_turn"/>
+  <tag k="type" v="restriction"/>
+ </relation>
+ <relation id="17058818" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <member type="way" ref="929885768" role="from"/>
+  <member type="node" ref="8623339593" role="via"/>
+  <member type="way" ref="1241573400" role="to"/>
+  <tag k="restriction" v="no_right_turn"/>
+  <tag k="type" v="restriction"/>
+ </relation>
+ <relation id="17058819" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <member type="way" ref="1241573407" role="from"/>
+  <member type="node" ref="8623339593" role="via"/>
+  <member type="way" ref="1241573400" role="to"/>
+  <tag k="restriction" v="no_right_turn"/>
   <tag k="type" v="restriction"/>
  </relation>
 </osm>

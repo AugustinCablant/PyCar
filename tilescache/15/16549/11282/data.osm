@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.8.10 (1263131 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.8.10 (160542 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.7851520" minlon="1.8127441" maxlat="48.7923902" maxlon="1.8237305"/>
  <node id="257740332" visible="true" version="8" changeset="86146157" timestamp="2020-06-03T16:45:26Z" user="_phiphou_" uid="570635" lat="48.8001527" lon="1.8155078"/>
  <node id="262460484" visible="true" version="6" changeset="86146157" timestamp="2020-06-03T16:45:26Z" user="_phiphou_" uid="570635" lat="48.7999945" lon="1.8158612"/>
@@ -3944,10 +3944,16 @@
  <node id="2324245763" visible="true" version="2" changeset="97232251" timestamp="2021-01-09T23:30:17Z" user="Kioska Journo" uid="402585" lat="48.7769334" lon="1.8000024"/>
  <node id="2326655582" visible="true" version="2" changeset="97232251" timestamp="2021-01-09T23:30:17Z" user="Kioska Journo" uid="402585" lat="48.7797281" lon="1.8095531"/>
  <node id="2394457805" visible="true" version="2" changeset="97232251" timestamp="2021-01-09T23:30:23Z" user="Kioska Journo" uid="402585" lat="48.7741990" lon="1.8168694"/>
- <node id="2395437286" visible="true" version="1" changeset="17080212" timestamp="2013-07-24T20:02:09Z" user="starf" uid="1380557" lat="48.7877032" lon="1.8200465">
+ <node id="2395437286" visible="true" version="2" changeset="146332129" timestamp="2024-01-16T17:23:43Z" user="nlehuby" uid="1424448" lat="48.7877032" lon="1.8200465">
   <tag k="amenity" v="townhall"/>
+  <tag k="contact:email" v="secretariat2.mairie.mere78@orange.fr"/>
+  <tag k="contact:phone" v="+33 1 34 86 02 13"/>
+  <tag k="contact:website" v="http://www.mere-village.fr"/>
   <tag k="name" v="Mairie de Méré"/>
-  <tag k="source" v="Service-Public.fr - 06/2013"/>
+  <tag k="opening_hours" v="Mo 09:00-12:00; Tu 15:00-18:00; We 09:00-12:00,15:00-17:00; Th 09:00-12:00; Fr 09:00-12:00,15:00-17:00; Sa 10:00-12:00"/>
+  <tag k="ref:FR:SIRET" v="21780389900012"/>
+  <tag k="source" v="Service-Public.fr - 01/2024"/>
+  <tag k="wheelchair" v="yes"/>
  </node>
  <node id="2396624557" visible="true" version="1" changeset="17092996" timestamp="2013-07-25T20:16:02Z" user="starf" uid="1380557" lat="48.7815573" lon="1.8234782"/>
  <node id="2396624560" visible="true" version="1" changeset="17092996" timestamp="2013-07-25T20:16:02Z" user="starf" uid="1380557" lat="48.7827482" lon="1.8226810"/>
@@ -13722,7 +13728,7 @@
   <nd ref="11063877156"/>
   <tag k="leisure" v="swimming_pool"/>
  </way>
- <relation id="75523" visible="true" version="21" changeset="116044014" timestamp="2022-01-11T22:53:00Z" user="cquest_bot" uid="541379">
+ <relation id="75523" visible="true" version="22" changeset="147994909" timestamp="2024-02-28T02:07:20Z" user="Olyon" uid="1443767">
   <member type="node" ref="262979774" role="admin_centre"/>
   <member type="way" ref="624213384" role="outer"/>
   <member type="way" ref="751360591" role="outer"/>
@@ -13741,6 +13747,7 @@
   <tag k="population" v="1665"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="78490"/>
+  <tag k="ref:FR:SIREN" v="217803899"/>
   <tag k="ref:INSEE" v="78389"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
@@ -13797,7 +13804,7 @@
   <tag k="type" v="site"/>
   <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=7838901"/>
  </relation>
- <relation id="2437724" visible="true" version="40" changeset="145809362" timestamp="2024-01-02T18:11:46Z" user="nlehuby" uid="1424448">
+ <relation id="2437724" visible="true" version="46" changeset="148378444" timestamp="2024-03-08T10:55:25Z" user="michel60" uid="211063">
   <member type="node" ref="5931774953" role="platform_entry_only"/>
   <member type="node" ref="5931796924" role="platform"/>
   <member type="node" ref="5931774830" role="platform"/>
@@ -13833,8 +13840,9 @@
   <member type="node" ref="5931774837" role="platform"/>
   <member type="node" ref="5931796984" role="platform"/>
   <member type="node" ref="5931774889" role="platform_exit_only"/>
+  <member type="way" ref="1242838332" role=""/>
   <member type="way" ref="136183468" role=""/>
-  <member type="way" ref="209505411" role=""/>
+  <member type="way" ref="1242838335" role=""/>
   <member type="way" ref="209505419" role=""/>
   <member type="way" ref="363185344" role=""/>
   <member type="way" ref="11774533" role=""/>
@@ -13869,6 +13877,7 @@
   <member type="way" ref="708273313" role=""/>
   <member type="way" ref="708272676" role=""/>
   <member type="way" ref="22516358" role=""/>
+  <member type="way" ref="1252892388" role=""/>
   <member type="way" ref="30598677" role=""/>
   <member type="way" ref="26772328" role=""/>
   <member type="way" ref="26772327" role=""/>
@@ -13895,7 +13904,7 @@
   <tag k="to" v="Château"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="6356804" visible="true" version="11" changeset="140176643" timestamp="2023-08-21T11:31:32Z" user="pyrog" uid="270456">
+ <relation id="6356804" visible="true" version="12" changeset="146675654" timestamp="2024-01-25T14:21:15Z" user="Furdrien" uid="6696140">
   <member type="way" ref="24402584" role=""/>
   <member type="way" ref="1172548135" role=""/>
   <member type="way" ref="1172548136" role=""/>
@@ -13926,6 +13935,7 @@
   <member type="way" ref="24241203" role=""/>
   <member type="way" ref="561327645" role=""/>
   <member type="way" ref="561327654" role=""/>
+  <member type="way" ref="1242838390" role=""/>
   <member type="way" ref="603575159" role=""/>
   <member type="way" ref="503128724" role=""/>
   <member type="way" ref="561336291" role=""/>
@@ -13964,7 +13974,7 @@
   <tag k="route_master" v="bus"/>
   <tag k="type" v="route_master"/>
  </relation>
- <relation id="8093418" visible="true" version="21" changeset="145809362" timestamp="2024-01-02T18:11:46Z" user="nlehuby" uid="1424448">
+ <relation id="8093418" visible="true" version="26" changeset="148378047" timestamp="2024-03-08T10:47:14Z" user="michel60" uid="211063">
   <member type="node" ref="5931774889" role="platform_entry_only"/>
   <member type="node" ref="5931774964" role="platform"/>
   <member type="node" ref="5931773870" role="platform"/>
@@ -14012,7 +14022,8 @@
   <member type="way" ref="26772327" role=""/>
   <member type="way" ref="26772328" role=""/>
   <member type="way" ref="30598677" role=""/>
-  <member type="way" ref="22516358" role=""/>
+  <member type="way" ref="1252892389" role=""/>
+  <member type="way" ref="1252892390" role=""/>
   <member type="way" ref="708272676" role=""/>
   <member type="way" ref="708273313" role=""/>
   <member type="way" ref="708272673" role=""/>
@@ -14041,6 +14052,7 @@
   <member type="way" ref="1165229169" role=""/>
   <member type="way" ref="1165229168" role=""/>
   <member type="way" ref="75055726" role=""/>
+  <member type="way" ref="1242838337" role=""/>
   <member type="way" ref="552161487" role=""/>
   <member type="way" ref="552161488" role=""/>
   <member type="way" ref="75055721" role=""/>
@@ -14048,7 +14060,7 @@
   <member type="way" ref="1112075296" role=""/>
   <member type="way" ref="1112075298" role=""/>
   <member type="way" ref="22752571" role=""/>
-  <member type="way" ref="209505411" role=""/>
+  <member type="way" ref="1242838335" role=""/>
   <member type="way" ref="209505417" role=""/>
   <tag k="colour" v="#644C18"/>
   <tag k="from" v="Château"/>
@@ -14062,7 +14074,7 @@
   <tag k="to" v="Saint-Quentin en Yvelines - Gare Routière Paul Delouvrier"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="12771761" visible="true" version="88" changeset="144115633" timestamp="2023-11-16T22:22:04Z" user="StC" uid="220314">
+ <relation id="12771761" visible="true" version="90" changeset="146675654" timestamp="2024-01-25T14:21:15Z" user="Furdrien" uid="6696140">
   <member type="way" ref="1224631439" role=""/>
   <member type="way" ref="1200832726" role=""/>
   <member type="way" ref="1224631441" role=""/>
@@ -14121,6 +14133,7 @@
   <member type="way" ref="404439172" role=""/>
   <member type="way" ref="19793764" role=""/>
   <member type="way" ref="870814232" role=""/>
+  <member type="way" ref="1239120288" role=""/>
   <member type="way" ref="22338349" role=""/>
   <member type="way" ref="404439196" role=""/>
   <member type="way" ref="868248711" role=""/>
@@ -14173,6 +14186,7 @@
   <member type="way" ref="178134558" role=""/>
   <member type="way" ref="178129648" role=""/>
   <member type="way" ref="22561224" role=""/>
+  <member type="way" ref="1242838352" role=""/>
   <member type="way" ref="22561225" role=""/>
   <member type="way" ref="52282568" role=""/>
   <member type="way" ref="135251613" role=""/>
@@ -14180,6 +14194,7 @@
   <member type="way" ref="23424459" role=""/>
   <member type="way" ref="561322869" role=""/>
   <member type="way" ref="561141852" role=""/>
+  <member type="way" ref="1242838356" role=""/>
   <member type="way" ref="228607472" role=""/>
   <member type="way" ref="240876534" role=""/>
   <member type="way" ref="33604891" role=""/>
@@ -14690,7 +14705,7 @@
   <tag k="source" v="Union européenne - SOeS, CORINE Land Cover, 2006."/>
   <tag k="type" v="multipolygon"/>
  </relation>
- <relation id="16226932" visible="true" version="18" changeset="143518951" timestamp="2023-11-02T09:23:08Z" user="pyrog" uid="270456">
+ <relation id="16226932" visible="true" version="20" changeset="148014859" timestamp="2024-02-28T14:02:43Z" user="Harvesterify" uid="6060820">
   <member type="way" ref="79122333" role=""/>
   <member type="way" ref="79122348" role=""/>
   <member type="way" ref="79122331" role=""/>
@@ -14995,10 +15010,14 @@
   <member type="way" ref="702100678" role=""/>
   <member type="way" ref="115560406" role=""/>
   <member type="way" ref="47374776" role=""/>
-  <member type="way" ref="369096346" role=""/>
+  <member type="way" ref="1255635511" role=""/>
+  <member type="way" ref="1255635512" role=""/>
+  <member type="way" ref="1255635513" role=""/>
+  <member type="way" ref="1255635514" role=""/>
+  <member type="way" ref="1255635515" role=""/>
   <member type="way" ref="115560441" role=""/>
   <member type="way" ref="47374770" role=""/>
-  <member type="way" ref="366970387" role=""/>
+  <member type="way" ref="1255635508" role=""/>
   <member type="way" ref="204661117" role=""/>
   <member type="way" ref="405810965" role=""/>
   <member type="way" ref="405810966" role=""/>
@@ -15337,6 +15356,8 @@
   <member type="way" ref="35063852" role=""/>
   <member type="way" ref="1217521641" role=""/>
   <member type="way" ref="48877969" role=""/>
+  <member type="way" ref="1254534000" role=""/>
+  <member type="way" ref="1254533999" role=""/>
   <member type="way" ref="48834435" role=""/>
   <member type="way" ref="103262796" role=""/>
   <member type="way" ref="103262795" role=""/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.8.10 (969093 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.8.10 (3089229 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.8140985" minlon="2.2192383" maxlat="48.8213325" maxlon="2.2302246"/>
  <node id="28390234" visible="true" version="6" changeset="6705768" timestamp="2010-12-19T13:11:09Z" user="wagner51" uid="11699" lat="48.8205180" lon="2.2185261"/>
  <node id="28390235" visible="true" version="6" changeset="6705768" timestamp="2010-12-19T13:10:16Z" user="wagner51" uid="11699" lat="48.8208118" lon="2.2188317"/>
@@ -6350,12 +6350,12 @@
   <tag k="addr:postcode" v="92190"/>
   <tag k="addr:street" v="Route des Gardes"/>
  </node>
- <node id="1652773155" visible="true" version="2" changeset="127987303" timestamp="2022-10-24T09:22:52Z" user="loulougarou" uid="9604372" lat="48.8159764" lon="2.2249651">
-  <tag k="name" v="Coiffure"/>
-  <tag k="shop" v="hairdresser"/>
- </node>
- <node id="1652773156" visible="true" version="3" changeset="127987307" timestamp="2022-10-24T09:22:52Z" user="loulougarou" uid="9604372" lat="48.8159543" lon="2.2248914">
+ <node id="1652773155" visible="true" version="3" changeset="146988516" timestamp="2024-02-02T14:47:06Z" user="loulougarou" uid="9604372" lat="48.8159764" lon="2.2249651">
   <tag k="disused:shop" v="yes"/>
+ </node>
+ <node id="1652773156" visible="true" version="5" changeset="146988514" timestamp="2024-02-02T14:47:06Z" user="loulougarou" uid="9604372" lat="48.8159543" lon="2.2248914">
+  <tag k="craft" v="window_construction"/>
+  <tag k="name" v="Isolespace"/>
  </node>
  <node id="1667386833" visible="true" version="2" changeset="18633690" timestamp="2013-10-31T12:22:38Z" user="Fifi Fofo" uid="996441" lat="48.8142424" lon="2.2215136"/>
  <node id="1676728454" visible="true" version="2" changeset="120450948" timestamp="2022-05-02T08:58:32Z" user="Skiper" uid="306409" lat="48.7908238" lon="2.2251059"/>
@@ -8016,8 +8016,9 @@
   <tag k="source" v="survey"/>
   <tag k="tactile_paving" v="yes"/>
  </node>
- <node id="3349936593" visible="true" version="1" changeset="28841318" timestamp="2015-02-14T13:43:38Z" user="cquest" uid="158826" lat="48.8157373" lon="2.2219143">
+ <node id="3349936593" visible="true" version="2" changeset="146754210" timestamp="2024-01-27T18:17:23Z" user="cquest" uid="158826" lat="48.8157373" lon="2.2219143">
   <tag k="amenity" v="parking_space"/>
+  <tag k="parking_space" v="disabled"/>
   <tag k="source" v="GPSO data.gouv.fr 2015-02"/>
   <tag k="wheelchair" v="yes"/>
  </node>
@@ -8279,12 +8280,16 @@
   <tag k="name" v="Bellevue"/>
   <tag k="place" v="suburb"/>
  </node>
- <node id="3882450159" visible="true" version="4" changeset="128602093" timestamp="2022-11-07T15:07:14Z" user="StephaneP" uid="439947" lat="48.8185326" lon="2.2312287">
+ <node id="3882450159" visible="true" version="8" changeset="147729343" timestamp="2024-02-21T11:41:25Z" user="loulougarou" uid="9604372" lat="48.8185326" lon="2.2312287">
+  <tag k="button_operated" v="yes"/>
   <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing:island" v="no"/>
   <tag k="crossing_ref" v="zebra"/>
   <tag k="highway" v="crossing"/>
   <tag k="source" v="survey"/>
   <tag k="tactile_paving" v="yes"/>
+  <tag k="traffic_signals:sound" v="no"/>
+  <tag k="traffic_signals:vibration" v="yes"/>
  </node>
  <node id="3913450629" visible="true" version="2" changeset="36485899" timestamp="2016-01-10T16:17:11Z" user="Camille Nietzsche" uid="3127375" lat="48.8133701" lon="2.2214996"/>
  <node id="3913450642" visible="true" version="1" changeset="36206725" timestamp="2015-12-27T21:47:28Z" user="Camille Nietzsche" uid="3127375" lat="48.8118049" lon="2.2266012"/>
@@ -12133,8 +12138,8 @@
   <tag k="addr:housenumber" v="2"/>
   <tag k="addr:street" v="Rue Louis Blanc"/>
  </node>
- <node id="10972444736" visible="true" version="1" changeset="137267076" timestamp="2023-06-13T04:32:52Z" user="loulougarou" uid="9604372" lat="48.8184973" lon="2.2287009">
-  <tag k="addr:housenumber" v="2b"/>
+ <node id="10972444736" visible="true" version="2" changeset="147729105" timestamp="2024-02-21T11:41:42Z" user="loulougarou" uid="9604372" lat="48.8184973" lon="2.2287009">
+  <tag k="addr:housenumber" v="2 bis"/>
   <tag k="addr:street" v="Rue Paul Houette"/>
  </node>
  <node id="10972445872" visible="true" version="1" changeset="137267076" timestamp="2023-06-13T04:32:55Z" user="loulougarou" uid="9604372" lat="48.8183556" lon="2.2268759">
@@ -12240,10 +12245,6 @@
   <tag k="addr:housenumber" v="19"/>
   <tag k="addr:street" v="Rue des Sources"/>
  </node>
- <node id="11012697918" visible="true" version="1" changeset="137887282" timestamp="2023-06-28T16:52:24Z" user="loulougarou" uid="9604372" lat="48.8192570" lon="2.2225025">
-  <tag k="addr:housenumber" v="3b"/>
-  <tag k="addr:street" v="Avenue Eiffel"/>
- </node>
  <node id="11012756181" visible="true" version="1" changeset="137888989" timestamp="2023-06-28T17:40:39Z" user="loulougarou" uid="9604372" lat="48.8175484" lon="2.2299228"/>
  <node id="11012756182" visible="true" version="1" changeset="137888989" timestamp="2023-06-28T17:40:39Z" user="loulougarou" uid="9604372" lat="48.8176742" lon="2.2300073"/>
  <node id="11012756183" visible="true" version="1" changeset="137888989" timestamp="2023-06-28T17:40:39Z" user="loulougarou" uid="9604372" lat="48.8177174" lon="2.2300684"/>
@@ -12320,10 +12321,6 @@
   <tag k="addr:housenumber" v="2"/>
   <tag k="addr:street" v="Rue Dumont d'Urville"/>
   <tag k="entrance" v="yes"/>
- </node>
- <node id="11041971583" visible="true" version="1" changeset="138414514" timestamp="2023-07-12T09:42:10Z" user="loulougarou" uid="9604372" lat="48.8173146" lon="2.2197820">
-  <tag k="addr:housenumber" v="1b"/>
-  <tag k="addr:street" v="Rue Édouard Laferrière"/>
  </node>
  <node id="11041974276" visible="true" version="1" changeset="138414514" timestamp="2023-07-12T09:42:41Z" user="loulougarou" uid="9604372" lat="48.8204804" lon="2.2218853">
   <tag k="addr:housenumber" v="1"/>
@@ -12422,8 +12419,8 @@
   <tag k="addr:housenumber" v="43"/>
   <tag k="addr:street" v="Rue Ernest Renan"/>
  </node>
- <node id="11041996115" visible="true" version="1" changeset="138414514" timestamp="2023-07-12T09:46:28Z" user="loulougarou" uid="9604372" lat="48.8170604" lon="2.2200685">
-  <tag k="addr:housenumber" v="46b"/>
+ <node id="11041996115" visible="true" version="2" changeset="147216502" timestamp="2024-02-08T12:45:05Z" user="loulougarou" uid="9604372" lat="48.8170604" lon="2.2200685">
+  <tag k="addr:housenumber" v="46 bis"/>
   <tag k="addr:street" v="Avenue du 11 Novembre 1918"/>
  </node>
  <node id="11041996372" visible="true" version="1" changeset="138414514" timestamp="2023-07-12T09:44:38Z" user="loulougarou" uid="9604372" lat="48.8173251" lon="2.2208500">
@@ -12609,11 +12606,12 @@
   <tag k="public_transport" v="stop_position"/>
   <tag k="source" v="survey"/>
  </node>
- <node id="11469987125" visible="true" version="2" changeset="145704640" timestamp="2023-12-30T16:29:26Z" user="yxoc" uid="57126" lat="48.8155618" lon="2.2278904">
+ <node id="11469987125" visible="true" version="4" changeset="147729101" timestamp="2024-02-21T11:35:23Z" user="loulougarou" uid="9604372" lat="48.8155618" lon="2.2278904">
   <tag k="bench" v="no"/>
   <tag k="bin" v="no"/>
   <tag k="bus" v="yes"/>
   <tag k="highway" v="bus_stop"/>
+  <tag k="lit" v="no"/>
   <tag k="name" v="Parc Gauer"/>
   <tag k="passenger_information_display" v="no"/>
   <tag k="public_transport" v="platform"/>
@@ -12621,11 +12619,90 @@
   <tag k="shelter" v="no"/>
   <tag k="source" v="survey"/>
   <tag k="source:ref:FR:STIF" v="Île-de-France Mobilités - 03/2022"/>
+  <tag k="tactile_paving" v="yes"/>
  </node>
- <node id="11469987126" visible="true" version="1" changeset="145703881" timestamp="2023-12-30T16:08:20Z" user="yxoc" uid="57126" lat="48.8152656" lon="2.2280677">
+ <node id="11469987126" visible="true" version="3" changeset="147729104" timestamp="2024-02-21T11:35:25Z" user="loulougarou" uid="9604372" lat="48.8152656" lon="2.2280677">
   <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:island" v="no"/>
   <tag k="highway" v="crossing"/>
   <tag k="source" v="BD Ortho 2023"/>
+  <tag k="tactile_paving" v="incorrect"/>
+ </node>
+ <node id="11579285490" visible="true" version="2" changeset="146988509" timestamp="2024-02-02T14:47:07Z" user="loulougarou" uid="9604372" lat="48.8160808" lon="2.2252040">
+  <tag k="amenity" v="doctors"/>
+  <tag k="healthcare" v="doctor"/>
+  <tag k="name" v="Centre médical Saint-Rémy Meudon"/>
+  <tag k="opening_hours" v="Mo-Fr 09:00-14:00,15:00-19:00; Sa 09:00-13:00"/>
+ </node>
+ <node id="11608678735" visible="true" version="1" changeset="147309831" timestamp="2024-02-10T21:59:03Z" user="cquest" uid="158826" lat="48.8209948" lon="2.2289988">
+  <tag k="amenity" v="parking_space"/>
+  <tag k="capacity" v="1"/>
+  <tag k="parking_space" v="disabled"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="11608728892" visible="true" version="1" changeset="147309831" timestamp="2024-02-10T21:59:06Z" user="cquest" uid="158826" lat="48.8158471" lon="2.2244646">
+  <tag k="amenity" v="parking_space"/>
+  <tag k="capacity" v="1"/>
+  <tag k="parking_space" v="disabled"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="11608728893" visible="true" version="1" changeset="147309831" timestamp="2024-02-10T21:59:06Z" user="cquest" uid="158826" lat="48.8158429" lon="2.2246459">
+  <tag k="amenity" v="parking_space"/>
+  <tag k="capacity" v="1"/>
+  <tag k="parking_space" v="disabled"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="11608728956" visible="true" version="1" changeset="147309831" timestamp="2024-02-10T21:59:06Z" user="cquest" uid="158826" lat="48.8159155" lon="2.2225327">
+  <tag k="amenity" v="parking_space"/>
+  <tag k="capacity" v="1"/>
+  <tag k="parking_space" v="disabled"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="11608728957" visible="true" version="1" changeset="147309831" timestamp="2024-02-10T21:59:06Z" user="cquest" uid="158826" lat="48.8159168" lon="2.2226903">
+  <tag k="amenity" v="parking_space"/>
+  <tag k="capacity" v="1"/>
+  <tag k="parking_space" v="disabled"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="11608728958" visible="true" version="1" changeset="147309831" timestamp="2024-02-10T21:59:06Z" user="cquest" uid="158826" lat="48.8158875" lon="2.2226953">
+  <tag k="amenity" v="parking_space"/>
+  <tag k="capacity" v="1"/>
+  <tag k="parking_space" v="disabled"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="11608737848" visible="true" version="1" changeset="147309831" timestamp="2024-02-10T21:59:07Z" user="cquest" uid="158826" lat="48.8164602" lon="2.2237488">
+  <tag k="amenity" v="parking_space"/>
+  <tag k="capacity" v="1"/>
+  <tag k="parking_space" v="disabled"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="11648931033" visible="true" version="1" changeset="147729105" timestamp="2024-02-21T11:41:38Z" user="loulougarou" uid="9604372" lat="48.8193670" lon="2.2280174">
+  <tag k="addr:housenumber" v="4"/>
+  <tag k="addr:street" v="Rue Dumont d'Urville"/>
+ </node>
+ <node id="11648940450" visible="true" version="2" changeset="147729105" timestamp="2024-02-21T11:41:39Z" user="loulougarou" uid="9604372" lat="48.8194331" lon="2.2278403">
+  <tag k="addr:housenumber" v="2"/>
+  <tag k="addr:street" v="Rue Dumont d'Urville"/>
+ </node>
+ <node id="11648952142" visible="true" version="1" changeset="147729105" timestamp="2024-02-21T11:35:27Z" user="loulougarou" uid="9604372" lat="48.8146000" lon="2.2286649">
+  <tag k="addr:housenumber" v="9"/>
+  <tag k="addr:street" v="Rue des Capucins"/>
+ </node>
+ <node id="11648961903" visible="true" version="1" changeset="147729105" timestamp="2024-02-21T11:41:40Z" user="loulougarou" uid="9604372" lat="48.8191786" lon="2.2285269">
+  <tag k="addr:housenumber" v="14"/>
+  <tag k="addr:street" v="Rue Dumont d'Urville"/>
+ </node>
+ <node id="11648962094" visible="true" version="1" changeset="147729105" timestamp="2024-02-21T11:41:39Z" user="loulougarou" uid="9604372" lat="48.8193297" lon="2.2281512">
+  <tag k="addr:housenumber" v="8"/>
+  <tag k="addr:street" v="Rue Dumont d'Urville"/>
+ </node>
+ <node id="11648963242" visible="true" version="1" changeset="147729105" timestamp="2024-02-21T11:41:39Z" user="loulougarou" uid="9604372" lat="48.8192966" lon="2.2282290">
+  <tag k="addr:housenumber" v="10"/>
+  <tag k="addr:street" v="Rue Dumont d'Urville"/>
+ </node>
+ <node id="11648963899" visible="true" version="1" changeset="147729105" timestamp="2024-02-21T11:41:40Z" user="loulougarou" uid="9604372" lat="48.8192704" lon="2.2282899">
+  <tag k="addr:housenumber" v="12"/>
+  <tag k="addr:street" v="Rue Dumont d'Urville"/>
  </node>
  <way id="7972946" visible="true" version="16" changeset="131502508" timestamp="2023-01-20T10:37:36Z" user="chabe01" uid="502891">
   <nd ref="1487254751"/>
@@ -12721,7 +12798,7 @@
   <tag k="sidewalk" v="no"/>
   <tag k="surface" v="asphalt"/>
  </way>
- <way id="22972301" visible="true" version="17" changeset="144065282" timestamp="2023-11-15T19:13:42Z" user="SorryImAnOctopus" uid="13079289">
+ <way id="22972301" visible="true" version="18" changeset="146413410" timestamp="2024-01-18T16:58:05Z" user="rarity741" uid="20578142">
   <nd ref="247606818"/>
   <nd ref="96492448"/>
   <nd ref="96492449"/>
@@ -12737,8 +12814,11 @@
   <nd ref="1048688699"/>
   <nd ref="96492455"/>
   <nd ref="1048686176"/>
+  <tag k="bicycle" v="no"/>
   <tag k="bridge" v="viaduct"/>
+  <tag k="foot" v="no"/>
   <tag k="highway" v="trunk"/>
+  <tag k="horse" v="no"/>
   <tag k="lanes" v="3"/>
   <tag k="layer" v="2"/>
   <tag k="lit" v="no"/>
@@ -12752,7 +12832,7 @@
   <tag k="slow_moving" v="lane"/>
   <tag k="source:maxspeed" v="sign"/>
  </way>
- <way id="22972303" visible="true" version="15" changeset="125503867" timestamp="2022-08-29T06:04:32Z" user="kalgan" uid="120588">
+ <way id="22972303" visible="true" version="16" changeset="146413410" timestamp="2024-01-18T16:58:05Z" user="rarity741" uid="20578142">
   <nd ref="59620765"/>
   <nd ref="1048689606"/>
   <nd ref="28390234"/>
@@ -12770,8 +12850,11 @@
   <nd ref="1902204054"/>
   <nd ref="28390240"/>
   <nd ref="247606820"/>
+  <tag k="bicycle" v="no"/>
   <tag k="bridge" v="viaduct"/>
+  <tag k="foot" v="no"/>
   <tag k="highway" v="trunk"/>
+  <tag k="horse" v="no"/>
   <tag k="lanes" v="2"/>
   <tag k="layer" v="2"/>
   <tag k="lit" v="no"/>
@@ -12995,12 +13078,13 @@
   <tag k="source:maxspeed" v="FR:urban"/>
   <tag k="surface" v="asphalt"/>
  </way>
- <way id="42127089" visible="true" version="16" changeset="123431197" timestamp="2022-07-10T12:52:31Z" user="loulougarou" uid="9604372">
+ <way id="42127089" visible="true" version="17" changeset="147729118" timestamp="2024-02-21T11:41:38Z" user="loulougarou" uid="9604372">
   <nd ref="229914991"/>
   <nd ref="2137673519"/>
   <nd ref="1717933783"/>
   <nd ref="523811732"/>
   <tag k="highway" v="residential"/>
+  <tag k="lane_markings" v="no"/>
   <tag k="lit" v="yes"/>
   <tag k="name" v="Avenue du Rond-Point"/>
   <tag k="sidewalk" v="both"/>
@@ -13106,11 +13190,12 @@
   <tag k="tunnel" v="yes"/>
   <tag k="zone:maxspeed" v="FR:30"/>
  </way>
- <way id="58554000" visible="true" version="9" changeset="128602093" timestamp="2022-11-07T15:07:14Z" user="StephaneP" uid="439947">
+ <way id="58554000" visible="true" version="10" changeset="147729346" timestamp="2024-02-21T11:41:29Z" user="loulougarou" uid="9604372">
   <nd ref="3882450159"/>
   <nd ref="2874699470"/>
   <nd ref="2874699475"/>
   <tag k="bicycle" v="designated"/>
+  <tag k="cycleway:surface" v="asphalt"/>
   <tag k="foot" v="designated"/>
   <tag k="highway" v="path"/>
   <tag k="lit" v="yes"/>
@@ -13603,13 +13688,14 @@
   <tag k="usage" v="main"/>
   <tag k="voltage" v="1500"/>
  </way>
- <way id="90396464" visible="true" version="8" changeset="145630727" timestamp="2023-12-28T17:44:07Z" user="yxoc" uid="57126">
+ <way id="90396464" visible="true" version="9" changeset="147729118" timestamp="2024-02-21T11:41:37Z" user="loulougarou" uid="9604372">
   <nd ref="1048689372"/>
   <nd ref="10166751111"/>
   <nd ref="10166751115"/>
   <nd ref="11463305584"/>
   <nd ref="1048686160"/>
   <tag k="highway" v="residential"/>
+  <tag k="lane_markings" v="no"/>
   <tag k="lit" v="yes"/>
   <tag k="name" v="Rue Louis Blanc"/>
   <tag k="oneway" v="yes"/>
@@ -13789,7 +13875,7 @@
   <tag k="surface" v="asphalt"/>
   <tag k="zone:maxspeed" v="FR:30"/>
  </way>
- <way id="135415118" visible="true" version="12" changeset="131196524" timestamp="2023-01-12T16:25:51Z" user="anne_geovelo" uid="16941765">
+ <way id="135415118" visible="true" version="13" changeset="146988510" timestamp="2024-02-02T14:47:05Z" user="loulougarou" uid="9604372">
   <nd ref="1487254547"/>
   <nd ref="9309617583"/>
   <nd ref="1717962594"/>
@@ -13798,6 +13884,7 @@
   <nd ref="1487290457"/>
   <tag k="cycleway:left:lane" v="pictogram"/>
   <tag k="highway" v="residential"/>
+  <tag k="lane_markings" v="no"/>
   <tag k="lit" v="yes"/>
   <tag k="name" v="Rue de la Tour"/>
   <tag k="oneway" v="yes"/>
@@ -13920,7 +14007,7 @@
   <tag k="building:levels" v="2"/>
   <tag k="roof:levels" v="1"/>
  </way>
- <way id="135417772" visible="true" version="11" changeset="129318410" timestamp="2022-11-24T10:35:32Z" user="Carto'Cité" uid="5426135">
+ <way id="135417772" visible="true" version="12" changeset="147729118" timestamp="2024-02-21T11:41:38Z" user="loulougarou" uid="9604372">
   <nd ref="1048689372"/>
   <nd ref="1048689129"/>
   <nd ref="10166751112"/>
@@ -13931,6 +14018,7 @@
   <nd ref="8661807113"/>
   <nd ref="1487294599"/>
   <tag k="highway" v="residential"/>
+  <tag k="lane_markings" v="no"/>
   <tag k="lit" v="yes"/>
   <tag k="name" v="Rue Dumont d'Urville"/>
   <tag k="sidewalk" v="both"/>
@@ -13939,7 +14027,7 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
   <tag k="surface" v="asphalt"/>
  </way>
- <way id="135417773" visible="true" version="9" changeset="145632840" timestamp="2023-12-28T18:44:47Z" user="yxoc" uid="57126">
+ <way id="135417773" visible="true" version="10" changeset="146988510" timestamp="2024-02-02T14:47:05Z" user="loulougarou" uid="9604372">
   <nd ref="1487288310"/>
   <nd ref="1487288432"/>
   <nd ref="11463473754"/>
@@ -13953,6 +14041,7 @@
   <nd ref="5984724056"/>
   <nd ref="1487290457"/>
   <tag k="highway" v="residential"/>
+  <tag k="lane_markings" v="no"/>
   <tag k="lit" v="yes"/>
   <tag k="name" v="Rue Ernest Renan"/>
   <tag k="oneway" v="yes"/>
@@ -13960,7 +14049,7 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
   <tag k="surface" v="asphalt"/>
  </way>
- <way id="135417774" visible="true" version="9" changeset="131615411" timestamp="2023-01-23T16:36:10Z" user="anne_geovelo" uid="16941765">
+ <way id="135417774" visible="true" version="10" changeset="146638744" timestamp="2024-01-24T17:05:19Z" user="Vika_Nosovich" uid="10819825">
   <nd ref="1487293680"/>
   <nd ref="5984016440"/>
   <nd ref="1487294385"/>
@@ -13969,7 +14058,7 @@
   <tag k="highway" v="residential"/>
   <tag k="lit" v="yes"/>
   <tag k="maxspeed" v="30"/>
-  <tag k="name" v="Rue Mansard"/>
+  <tag k="name" v="Rue Mansart"/>
   <tag k="sidewalk" v="both"/>
   <tag k="smoothness" v="excellent"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
@@ -14355,7 +14444,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135417803" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:46:46Z" user="loulougarou" uid="9604372">
+ <way id="135417803" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:45:04Z" user="loulougarou" uid="9604372">
   <nd ref="1487291710"/>
   <nd ref="1487291801"/>
   <nd ref="1487291785"/>
@@ -14369,7 +14458,7 @@
   <nd ref="1487291710"/>
   <tag k="addr:housenumber" v="3"/>
   <tag k="addr:street" v="Rue Georges Vogt"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135417806" visible="true" version="4" changeset="138414514" timestamp="2023-07-12T09:42:13Z" user="loulougarou" uid="9604372">
@@ -14481,7 +14570,7 @@
   <tag k="roof:shape" v="gabled"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135417822" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:46:29Z" user="loulougarou" uid="9604372">
+ <way id="135417822" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:45:02Z" user="loulougarou" uid="9604372">
   <nd ref="1487291923"/>
   <nd ref="1487291867"/>
   <nd ref="1487291861"/>
@@ -14496,10 +14585,10 @@
   <nd ref="1487291923"/>
   <tag k="addr:housenumber" v="6"/>
   <tag k="addr:street" v="Rue Édouard Laferrière"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135417824" visible="true" version="3" changeset="122857688" timestamp="2022-06-26T07:32:22Z" user="loulougarou" uid="9604372">
+ <way id="135417824" visible="true" version="4" changeset="147216502" timestamp="2024-02-08T12:44:48Z" user="loulougarou" uid="9604372">
   <nd ref="1487294087"/>
   <nd ref="1487294114"/>
   <nd ref="1487294148"/>
@@ -14512,6 +14601,8 @@
   <nd ref="1487294231"/>
   <nd ref="1487294224"/>
   <nd ref="1487294087"/>
+  <tag k="addr:housenumber" v="3 bis"/>
+  <tag k="addr:street" v="Avenue Eiffel"/>
   <tag k="building" v="detached"/>
   <tag k="building:levels" v="1"/>
   <tag k="roof:levels" v="1"/>
@@ -14845,7 +14936,7 @@
   <tag k="roof:levels" v="0"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135417852" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:54:05Z" user="vincent_95" uid="49047">
+ <way id="135417852" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:47Z" user="loulougarou" uid="9604372">
   <nd ref="1487295501"/>
   <nd ref="1487295398"/>
   <nd ref="1487295336"/>
@@ -14859,7 +14950,7 @@
   <nd ref="1487295358"/>
   <nd ref="1487295434"/>
   <nd ref="1487295501"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135417853" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:54:05Z" user="vincent_95" uid="49047">
@@ -14914,7 +15005,7 @@
   <tag k="building:levels" v="5"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135417856" visible="true" version="3" changeset="138414514" timestamp="2023-07-12T09:42:45Z" user="loulougarou" uid="9604372">
+ <way id="135417856" visible="true" version="4" changeset="147216492" timestamp="2024-02-08T12:44:38Z" user="loulougarou" uid="9604372">
   <nd ref="1487295809"/>
   <nd ref="1487295782"/>
   <nd ref="1487295825"/>
@@ -14930,7 +15021,7 @@
   <nd ref="11041971084"/>
   <nd ref="1487295905"/>
   <nd ref="1487295809"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135417857" visible="true" version="4" changeset="138414514" timestamp="2023-07-12T09:46:43Z" user="loulougarou" uid="9604372">
@@ -15116,7 +15207,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135417870" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:54:08Z" user="vincent_95" uid="49047">
+ <way id="135417870" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:45:03Z" user="loulougarou" uid="9604372">
   <nd ref="1487291491"/>
   <nd ref="1487291404"/>
   <nd ref="1487291374"/>
@@ -15130,10 +15221,10 @@
   <nd ref="1487291425"/>
   <nd ref="1487291444"/>
   <nd ref="1487291491"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135417871" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:42:09Z" user="loulougarou" uid="9604372">
+ <way id="135417871" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:45:04Z" user="loulougarou" uid="9604372">
   <nd ref="1487291463"/>
   <nd ref="1487291369"/>
   <nd ref="1487291351"/>
@@ -15149,7 +15240,7 @@
   <nd ref="1487291463"/>
   <tag k="addr:housenumber" v="2"/>
   <tag k="addr:street" v="Rue Édouard Laferrière"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135417872" visible="true" version="4" changeset="127987270" timestamp="2022-10-24T09:22:59Z" user="loulougarou" uid="9604372">
@@ -15728,7 +15819,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135417904" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:46:51Z" user="loulougarou" uid="9604372">
+ <way id="135417904" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:44:48Z" user="loulougarou" uid="9604372">
   <nd ref="1487294298"/>
   <nd ref="1487294292"/>
   <nd ref="1487294145"/>
@@ -15746,7 +15837,7 @@
   <nd ref="1487294298"/>
   <tag k="addr:housenumber" v="5"/>
   <tag k="addr:street" v="Avenue Eiffel"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135417905" visible="true" version="3" changeset="135210854" timestamp="2023-04-21T21:58:33Z" user="loulougarou" uid="9604372">
@@ -15831,7 +15922,7 @@
   <tag k="building" v="yes"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135417910" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:44:36Z" user="loulougarou" uid="9604372">
+ <way id="135417910" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:45:06Z" user="loulougarou" uid="9604372">
   <nd ref="1487291261"/>
   <nd ref="1487291390"/>
   <nd ref="1487291376"/>
@@ -15849,7 +15940,7 @@
   <nd ref="1487291261"/>
   <tag k="addr:housenumber" v="46"/>
   <tag k="addr:street" v="Avenue du 11 Novembre 1918"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135417911" visible="true" version="2" changeset="126998764" timestamp="2022-10-04T14:22:41Z" user="veydorupso" uid="16588051">
@@ -16114,7 +16205,7 @@
   <tag k="roof:shape" v="gabled"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135417927" visible="true" version="2" changeset="122936705" timestamp="2022-06-28T05:16:20Z" user="loulougarou" uid="9604372">
+ <way id="135417927" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:44:45Z" user="loulougarou" uid="9604372">
   <nd ref="1487295961"/>
   <nd ref="1487296121"/>
   <nd ref="1487296111"/>
@@ -16135,7 +16226,7 @@
   <nd ref="1487295955"/>
   <nd ref="1487295904"/>
   <nd ref="1487295961"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135417929" visible="true" version="3" changeset="133704277" timestamp="2023-03-15T10:39:22Z" user="loulougarou" uid="9604372">
@@ -16961,7 +17052,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135417971" visible="true" version="2" changeset="137889326" timestamp="2023-06-28T17:51:15Z" user="loulougarou" uid="9604372">
+ <way id="135417971" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:44:36Z" user="loulougarou" uid="9604372">
   <nd ref="11012760717"/>
   <nd ref="11012760720"/>
   <nd ref="1487295346"/>
@@ -16973,7 +17064,7 @@
   <nd ref="1487295531"/>
   <nd ref="11012760718"/>
   <nd ref="11012760717"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135417973" visible="true" version="7" changeset="123142235" timestamp="2022-07-03T08:13:00Z" user="loulougarou" uid="9604372">
@@ -17277,7 +17368,7 @@
   <tag k="roof:shape" v="flat"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418008" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:54:42Z" user="vincent_95" uid="49047">
+ <way id="135418008" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:46Z" user="loulougarou" uid="9604372">
   <nd ref="1487296150"/>
   <nd ref="1487296117"/>
   <nd ref="1487296129"/>
@@ -17305,7 +17396,7 @@
   <nd ref="1487296204"/>
   <nd ref="1487296198"/>
   <nd ref="1487296150"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418009" visible="true" version="11" changeset="128592022" timestamp="2022-11-07T11:10:24Z" user="SomeoneElse_Revert" uid="1778799">
@@ -17514,7 +17605,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418028" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:54:47Z" user="vincent_95" uid="49047">
+ <way id="135418028" visible="true" version="3" changeset="147216502" timestamp="2024-02-08T12:45:05Z" user="loulougarou" uid="9604372">
   <nd ref="1487290768"/>
   <nd ref="1487290796"/>
   <nd ref="1487290794"/>
@@ -17547,7 +17638,9 @@
   <nd ref="1487290860"/>
   <nd ref="1487290807"/>
   <nd ref="1487290768"/>
-  <tag k="building" v="yes"/>
+  <tag k="addr:housenumber" v="1 bis"/>
+  <tag k="addr:street" v="Rue Édouard Laferrière"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418030" visible="true" version="3" changeset="135210854" timestamp="2023-04-21T21:55:43Z" user="loulougarou" uid="9604372">
@@ -17582,13 +17675,13 @@
   <tag k="roof:shape" v="gabled"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418033" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:54:49Z" user="vincent_95" uid="49047">
+ <way id="135418033" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:44Z" user="loulougarou" uid="9604372">
   <nd ref="1487295934"/>
   <nd ref="1487295896"/>
   <nd ref="1487295859"/>
   <nd ref="1487295894"/>
   <nd ref="1487295934"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="garage"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418034" visible="true" version="3" changeset="138414514" timestamp="2023-07-12T09:46:43Z" user="loulougarou" uid="9604372">
@@ -17688,13 +17781,13 @@
   <tag k="building" v="yes"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418044" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:54:50Z" user="vincent_95" uid="49047">
+ <way id="135418044" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:45:03Z" user="loulougarou" uid="9604372">
   <nd ref="1487291444"/>
   <nd ref="1487291425"/>
   <nd ref="1487291399"/>
   <nd ref="1487291413"/>
   <nd ref="1487291444"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418045" visible="true" version="2" changeset="126998764" timestamp="2022-10-04T14:22:36Z" user="veydorupso" uid="16588051">
@@ -17996,13 +18089,13 @@
   <tag k="building" v="yes"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418086" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:54:57Z" user="vincent_95" uid="49047">
+ <way id="135418086" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:39Z" user="loulougarou" uid="9604372">
   <nd ref="1487296040"/>
   <nd ref="1487296035"/>
   <nd ref="1487296106"/>
   <nd ref="1487296107"/>
   <nd ref="1487296040"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418087" visible="true" version="2" changeset="133704276" timestamp="2023-03-15T10:39:24Z" user="loulougarou" uid="9604372">
@@ -18174,13 +18267,13 @@
   <tag k="building" v="yes"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418109" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:55:01Z" user="vincent_95" uid="49047">
+ <way id="135418109" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:45:05Z" user="loulougarou" uid="9604372">
   <nd ref="1487290908"/>
   <nd ref="1487290921"/>
   <nd ref="1487290981"/>
   <nd ref="1487290958"/>
   <nd ref="1487290908"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418110" visible="true" version="5" changeset="138536379" timestamp="2023-07-15T09:19:53Z" user="loulougarou" uid="9604372">
@@ -18681,13 +18774,13 @@
   <tag k="building:levels" v="3"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418165" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:55:10Z" user="vincent_95" uid="49047">
+ <way id="135418165" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:46Z" user="loulougarou" uid="9604372">
   <nd ref="1487295384"/>
   <nd ref="1487295246"/>
   <nd ref="1487295277"/>
   <nd ref="1487295404"/>
   <nd ref="1487295384"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418166" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:55:10Z" user="vincent_95" uid="49047">
@@ -18708,18 +18801,18 @@
   <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418168" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:46:28Z" user="loulougarou" uid="9604372">
+ <way id="135418168" visible="true" version="4" changeset="147216502" timestamp="2024-02-08T12:45:04Z" user="loulougarou" uid="9604372">
   <nd ref="1487291165"/>
   <nd ref="1487291021"/>
   <nd ref="1487291156"/>
   <nd ref="1487291281"/>
   <nd ref="1487291165"/>
-  <tag k="addr:housenumber" v="1t"/>
+  <tag k="addr:housenumber" v="1 ter"/>
   <tag k="addr:street" v="Rue Édouard Laferrière"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418169" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:46:50Z" user="loulougarou" uid="9604372">
+ <way id="135418169" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:44:49Z" user="loulougarou" uid="9604372">
   <nd ref="1487294098"/>
   <nd ref="1487294138"/>
   <nd ref="1487294235"/>
@@ -18727,7 +18820,7 @@
   <nd ref="1487294098"/>
   <tag k="addr:housenumber" v="9"/>
   <tag k="addr:street" v="Avenue Eiffel"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418170" visible="true" version="4" changeset="138536379" timestamp="2023-07-15T09:20:33Z" user="loulougarou" uid="9604372">
@@ -19271,7 +19364,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418240" visible="true" version="3" changeset="141032714" timestamp="2023-09-09T17:02:41Z" user="loulougarou" uid="9604372">
+ <way id="135418240" visible="true" version="4" changeset="147216492" timestamp="2024-02-08T12:44:37Z" user="loulougarou" uid="9604372">
   <nd ref="1487295880"/>
   <nd ref="9852326978"/>
   <nd ref="9852326977"/>
@@ -19283,7 +19376,7 @@
   <nd ref="1487295880"/>
   <tag k="addr:housenumber" v="1 ter"/>
   <tag k="addr:street" v="Rue du Bassin"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418241" visible="true" version="3" changeset="135210852" timestamp="2023-04-21T21:54:23Z" user="loulougarou" uid="9604372">
@@ -19459,7 +19552,7 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
   <tag k="wall" v="no"/>
  </way>
- <way id="135418262" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:46:30Z" user="loulougarou" uid="9604372">
+ <way id="135418262" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:45:02Z" user="loulougarou" uid="9604372">
   <nd ref="1487291904"/>
   <nd ref="1487291865"/>
   <nd ref="1487291912"/>
@@ -19467,7 +19560,7 @@
   <nd ref="1487291904"/>
   <tag k="addr:housenumber" v="10"/>
   <tag k="addr:street" v="Rue Édouard Laferrière"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418263" visible="true" version="3" changeset="138830353" timestamp="2023-07-21T20:34:30Z" user="loulougarou" uid="9604372">
@@ -19933,7 +20026,7 @@
   <tag k="building" v="yes"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418317" visible="true" version="3" changeset="138414514" timestamp="2023-07-12T09:44:34Z" user="loulougarou" uid="9604372">
+ <way id="135418317" visible="true" version="4" changeset="147216492" timestamp="2024-02-08T12:45:06Z" user="loulougarou" uid="9604372">
   <nd ref="1487291670"/>
   <nd ref="8733515659"/>
   <nd ref="1487291620"/>
@@ -19943,7 +20036,7 @@
   <nd ref="1487291670"/>
   <tag k="addr:housenumber" v="40"/>
   <tag k="addr:street" v="Avenue du 11 Novembre 1918"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418319" visible="true" version="2" changeset="122937053" timestamp="2022-06-28T05:28:28Z" user="loulougarou" uid="9604372">
@@ -20113,14 +20206,14 @@
   <tag k="building" v="shed"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418350" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:55:37Z" user="vincent_95" uid="49047">
+ <way id="135418350" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:39Z" user="loulougarou" uid="9604372">
   <nd ref="1487296218"/>
   <nd ref="1487296170"/>
   <nd ref="1487296132"/>
   <nd ref="1487296131"/>
   <nd ref="1487296158"/>
   <nd ref="1487296218"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418351" visible="true" version="4" changeset="138536379" timestamp="2023-07-15T09:19:51Z" user="loulougarou" uid="9604372">
@@ -20256,14 +20349,14 @@
   <tag k="building" v="yes"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418378" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:55:39Z" user="vincent_95" uid="49047">
+ <way id="135418378" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:41Z" user="loulougarou" uid="9604372">
   <nd ref="1487295849"/>
   <nd ref="1487295833"/>
   <nd ref="1487295862"/>
   <nd ref="1487295881"/>
   <nd ref="1487295871"/>
   <nd ref="1487295849"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418379" visible="true" version="2" changeset="58304723" timestamp="2018-04-22T08:26:09Z" user="Marcel Herault" uid="860575">
@@ -20438,7 +20531,7 @@
   <tag k="roof:shape" v="gabled"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418394" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:46:49Z" user="loulougarou" uid="9604372">
+ <way id="135418394" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:44:50Z" user="loulougarou" uid="9604372">
   <nd ref="1487294222"/>
   <nd ref="1487294214"/>
   <nd ref="1487294090"/>
@@ -20448,7 +20541,7 @@
   <nd ref="1487294222"/>
   <tag k="addr:housenumber" v="13"/>
   <tag k="addr:street" v="Avenue Eiffel"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418396" visible="true" version="2" changeset="143206377" timestamp="2023-10-27T11:18:05Z" user="loulougarou" uid="9604372">
@@ -20883,7 +20976,7 @@
   <tag k="roof:levels" v="0"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418439" visible="true" version="3" changeset="135210854" timestamp="2023-04-21T21:58:10Z" user="loulougarou" uid="9604372">
+ <way id="135418439" visible="true" version="4" changeset="147216502" timestamp="2024-02-08T12:44:51Z" user="loulougarou" uid="9604372">
   <nd ref="1487294448"/>
   <nd ref="1487294441"/>
   <nd ref="1487294545"/>
@@ -20891,6 +20984,8 @@
   <nd ref="1487294605"/>
   <nd ref="1487294634"/>
   <nd ref="1487294448"/>
+  <tag k="addr:housenumber" v="16"/>
+  <tag k="addr:street" v="Avenue Eiffel"/>
   <tag k="building" v="detached"/>
   <tag k="building:levels" v="1"/>
   <tag k="roof:levels" v="0"/>
@@ -21109,7 +21204,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418461" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:46:51Z" user="loulougarou" uid="9604372">
+ <way id="135418461" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:44:48Z" user="loulougarou" uid="9604372">
   <nd ref="1487294145"/>
   <nd ref="1487294292"/>
   <nd ref="1487294256"/>
@@ -21119,7 +21214,7 @@
   <nd ref="1487294145"/>
   <tag k="addr:housenumber" v="7"/>
   <tag k="addr:street" v="Avenue Eiffel"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418462" visible="true" version="4" changeset="138414514" timestamp="2023-07-12T09:46:45Z" user="loulougarou" uid="9604372">
@@ -21256,7 +21351,7 @@
   <tag k="wikipedia" v="fr:Maisons industrialisées à Meudon"/>
   <tag k="year_of_construction" v="1950..1952"/>
  </way>
- <way id="135418476" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:55:57Z" user="vincent_95" uid="49047">
+ <way id="135418476" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:45:06Z" user="loulougarou" uid="9604372">
   <nd ref="1487291261"/>
   <nd ref="1487291251"/>
   <nd ref="1487291256"/>
@@ -21264,7 +21359,7 @@
   <nd ref="1487291171"/>
   <nd ref="1487291259"/>
   <nd ref="1487291261"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418477" visible="true" version="4" changeset="138536379" timestamp="2023-07-15T09:19:49Z" user="loulougarou" uid="9604372">
@@ -21480,7 +21575,7 @@
   <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418510" visible="true" version="4" changeset="138414514" timestamp="2023-07-12T09:44:34Z" user="loulougarou" uid="9604372">
+ <way id="135418510" visible="true" version="5" changeset="147216492" timestamp="2024-02-08T12:45:06Z" user="loulougarou" uid="9604372">
   <nd ref="1487291522"/>
   <nd ref="1487291547"/>
   <nd ref="1487291620"/>
@@ -21499,7 +21594,7 @@
   <nd ref="1487291522"/>
   <tag k="addr:housenumber" v="42"/>
   <tag k="addr:street" v="Avenue du 11 Novembre 1918"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418511" visible="true" version="4" changeset="138414514" timestamp="2023-07-12T09:44:25Z" user="loulougarou" uid="9604372">
@@ -21545,7 +21640,7 @@
   <tag k="building" v="yes"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418514" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:44:35Z" user="loulougarou" uid="9604372">
+ <way id="135418514" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:45:06Z" user="loulougarou" uid="9604372">
   <nd ref="1487291451"/>
   <nd ref="1487291328"/>
   <nd ref="1487291367"/>
@@ -21556,7 +21651,7 @@
   <nd ref="1487291451"/>
   <tag k="addr:housenumber" v="44"/>
   <tag k="addr:street" v="Avenue du 11 Novembre 1918"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418515" visible="true" version="4" changeset="138536380" timestamp="2023-07-15T09:20:31Z" user="loulougarou" uid="9604372">
@@ -21709,7 +21804,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418527" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:46:29Z" user="loulougarou" uid="9604372">
+ <way id="135418527" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:45:03Z" user="loulougarou" uid="9604372">
   <nd ref="1487291102"/>
   <nd ref="1487291284"/>
   <nd ref="1487291379"/>
@@ -21720,7 +21815,7 @@
   <nd ref="1487291102"/>
   <tag k="addr:housenumber" v="3"/>
   <tag k="addr:street" v="Rue Édouard Laferrière"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418529" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:56:05Z" user="vincent_95" uid="49047">
@@ -21862,7 +21957,7 @@
   <tag k="roof:levels" v="0"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418542" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:56:07Z" user="vincent_95" uid="49047">
+ <way id="135418542" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:45Z" user="loulougarou" uid="9604372">
   <nd ref="1487296241"/>
   <nd ref="1487296214"/>
   <nd ref="1487296137"/>
@@ -21871,7 +21966,7 @@
   <nd ref="1487296111"/>
   <nd ref="1487296121"/>
   <nd ref="1487296241"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418545" visible="true" version="2" changeset="142608186" timestamp="2023-10-15T09:06:51Z" user="loulougarou" uid="9604372">
@@ -22178,7 +22273,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418570" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:56:12Z" user="vincent_95" uid="49047">
+ <way id="135418570" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:50Z" user="loulougarou" uid="9604372">
   <nd ref="1487294090"/>
   <nd ref="1487294214"/>
   <nd ref="1487294220"/>
@@ -22188,7 +22283,7 @@
   <nd ref="1487294034"/>
   <nd ref="1487294091"/>
   <nd ref="1487294090"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418571" visible="true" version="3" changeset="137659682" timestamp="2023-06-22T18:53:09Z" user="loulougarou" uid="9604372">
@@ -22261,7 +22356,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418577" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:46:29Z" user="loulougarou" uid="9604372">
+ <way id="135418577" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:45:02Z" user="loulougarou" uid="9604372">
   <nd ref="1487291913"/>
   <nd ref="1487291892"/>
   <nd ref="1487291853"/>
@@ -22273,7 +22368,7 @@
   <nd ref="1487291913"/>
   <tag k="addr:housenumber" v="8"/>
   <tag k="addr:street" v="Rue Édouard Laferrière"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418578" visible="true" version="4" changeset="137267076" timestamp="2023-06-13T04:32:51Z" user="loulougarou" uid="9604372">
@@ -22458,7 +22553,7 @@
   <tag k="building" v="yes"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418597" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:56:17Z" user="vincent_95" uid="49047">
+ <way id="135418597" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:40Z" user="loulougarou" uid="9604372">
   <nd ref="1487295887"/>
   <nd ref="1487295900"/>
   <nd ref="1487295897"/>
@@ -22468,7 +22563,7 @@
   <nd ref="1487295998"/>
   <nd ref="1487295937"/>
   <nd ref="1487295887"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418600" visible="true" version="7" changeset="138414514" timestamp="2023-07-12T09:44:48Z" user="loulougarou" uid="9604372">
@@ -22505,7 +22600,7 @@
   <tag k="roof:levels" v="0"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418603" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:56:17Z" user="vincent_95" uid="49047">
+ <way id="135418603" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:49Z" user="loulougarou" uid="9604372">
   <nd ref="1487294098"/>
   <nd ref="1487294051"/>
   <nd ref="1487294069"/>
@@ -22515,7 +22610,7 @@
   <nd ref="1487294068"/>
   <nd ref="1487294138"/>
   <nd ref="1487294098"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418604" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:56:18Z" user="vincent_95" uid="49047">
@@ -23032,7 +23127,7 @@
   <tag k="roof:levels" v="0"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="135418649" visible="true" version="1" changeset="9703662" timestamp="2011-10-31T13:56:26Z" user="vincent_95" uid="49047">
+ <way id="135418649" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:38Z" user="loulougarou" uid="9604372">
   <nd ref="1487296097"/>
   <nd ref="1487296057"/>
   <nd ref="1487296040"/>
@@ -23043,7 +23138,7 @@
   <nd ref="1487296132"/>
   <nd ref="1487296170"/>
   <nd ref="1487296097"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="135418652" visible="true" version="2" changeset="123142234" timestamp="2022-07-03T08:13:39Z" user="loulougarou" uid="9604372">
@@ -23853,7 +23948,7 @@
   <tag k="roof:levels" v="0"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;data.gouv.fr:Ministère de l'Éducation nationale, de la Jeunesse et de la Vie associative - 05/2012"/>
  </way>
- <way id="146280507" visible="true" version="2" changeset="10424867" timestamp="2012-01-18T07:17:02Z" user="didier2020" uid="300459">
+ <way id="146280507" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:44:41Z" user="loulougarou" uid="9604372">
   <nd ref="1595468450"/>
   <nd ref="1595468524"/>
   <nd ref="1595468216"/>
@@ -23867,7 +23962,7 @@
   <nd ref="1487295887"/>
   <nd ref="1487295937"/>
   <nd ref="1595468450"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
  <way id="146280665" visible="true" version="4" changeset="138536379" timestamp="2023-07-15T09:20:21Z" user="loulougarou" uid="9604372">
@@ -23889,7 +23984,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
- <way id="146280668" visible="true" version="3" changeset="137887268" timestamp="2023-06-28T16:52:17Z" user="loulougarou" uid="9604372">
+ <way id="146280668" visible="true" version="4" changeset="147216502" timestamp="2024-02-08T12:44:52Z" user="loulougarou" uid="9604372">
   <nd ref="1595464053"/>
   <nd ref="1595464044"/>
   <nd ref="1595463957"/>
@@ -23901,6 +23996,8 @@
   <nd ref="1595464116"/>
   <nd ref="1595464083"/>
   <nd ref="1595464053"/>
+  <tag k="addr:housenumber" v="28"/>
+  <tag k="addr:street" v="Avenue Eiffel"/>
   <tag k="building" v="detached"/>
   <tag k="building:levels" v="2"/>
   <tag k="roof:levels" v="0"/>
@@ -24043,13 +24140,13 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
- <way id="146282562" visible="true" version="2" changeset="123069890" timestamp="2022-07-01T06:11:21Z" user="loulougarou" uid="9604372">
+ <way id="146282562" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:44:41Z" user="loulougarou" uid="9604372">
   <nd ref="1595470972"/>
   <nd ref="1595471166"/>
   <nd ref="1595470699"/>
   <nd ref="1595470541"/>
   <nd ref="1595470972"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2021"/>
  </way>
  <way id="146282570" visible="true" version="2" changeset="141032713" timestamp="2023-09-09T17:02:43Z" user="loulougarou" uid="9604372">
@@ -24072,7 +24169,7 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
   <tag k="wall" v="no"/>
  </way>
- <way id="146282878" visible="true" version="1" changeset="10422710" timestamp="2012-01-17T22:47:49Z" user="didier2020" uid="300459">
+ <way id="146282878" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:43Z" user="loulougarou" uid="9604372">
   <nd ref="1595472414"/>
   <nd ref="1595472773"/>
   <nd ref="1595472173"/>
@@ -24091,10 +24188,10 @@
   <nd ref="1595471307"/>
   <nd ref="1595471234"/>
   <nd ref="1595472414"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
- <way id="146282942" visible="true" version="3" changeset="137887268" timestamp="2023-06-28T16:52:17Z" user="loulougarou" uid="9604372">
+ <way id="146282942" visible="true" version="4" changeset="147216502" timestamp="2024-02-08T12:44:51Z" user="loulougarou" uid="9604372">
   <nd ref="1595464106"/>
   <nd ref="1595464280"/>
   <nd ref="1595464279"/>
@@ -24114,6 +24211,8 @@
   <nd ref="1595464022"/>
   <nd ref="1595463999"/>
   <nd ref="1595464106"/>
+  <tag k="addr:housenumber" v="26"/>
+  <tag k="addr:street" v="Avenue Eiffel"/>
   <tag k="building" v="detached"/>
   <tag k="building:levels" v="2"/>
   <tag k="roof:levels" v="0"/>
@@ -24177,13 +24276,13 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
- <way id="146284105" visible="true" version="1" changeset="10422710" timestamp="2012-01-17T22:51:09Z" user="didier2020" uid="300459">
+ <way id="146284105" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:42Z" user="loulougarou" uid="9604372">
   <nd ref="1595468799"/>
   <nd ref="1595468898"/>
   <nd ref="1595468774"/>
   <nd ref="1595468740"/>
   <nd ref="1595468799"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
   <tag k="wall" v="no"/>
  </way>
@@ -24223,13 +24322,13 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
- <way id="146284612" visible="true" version="1" changeset="10422710" timestamp="2012-01-17T22:52:58Z" user="didier2020" uid="300459">
+ <way id="146284612" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:44Z" user="loulougarou" uid="9604372">
   <nd ref="1595473147"/>
   <nd ref="1595472413"/>
   <nd ref="1595472305"/>
   <nd ref="1595473117"/>
   <nd ref="1595473147"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
  <way id="146284661" visible="true" version="3" changeset="137887268" timestamp="2023-06-28T16:52:19Z" user="loulougarou" uid="9604372">
@@ -24299,12 +24398,14 @@
   <tag k="building" v="yes"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
- <way id="146284859" visible="true" version="3" changeset="137887268" timestamp="2023-06-28T16:52:15Z" user="loulougarou" uid="9604372">
+ <way id="146284859" visible="true" version="4" changeset="147216502" timestamp="2024-02-08T12:44:52Z" user="loulougarou" uid="9604372">
   <nd ref="1595464149"/>
   <nd ref="1595464068"/>
   <nd ref="1595464868"/>
   <nd ref="1595464893"/>
   <nd ref="1595464149"/>
+  <tag k="addr:housenumber" v="30"/>
+  <tag k="addr:street" v="Avenue Eiffel"/>
   <tag k="building" v="detached"/>
   <tag k="building:levels" v="1"/>
   <tag k="roof:levels" v="2"/>
@@ -24331,7 +24432,7 @@
   <tag k="building" v="yes"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
- <way id="146285016" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:42:40Z" user="loulougarou" uid="9604372">
+ <way id="146285016" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:44:40Z" user="loulougarou" uid="9604372">
   <nd ref="1595469083"/>
   <nd ref="1595469510"/>
   <nd ref="1595468818"/>
@@ -24339,7 +24440,7 @@
   <nd ref="1595469083"/>
   <tag k="addr:housenumber" v="3"/>
   <tag k="addr:street" v="Rue Nungesser et Coli"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
  <way id="146285044" visible="true" version="3" changeset="138536380" timestamp="2023-07-15T09:20:25Z" user="loulougarou" uid="9604372">
@@ -24417,13 +24518,15 @@
   <tag k="building" v="yes"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
- <way id="146285328" visible="true" version="1" changeset="10422710" timestamp="2012-01-17T22:55:44Z" user="didier2020" uid="300459">
+ <way id="146285328" visible="true" version="3" changeset="147216502" timestamp="2024-02-08T12:44:51Z" user="loulougarou" uid="9604372">
   <nd ref="1595463903"/>
   <nd ref="1595463831"/>
   <nd ref="1595464679"/>
   <nd ref="1595464751"/>
   <nd ref="1595463903"/>
-  <tag k="building" v="yes"/>
+  <tag k="addr:housenumber" v="18"/>
+  <tag k="addr:street" v="Avenue Eiffel"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
  <way id="146285345" visible="true" version="3" changeset="138536380" timestamp="2023-07-15T09:20:23Z" user="loulougarou" uid="9604372">
@@ -24450,13 +24553,13 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
   <tag k="wall" v="no"/>
  </way>
- <way id="146285526" visible="true" version="1" changeset="10422710" timestamp="2012-01-17T22:56:32Z" user="didier2020" uid="300459">
+ <way id="146285526" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:39Z" user="loulougarou" uid="9604372">
   <nd ref="1595470289"/>
   <nd ref="1595470127"/>
   <nd ref="1595470067"/>
   <nd ref="1595470226"/>
   <nd ref="1595470289"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="shed"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
  <way id="146285547" visible="true" version="3" changeset="138536380" timestamp="2023-07-15T09:20:22Z" user="loulougarou" uid="9604372">
@@ -24483,13 +24586,13 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
   <tag k="wall" v="no"/>
  </way>
- <way id="146285704" visible="true" version="1" changeset="10422710" timestamp="2012-01-17T22:57:06Z" user="didier2020" uid="300459">
+ <way id="146285704" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:42Z" user="loulougarou" uid="9604372">
   <nd ref="1595469855"/>
   <nd ref="1595469252"/>
   <nd ref="1595469188"/>
   <nd ref="1595469795"/>
   <nd ref="1595469855"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="shed"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
   <tag k="wall" v="no"/>
  </way>
@@ -24611,13 +24714,13 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
   <tag k="wall" v="no"/>
  </way>
- <way id="146286410" visible="true" version="1" changeset="10422710" timestamp="2012-01-17T22:59:49Z" user="didier2020" uid="300459">
+ <way id="146286410" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:43Z" user="loulougarou" uid="9604372">
   <nd ref="1595471307"/>
   <nd ref="1595471113"/>
   <nd ref="1595471046"/>
   <nd ref="1595471234"/>
   <nd ref="1595471307"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
   <tag k="wall" v="no"/>
  </way>
@@ -24734,14 +24837,14 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
- <way id="146286930" visible="true" version="1" changeset="10422710" timestamp="2012-01-17T23:02:18Z" user="didier2020" uid="300459">
+ <way id="146286930" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:44Z" user="loulougarou" uid="9604372">
   <nd ref="1595469484"/>
   <nd ref="1595469173"/>
   <nd ref="1595469169"/>
   <nd ref="1595469465"/>
   <nd ref="1595469468"/>
   <nd ref="1595469484"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
   <tag k="wall" v="no"/>
  </way>
@@ -24888,7 +24991,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
- <way id="146287449" visible="true" version="3" changeset="123029212" timestamp="2022-06-30T06:28:32Z" user="loulougarou" uid="9604372">
+ <way id="146287449" visible="true" version="4" changeset="147216502" timestamp="2024-02-08T12:44:52Z" user="loulougarou" uid="9604372">
   <nd ref="1595464490"/>
   <nd ref="1595464418"/>
   <nd ref="1595465040"/>
@@ -24896,6 +24999,8 @@
   <nd ref="1595465044"/>
   <nd ref="1595465048"/>
   <nd ref="1595464490"/>
+  <tag k="addr:housenumber" v="32"/>
+  <tag k="addr:street" v="Avenue Eiffel"/>
   <tag k="building" v="detached"/>
   <tag k="building:levels" v="2"/>
   <tag k="roof:levels" v="1"/>
@@ -24960,7 +25065,7 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
   <tag k="wall" v="no"/>
  </way>
- <way id="146288090" visible="true" version="3" changeset="137887268" timestamp="2023-06-28T16:52:19Z" user="loulougarou" uid="9604372">
+ <way id="146288090" visible="true" version="4" changeset="147216502" timestamp="2024-02-08T12:44:51Z" user="loulougarou" uid="9604372">
   <nd ref="1595463970"/>
   <nd ref="1595463950"/>
   <nd ref="1595463945"/>
@@ -24970,6 +25075,8 @@
   <nd ref="1595464807"/>
   <nd ref="1595463979"/>
   <nd ref="1595463970"/>
+  <tag k="addr:housenumber" v="24"/>
+  <tag k="addr:street" v="Avenue Eiffel"/>
   <tag k="building" v="detached"/>
   <tag k="building:levels" v="2"/>
   <tag k="roof:levels" v="1"/>
@@ -24992,7 +25099,7 @@
   <tag k="roof:levels" v="1"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
- <way id="146288209" visible="true" version="2" changeset="138536379" timestamp="2023-07-15T09:20:13Z" user="loulougarou" uid="9604372">
+ <way id="146288209" visible="true" version="3" changeset="147216492" timestamp="2024-02-08T12:44:42Z" user="loulougarou" uid="9604372">
   <nd ref="1595469927"/>
   <nd ref="1595469795"/>
   <nd ref="1595469188"/>
@@ -25004,7 +25111,7 @@
   <nd ref="1595469927"/>
   <tag k="addr:housenumber" v="7"/>
   <tag k="addr:street" v="Rue Nungesser et Coli"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
  <way id="146288234" visible="true" version="1" changeset="10422710" timestamp="2012-01-17T23:08:58Z" user="didier2020" uid="300459">
@@ -25142,7 +25249,7 @@
   <tag k="building" v="shed"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"/>
  </way>
- <way id="146288445" visible="true" version="3" changeset="135210854" timestamp="2023-04-21T21:58:04Z" user="loulougarou" uid="9604372">
+ <way id="146288445" visible="true" version="4" changeset="147216502" timestamp="2024-02-08T12:44:53Z" user="loulougarou" uid="9604372">
   <nd ref="1595463159"/>
   <nd ref="1595463149"/>
   <nd ref="1595463173"/>
@@ -25153,6 +25260,8 @@
   <nd ref="1595463369"/>
   <nd ref="1595463162"/>
   <nd ref="1595463159"/>
+  <tag k="addr:housenumber" v="19"/>
+  <tag k="addr:street" v="Avenue Eiffel"/>
   <tag k="building" v="house"/>
   <tag k="building:levels" v="2"/>
   <tag k="roof:levels" v="0"/>
@@ -26676,7 +26785,7 @@
   <tag k="surface" v="asphalt"/>
   <tag k="zone:maxspeed" v="FR:30"/>
  </way>
- <way id="227115097" visible="true" version="9" changeset="145632840" timestamp="2023-12-28T18:44:47Z" user="yxoc" uid="57126">
+ <way id="227115097" visible="true" version="10" changeset="146988510" timestamp="2024-02-02T14:47:05Z" user="loulougarou" uid="9604372">
   <nd ref="1487290457"/>
   <nd ref="5984724058"/>
   <nd ref="1718031242"/>
@@ -26687,6 +26796,7 @@
   <nd ref="1487254683"/>
   <tag k="cycleway:left:lane" v="pictogram"/>
   <tag k="highway" v="residential"/>
+  <tag k="lane_markings" v="no"/>
   <tag k="lit" v="yes"/>
   <tag k="name" v="Rue de la Tour"/>
   <tag k="oneway" v="yes"/>
@@ -26714,7 +26824,7 @@
   <tag k="surface" v="asphalt"/>
   <tag k="zone:maxspeed" v="FR:30"/>
  </way>
- <way id="227115101" visible="true" version="10" changeset="131196524" timestamp="2023-01-12T16:25:51Z" user="anne_geovelo" uid="16941765">
+ <way id="227115101" visible="true" version="11" changeset="146988510" timestamp="2024-02-02T14:47:04Z" user="loulougarou" uid="9604372">
   <nd ref="1487290457"/>
   <nd ref="5984724059"/>
   <nd ref="1717962582"/>
@@ -26736,6 +26846,7 @@
   <tag k="cycleway:left" v="opposite"/>
   <tag k="cycleway:left:lane" v="pictogram"/>
   <tag k="highway" v="residential"/>
+  <tag k="lane_markings" v="no"/>
   <tag k="lit" v="yes"/>
   <tag k="name" v="Rue Ernest Renan"/>
   <tag k="oneway" v="yes"/>
@@ -26761,11 +26872,12 @@
   <tag k="surface" v="asphalt"/>
   <tag k="zone:maxspeed" v="FR:30"/>
  </way>
- <way id="227115105" visible="true" version="9" changeset="145631855" timestamp="2023-12-28T18:10:56Z" user="yxoc" uid="57126">
+ <way id="227115105" visible="true" version="10" changeset="147729118" timestamp="2024-02-21T11:41:37Z" user="loulougarou" uid="9604372">
   <nd ref="11463305583"/>
   <nd ref="10166751096"/>
   <nd ref="313766166"/>
   <tag k="highway" v="residential"/>
+  <tag k="lane_markings" v="no"/>
   <tag k="lit" v="yes"/>
   <tag k="name" v="Rue Louis Blanc"/>
   <tag k="oneway" v="yes"/>
@@ -27236,10 +27348,11 @@
   <nd ref="1586094631"/>
   <nd ref="2874693439"/>
  </way>
- <way id="284240743" visible="true" version="5" changeset="123174735" timestamp="2022-07-04T06:54:44Z" user="loulougarou" uid="9604372">
+ <way id="284240743" visible="true" version="6" changeset="146988510" timestamp="2024-02-02T14:47:04Z" user="loulougarou" uid="9604372">
   <nd ref="2879887328"/>
   <nd ref="2879887327"/>
   <tag k="highway" v="residential"/>
+  <tag k="lane_markings" v="no"/>
   <tag k="lit" v="no"/>
   <tag k="name" v="Villa du Bassin"/>
   <tag k="ref:FR:FANTOIR" v="920480255Y"/>
@@ -28257,7 +28370,7 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016"/>
   <tag k="wall" v="no"/>
  </way>
- <way id="582467614" visible="true" version="2" changeset="108503016" timestamp="2021-07-23T16:11:50Z" user="PAC2" uid="1272417">
+ <way id="582467614" visible="true" version="3" changeset="147729105" timestamp="2024-02-21T11:41:42Z" user="loulougarou" uid="9604372">
   <nd ref="5570539493"/>
   <nd ref="5570539486"/>
   <nd ref="5570539485"/>
@@ -28279,6 +28392,8 @@
   <nd ref="5570539471"/>
   <nd ref="5570539472"/>
   <nd ref="5570539493"/>
+  <tag k="addr:housenumber" v="24"/>
+  <tag k="addr:street" v="Rue Dumont d'Urville"/>
   <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016"/>
  </way>
@@ -28292,7 +28407,7 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016"/>
   <tag k="wall" v="no"/>
  </way>
- <way id="582467616" visible="true" version="2" changeset="108503016" timestamp="2021-07-23T16:11:59Z" user="PAC2" uid="1272417">
+ <way id="582467616" visible="true" version="3" changeset="147729105" timestamp="2024-02-21T11:41:42Z" user="loulougarou" uid="9604372">
   <nd ref="5570539498"/>
   <nd ref="5570539502"/>
   <nd ref="5570539497"/>
@@ -28308,10 +28423,12 @@
   <nd ref="5570539491"/>
   <nd ref="5570539490"/>
   <nd ref="5570539498"/>
+  <tag k="addr:housenumber" v="22"/>
+  <tag k="addr:street" v="Rue Dumont d'Urville"/>
   <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016"/>
  </way>
- <way id="582467617" visible="true" version="2" changeset="108503016" timestamp="2021-07-23T16:12:04Z" user="PAC2" uid="1272417">
+ <way id="582467617" visible="true" version="3" changeset="147729105" timestamp="2024-02-21T11:41:41Z" user="loulougarou" uid="9604372">
   <nd ref="5570539506"/>
   <nd ref="5570539507"/>
   <nd ref="5570539502"/>
@@ -28320,10 +28437,12 @@
   <nd ref="5570539500"/>
   <nd ref="5570539499"/>
   <nd ref="5570539506"/>
+  <tag k="addr:housenumber" v="20"/>
+  <tag k="addr:street" v="Rue Dumont d'Urville"/>
   <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016"/>
  </way>
- <way id="582467618" visible="true" version="2" changeset="108503016" timestamp="2021-07-23T16:11:04Z" user="PAC2" uid="1272417">
+ <way id="582467618" visible="true" version="3" changeset="147729105" timestamp="2024-02-21T11:41:41Z" user="loulougarou" uid="9604372">
   <nd ref="5570539516"/>
   <nd ref="5570539517"/>
   <nd ref="5570539508"/>
@@ -28333,6 +28452,8 @@
   <nd ref="5570539504"/>
   <nd ref="5570539503"/>
   <nd ref="5570539516"/>
+  <tag k="addr:housenumber" v="18"/>
+  <tag k="addr:street" v="Rue Dumont d'Urville"/>
   <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016"/>
  </way>
@@ -28346,7 +28467,7 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016"/>
   <tag k="wall" v="no"/>
  </way>
- <way id="582467620" visible="true" version="2" changeset="108449679" timestamp="2021-07-22T20:46:06Z" user="PAC2" uid="1272417">
+ <way id="582467620" visible="true" version="3" changeset="147729105" timestamp="2024-02-21T11:41:41Z" user="loulougarou" uid="9604372">
   <nd ref="5570539520"/>
   <nd ref="5570539519"/>
   <nd ref="5570539518"/>
@@ -28358,6 +28479,8 @@
   <nd ref="5570539513"/>
   <nd ref="5570539512"/>
   <nd ref="5570539520"/>
+  <tag k="addr:housenumber" v="16"/>
+  <tag k="addr:street" v="Rue Dumont d'Urville"/>
   <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016"/>
  </way>
@@ -28571,7 +28694,7 @@
   <nd ref="5601853336"/>
   <tag k="barrier" v="hedge"/>
  </way>
- <way id="633997133" visible="true" version="6" changeset="122937062" timestamp="2022-06-28T05:28:24Z" user="loulougarou" uid="9604372">
+ <way id="633997133" visible="true" version="7" changeset="147216500" timestamp="2024-02-08T12:44:47Z" user="loulougarou" uid="9604372">
   <nd ref="1487295329"/>
   <nd ref="9342598464"/>
   <nd ref="1487295533"/>
@@ -28579,6 +28702,7 @@
   <nd ref="5984019712"/>
   <nd ref="725575241"/>
   <tag k="highway" v="residential"/>
+  <tag k="lane_markings" v="no"/>
   <tag k="lit" v="yes"/>
   <tag k="maxweight" v="3.5"/>
   <tag k="name" v="Rue Dumont d'Urville"/>
@@ -29616,7 +29740,7 @@
   <tag k="building" v="garage"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020"/>
  </way>
- <way id="943192364" visible="true" version="2" changeset="138414514" timestamp="2023-07-12T09:44:33Z" user="loulougarou" uid="9604372">
+ <way id="943192364" visible="true" version="4" changeset="147216502" timestamp="2024-02-08T12:45:07Z" user="loulougarou" uid="9604372">
   <nd ref="8733515713"/>
   <nd ref="8733515712"/>
   <nd ref="8733515711"/>
@@ -29630,9 +29754,9 @@
   <nd ref="8733515703"/>
   <nd ref="8733515702"/>
   <nd ref="8733515713"/>
-  <tag k="addr:housenumber" v="38t"/>
+  <tag k="addr:housenumber" v="38 ter"/>
   <tag k="addr:street" v="Avenue du 11 Novembre 1918"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="detached"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020"/>
  </way>
  <way id="943192365" visible="true" version="1" changeset="104725269" timestamp="2021-05-15T10:16:21Z" user="Marcel Herault" uid="860575">
@@ -30050,12 +30174,13 @@
   <tag k="surface" v="asphalt"/>
   <tag k="zone:maxspeed" v="FR:30"/>
  </way>
- <way id="1012585672" visible="true" version="4" changeset="123174735" timestamp="2022-07-04T06:55:02Z" user="loulougarou" uid="9604372">
+ <way id="1012585672" visible="true" version="5" changeset="146988510" timestamp="2024-02-02T14:47:05Z" user="loulougarou" uid="9604372">
   <nd ref="1487254762"/>
   <nd ref="1487254759"/>
   <nd ref="1487254757"/>
   <tag k="highway" v="residential"/>
   <tag k="junction" v="roundabout"/>
+  <tag k="lane_markings" v="no"/>
   <tag k="lit" v="yes"/>
   <tag k="name" v="Rond-Point du Bassin"/>
   <tag k="sidewalk" v="both"/>
@@ -30122,13 +30247,14 @@
   <tag k="capacity" v="1"/>
   <tag k="parking_space" v="disabled"/>
  </way>
- <way id="1012661250" visible="true" version="2" changeset="128602093" timestamp="2022-11-07T15:07:14Z" user="StephaneP" uid="439947">
+ <way id="1012661250" visible="true" version="3" changeset="147309831" timestamp="2024-02-10T21:59:07Z" user="cquest" uid="158826">
   <nd ref="9342598460"/>
   <nd ref="9342598461"/>
   <nd ref="9342598462"/>
   <nd ref="9342598463"/>
   <nd ref="9342598460"/>
   <tag k="amenity" v="parking_space"/>
+  <tag k="capacity" v="1"/>
   <tag k="capacity:disabled" v="1"/>
   <tag k="parking_space" v="disabled"/>
   <tag k="wheelchair" v="yes"/>
@@ -30229,13 +30355,14 @@
   <tag k="capacity" v="1"/>
   <tag k="parking_space" v="disabled"/>
  </way>
- <way id="1012661262" visible="true" version="2" changeset="128602093" timestamp="2022-11-07T15:07:14Z" user="StephaneP" uid="439947">
+ <way id="1012661262" visible="true" version="3" changeset="147309831" timestamp="2024-02-10T21:59:07Z" user="cquest" uid="158826">
   <nd ref="9342598507"/>
   <nd ref="9342598508"/>
   <nd ref="9342598509"/>
   <nd ref="9342598510"/>
   <nd ref="9342598507"/>
   <tag k="amenity" v="parking_space"/>
+  <tag k="capacity" v="1"/>
   <tag k="capacity:disabled" v="1"/>
   <tag k="parking_space" v="disabled"/>
   <tag k="wheelchair" v="yes"/>
@@ -30522,7 +30649,7 @@
   <tag k="ref" v="2"/>
   <tag k="ref:FR:STIF" v="472607"/>
  </way>
- <way id="1065889958" visible="true" version="5" changeset="135210902" timestamp="2023-04-21T21:59:25Z" user="loulougarou" uid="9604372">
+ <way id="1065889958" visible="true" version="6" changeset="147812844" timestamp="2024-02-23T14:03:23Z" user="Christian Perrier" uid="60669">
   <nd ref="1487295046"/>
   <nd ref="9788471565"/>
   <nd ref="9788471564"/>
@@ -30557,6 +30684,7 @@
   <tag k="railway" v="platform"/>
   <tag k="ref" v="2"/>
   <tag k="ref:FR:STIF" v="472607"/>
+  <tag k="tactile_paving" v="no"/>
  </way>
  <way id="1065889959" visible="true" version="3" changeset="129318410" timestamp="2022-11-24T10:35:32Z" user="Carto'Cité" uid="5426135">
   <nd ref="9788471581"/>
@@ -30575,7 +30703,7 @@
   <tag k="ref" v="1"/>
   <tag k="ref:FR:STIF" v="472679"/>
  </way>
- <way id="1065889960" visible="true" version="5" changeset="135210902" timestamp="2023-04-21T21:57:16Z" user="loulougarou" uid="9604372">
+ <way id="1065889960" visible="true" version="6" changeset="147812844" timestamp="2024-02-23T14:03:20Z" user="Christian Perrier" uid="60669">
   <nd ref="9788471590"/>
   <nd ref="9788471570"/>
   <nd ref="9788471589"/>
@@ -30613,6 +30741,7 @@
   <tag k="railway" v="platform"/>
   <tag k="ref" v="1"/>
   <tag k="ref:FR:STIF" v="472679"/>
+  <tag k="tactile_paving" v="no"/>
  </way>
  <way id="1067479095" visible="true" version="1" changeset="122054374" timestamp="2022-06-07T06:47:06Z" user="cantece" uid="15908">
   <nd ref="9800774142"/>
@@ -30682,7 +30811,7 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2022"/>
   <tag k="wall" v="no"/>
  </way>
- <way id="1074098593" visible="true" version="1" changeset="122936705" timestamp="2022-06-28T05:16:20Z" user="loulougarou" uid="9604372">
+ <way id="1074098593" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:46Z" user="loulougarou" uid="9604372">
   <nd ref="1487295747"/>
   <nd ref="9852326940"/>
   <nd ref="9852326939"/>
@@ -30694,7 +30823,7 @@
   <nd ref="9852326935"/>
   <nd ref="1487295760"/>
   <nd ref="1487295747"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="roof"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2022"/>
   <tag k="wall" v="no"/>
  </way>
@@ -30743,13 +30872,13 @@
   <tag k="roof:levels" v="0"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2022"/>
  </way>
- <way id="1074098596" visible="true" version="1" changeset="122936705" timestamp="2022-06-28T05:16:20Z" user="loulougarou" uid="9604372">
+ <way id="1074098596" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:45Z" user="loulougarou" uid="9604372">
   <nd ref="1487295955"/>
   <nd ref="9852326971"/>
   <nd ref="9852326973"/>
   <nd ref="9852326972"/>
   <nd ref="1487295955"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2022"/>
   <tag k="wall" v="no"/>
  </way>
@@ -31472,13 +31601,13 @@
   <tag k="construction" v="house"/>
   <tag k="landuse" v="construction"/>
  </way>
- <way id="1164649727" visible="true" version="1" changeset="135226787" timestamp="2023-04-22T12:36:37Z" user="loulougarou" uid="9604372">
+ <way id="1164649727" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:50Z" user="loulougarou" uid="9604372">
   <nd ref="10831769087"/>
   <nd ref="10831769084"/>
   <nd ref="10831769085"/>
   <nd ref="10831769086"/>
   <nd ref="10831769087"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="service"/>
  </way>
  <way id="1164649728" visible="true" version="2" changeset="144874432" timestamp="2023-12-07T17:18:35Z" user="Teek36" uid="20645844">
   <nd ref="10831769088"/>
@@ -31601,17 +31730,17 @@
   <tag k="building" v="yes"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="1185563107" visible="true" version="1" changeset="137889326" timestamp="2023-06-28T17:51:15Z" user="loulougarou" uid="9604372">
+ <way id="1185563107" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:36Z" user="loulougarou" uid="9604372">
   <nd ref="11012760718"/>
   <nd ref="11012760719"/>
   <nd ref="1487295589"/>
   <nd ref="1487295522"/>
   <nd ref="11012760717"/>
   <nd ref="11012760718"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="1185563108" visible="true" version="1" changeset="137889326" timestamp="2023-06-28T17:51:15Z" user="loulougarou" uid="9604372">
+ <way id="1185563108" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:37Z" user="loulougarou" uid="9604372">
   <nd ref="1487295531"/>
   <nd ref="1487295658"/>
   <nd ref="1487295654"/>
@@ -31622,10 +31751,10 @@
   <nd ref="11012760719"/>
   <nd ref="11012760718"/>
   <nd ref="1487295531"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="1185563109" visible="true" version="1" changeset="137889326" timestamp="2023-06-28T17:51:15Z" user="loulougarou" uid="9604372">
+ <way id="1185563109" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:35Z" user="loulougarou" uid="9604372">
   <nd ref="11012760720"/>
   <nd ref="11012760721"/>
   <nd ref="1487295218"/>
@@ -31633,17 +31762,17 @@
   <nd ref="1487295292"/>
   <nd ref="1487295346"/>
   <nd ref="11012760720"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
- <way id="1185563110" visible="true" version="1" changeset="137889326" timestamp="2023-06-28T17:51:15Z" user="loulougarou" uid="9604372">
+ <way id="1185563110" visible="true" version="2" changeset="147216492" timestamp="2024-02-08T12:44:35Z" user="loulougarou" uid="9604372">
   <nd ref="11012760721"/>
   <nd ref="1487294990"/>
   <nd ref="1487295098"/>
   <nd ref="1487295245"/>
   <nd ref="1487295218"/>
   <nd ref="11012760721"/>
-  <tag k="building" v="yes"/>
+  <tag k="building" v="house"/>
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"/>
  </way>
  <way id="1189560128" visible="true" version="1" changeset="138490399" timestamp="2023-07-14T06:11:37Z" user="loulougarou" uid="9604372">
@@ -31716,10 +31845,11 @@
   <nd ref="11228713770"/>
   <tag k="building" v="service"/>
  </way>
- <way id="1234981574" visible="true" version="1" changeset="145631855" timestamp="2023-12-28T18:10:56Z" user="yxoc" uid="57126">
+ <way id="1234981574" visible="true" version="2" changeset="147729118" timestamp="2024-02-21T11:41:37Z" user="loulougarou" uid="9604372">
   <nd ref="1048686160"/>
   <nd ref="11463305583"/>
   <tag k="highway" v="residential"/>
+  <tag k="lane_markings" v="no"/>
   <tag k="lit" v="yes"/>
   <tag k="name" v="Rue Louis Blanc"/>
   <tag k="oneway" v="yes"/>
@@ -31727,7 +31857,7 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"/>
   <tag k="surface" v="asphalt"/>
  </way>
- <relation id="31340" visible="true" version="33" changeset="116044833" timestamp="2022-01-11T23:39:31Z" user="cquest_bot" uid="541379">
+ <relation id="31340" visible="true" version="34" changeset="147994909" timestamp="2024-02-28T02:07:09Z" user="Olyon" uid="1443767">
   <member type="node" ref="26692611" role="admin_centre"/>
   <member type="way" ref="783705110" role="outer"/>
   <member type="way" ref="783705109" role="outer"/>
@@ -31756,13 +31886,14 @@
   <tag k="population" v="23463"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="92310"/>
+  <tag k="ref:FR:SIREN" v="219200722"/>
   <tag k="ref:INSEE" v="92072"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
   <tag k="wikidata" v="Q206493"/>
   <tag k="wikipedia" v="fr:Sèvres"/>
  </relation>
- <relation id="31341" visible="true" version="28" changeset="144711969" timestamp="2023-12-03T07:13:01Z" user="Teek36" uid="20645844">
+ <relation id="31341" visible="true" version="29" changeset="147994909" timestamp="2024-02-28T02:07:09Z" user="Olyon" uid="1443767">
   <member type="node" ref="26691764" role="admin_centre"/>
   <member type="way" ref="26473168" role="outer"/>
   <member type="way" ref="777560451" role="outer"/>
@@ -31788,6 +31919,7 @@
   <tag k="population" v="45825"/>
   <tag k="population:date" v="2020"/>
   <tag k="postal_code" v="92190;92360"/>
+  <tag k="ref:FR:SIREN" v="219200482"/>
   <tag k="ref:INSEE" v="92048"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
@@ -31837,7 +31969,7 @@
   <tag k="type" v="site"/>
   <tag k="url" v="http://geodesie.ign.fr/fiches/index.php?module=e&amp;action=fichepdf&amp;source=carte&amp;sit_no=92048B"/>
  </relation>
- <relation id="1541901" visible="true" version="204" changeset="145725989" timestamp="2023-12-31T10:17:39Z" user="jluc95240" uid="2378798">
+ <relation id="1541901" visible="true" version="205" changeset="148325910" timestamp="2024-03-07T07:05:02Z" user="JÉT" uid="492015">
   <member type="node" ref="4220110114" role="stop"/>
   <member type="node" ref="65331500" role="stop"/>
   <member type="node" ref="942695829" role="stop"/>
@@ -32873,8 +33005,8 @@
   <tag k="description" v="Voir aussi la relation 23 TER Pays de la Loire"/>
   <tag k="from" v="Paris"/>
   <tag k="name" v="TER 3.2 : Paris − Chartres − Nogent-le-Rotrou − Le Mans"/>
-  <tag k="network" v="TER Centre − Val de Loire"/>
-  <tag k="network:wikidata" v="Q912775"/>
+  <tag k="network" v="TER Pays de la Loire"/>
+  <tag k="network:wikidata" v="Q3512113"/>
   <tag k="network:wikipedia" v="fr:TER Centre-Val de Loire"/>
   <tag k="operator" v="SNCF"/>
   <tag k="operator:wikidata" v="Q13646"/>
@@ -33454,7 +33586,7 @@
   <tag k="to" v="Clamart - Georges Pompidou"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="1762128" visible="true" version="135" changeset="145631855" timestamp="2023-12-28T18:10:56Z" user="yxoc" uid="57126">
+ <relation id="1762128" visible="true" version="136" changeset="146679518" timestamp="2024-01-25T16:08:09Z" user="Finsh" uid="9535181">
   <member type="node" ref="3564425828" role="stop_entry_only"/>
   <member type="node" ref="3529315329" role="platform_entry_only"/>
   <member type="node" ref="4865355924" role="stop"/>
@@ -33702,7 +33834,6 @@
   <member type="way" ref="484620589" role=""/>
   <member type="way" ref="484620583" role=""/>
   <member type="way" ref="484620582" role=""/>
-  <member type="way" ref="4040665" role=""/>
   <member type="way" ref="1230361395" role=""/>
   <member type="way" ref="83126750" role=""/>
   <member type="way" ref="621494042" role=""/>
@@ -35764,15 +35895,23 @@
   <tag k="route" v="horse"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="2866803" visible="true" version="192" changeset="144797782" timestamp="2023-12-05T16:07:53Z" user="_Mathieu_" uid="53964">
+ <relation id="2866803" visible="true" version="195" changeset="146776931" timestamp="2024-01-28T12:41:49Z" user="overflorian" uid="125897">
   <member type="way" ref="432734863" role=""/>
   <member type="way" ref="1192335631" role=""/>
   <member type="way" ref="27252310" role=""/>
   <member type="way" ref="547067147" role=""/>
   <member type="way" ref="1192335636" role=""/>
+  <member type="way" ref="1243684634" role=""/>
   <member type="way" ref="1045125041" role=""/>
   <member type="way" ref="1192335635" role=""/>
-  <member type="way" ref="646295272" role=""/>
+  <member type="way" ref="1225596485" role=""/>
+  <member type="way" ref="1243684170" role=""/>
+  <member type="way" ref="1196401972" role=""/>
+  <member type="way" ref="1196401973" role=""/>
+  <member type="way" ref="1196401974" role=""/>
+  <member type="way" ref="1196401975" role=""/>
+  <member type="way" ref="1243684171" role=""/>
+  <member type="way" ref="1243684176" role=""/>
   <member type="way" ref="254712531" role=""/>
   <member type="way" ref="815695333" role=""/>
   <member type="way" ref="1196401969" role=""/>
@@ -35815,6 +35954,7 @@
   <member type="way" ref="1192335658" role=""/>
   <member type="way" ref="742357349" role=""/>
   <member type="way" ref="1118580725" role=""/>
+  <member type="way" ref="1243384437" role=""/>
   <member type="way" ref="773851800" role=""/>
   <member type="way" ref="1118580727" role=""/>
   <member type="way" ref="680198076" role=""/>
@@ -36523,7 +36663,7 @@
   <tag k="type" v="route"/>
   <tag k="website" v="https://www.rando92.fr/randonner/itin%C3%A9raires/"/>
  </relation>
- <relation id="3097928" visible="true" version="146" changeset="145631855" timestamp="2023-12-28T18:10:56Z" user="yxoc" uid="57126">
+ <relation id="3097928" visible="true" version="147" changeset="146994109" timestamp="2024-02-02T17:24:00Z" user="Harvesterify" uid="6060820">
   <member type="node" ref="5047324912" role="stop_entry_only"/>
   <member type="node" ref="3529315330" role="platform_entry_only"/>
   <member type="node" ref="4773585253" role="platform"/>
@@ -36592,7 +36732,10 @@
   <member type="way" ref="1073177428" role=""/>
   <member type="way" ref="331293890" role=""/>
   <member type="way" ref="331293889" role=""/>
+  <member type="way" ref="1245616687" role=""/>
+  <member type="way" ref="1245616688" role=""/>
   <member type="way" ref="230998942" role=""/>
+  <member type="way" ref="1245616689" role=""/>
   <member type="way" ref="28817347" role=""/>
   <member type="way" ref="28817348" role=""/>
   <member type="way" ref="482038380" role=""/>
@@ -36606,7 +36749,9 @@
   <member type="way" ref="482038380" role=""/>
   <member type="way" ref="28817348" role=""/>
   <member type="way" ref="544996853" role=""/>
-  <member type="way" ref="230998942" role=""/>
+  <member type="way" ref="1245616691" role=""/>
+  <member type="way" ref="1245616692" role=""/>
+  <member type="way" ref="1245616687" role=""/>
   <member type="way" ref="157479047" role=""/>
   <member type="way" ref="6228005" role=""/>
   <member type="way" ref="1214548311" role=""/>
@@ -36755,8 +36900,8 @@
   <tag k="to" v="Pont de Sèvres"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="3411191" visible="true" version="168" changeset="144300943" timestamp="2023-11-21T19:54:07Z" user="bouzinac" uid="10286707">
-  <member type="node" ref="8862955463" role="stop"/>
+ <relation id="3411191" visible="true" version="175" changeset="147723084" timestamp="2024-02-21T08:46:28Z" user="michel60" uid="211063">
+  <member type="node" ref="8862955463" role="stop_entry_only"/>
   <member type="way" ref="840557634" role="platform"/>
   <member type="node" ref="2274300414" role="stop"/>
   <member type="way" ref="957874730" role="platform"/>
@@ -36776,14 +36921,13 @@
   <member type="way" ref="405081493" role="platform"/>
   <member type="node" ref="816551802" role="stop"/>
   <member type="way" ref="957874729" role="platform"/>
-  <member type="node" ref="8863210663" role="stop"/>
+  <member type="node" ref="8863210663" role="stop_exit_only"/>
   <member type="way" ref="331307737" role="platform"/>
   <member type="way" ref="467816663" role=""/>
   <member type="way" ref="168489772" role=""/>
   <member type="way" ref="985620011" role=""/>
   <member type="way" ref="985620012" role=""/>
   <member type="way" ref="985620015" role=""/>
-  <member type="way" ref="467816664" role=""/>
   <member type="way" ref="53210059" role=""/>
   <member type="way" ref="404599826" role=""/>
   <member type="way" ref="404599827" role=""/>
@@ -36802,8 +36946,9 @@
   <member type="way" ref="218154697" role=""/>
   <member type="way" ref="218154700" role=""/>
   <member type="way" ref="438190910" role=""/>
-  <member type="way" ref="438190911" role=""/>
+  <member type="way" ref="1253196794" role=""/>
   <member type="way" ref="218154698" role=""/>
+  <member type="way" ref="438190911" role=""/>
   <member type="way" ref="218440904" role=""/>
   <member type="way" ref="218440905" role=""/>
   <member type="way" ref="51736357" role=""/>
@@ -37020,6 +37165,7 @@
   <member type="way" ref="1034230924" role=""/>
   <member type="way" ref="968476967" role=""/>
   <member type="way" ref="618970064" role=""/>
+  <member type="way" ref="1240408602" role=""/>
   <member type="way" ref="240606557" role=""/>
   <member type="way" ref="364004799" role=""/>
   <member type="way" ref="434427856" role=""/>
@@ -37084,6 +37230,7 @@
   <member type="way" ref="1133461419" role=""/>
   <member type="way" ref="971694004" role=""/>
   <member type="way" ref="835222174" role=""/>
+  <member type="way" ref="1233439562" role=""/>
   <member type="way" ref="1133461410" role=""/>
   <member type="way" ref="957834769" role=""/>
   <member type="way" ref="1133461416" role=""/>
@@ -37095,10 +37242,10 @@
   <tag k="by_night" v="no"/>
   <tag k="colour" v="#92d04f"/>
   <tag k="fee" v="yes"/>
-  <tag k="from" v="Paris"/>
-  <tag k="name" v="TER Krono : Granville - Argentan - L'Aigle - Paris"/>
+  <tag k="from" v="Granville"/>
+  <tag k="name" v="TER Krono : Granville → Argentan → Paris"/>
   <tag k="network" v="TER Normandie"/>
-  <tag k="network:wikidata" v="Q30754613"/>
+  <tag k="network:wikidata" v="Q30740754"/>
   <tag k="network:wikipedia" v="fr:TER Normandie"/>
   <tag k="operator" v="SNCF"/>
   <tag k="operator:wikidata" v="Q13646"/>
@@ -37107,7 +37254,7 @@
   <tag k="ref" v="TER"/>
   <tag k="route" v="train"/>
   <tag k="service" v="regional"/>
-  <tag k="to" v="Granville"/>
+  <tag k="to" v="Paris"/>
   <tag k="type" v="route"/>
   <tag k="wheelchair" v="limited"/>
   <tag k="wikidata" v="Q123497536"/>
@@ -37302,15 +37449,22 @@
   <tag k="type" v="public_transport"/>
   <tag k="uic_ref" v="8739311"/>
  </relation>
- <relation id="4648084" visible="true" version="44" changeset="141432187" timestamp="2023-09-18T16:12:57Z" user="nlehuby" uid="1424448">
+ <relation id="4648084" visible="true" version="45" changeset="146994109" timestamp="2024-02-02T17:24:00Z" user="Harvesterify" uid="6060820">
   <member type="node" ref="2891726606" role="stop_entry_only"/>
   <member type="node" ref="5905122871" role="platform_entry_only"/>
+  <member type="node" ref="2891726098" role="stop"/>
   <member type="node" ref="5905123683" role="platform"/>
+  <member type="node" ref="5347168232" role="stop"/>
   <member type="node" ref="5347077062" role="platform"/>
+  <member type="node" ref="11292518141" role="stop"/>
   <member type="node" ref="5347077073" role="platform"/>
+  <member type="node" ref="3555116611" role="stop"/>
   <member type="node" ref="5347077063" role="platform"/>
+  <member type="node" ref="2440419587" role="stop"/>
   <member type="node" ref="5347077057" role="platform"/>
+  <member type="node" ref="2440419573" role="stop"/>
   <member type="node" ref="6178110676" role="platform"/>
+  <member type="node" ref="2440419605" role="stop"/>
   <member type="node" ref="2440419601" role="platform"/>
   <member type="node" ref="686534116" role="platform"/>
   <member type="node" ref="3555120256" role="stop_exit_only"/>
@@ -37364,7 +37518,10 @@
   <member type="way" ref="1073177428" role=""/>
   <member type="way" ref="331293890" role=""/>
   <member type="way" ref="331293889" role=""/>
+  <member type="way" ref="1245616687" role=""/>
+  <member type="way" ref="1245616688" role=""/>
   <member type="way" ref="230998942" role=""/>
+  <member type="way" ref="1245616689" role=""/>
   <member type="way" ref="28817347" role=""/>
   <member type="way" ref="28817348" role=""/>
   <member type="way" ref="1174002354" role=""/>
@@ -37398,7 +37555,7 @@
   <tag k="to" v="Pont de Sèvres"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="5506841" visible="true" version="76" changeset="135017981" timestamp="2023-04-17T14:34:58Z" user="Smockwette" uid="10505227">
+ <relation id="5506841" visible="true" version="77" changeset="146358436" timestamp="2024-01-17T10:52:29Z" user="HaPe-CZ" uid="11276832">
   <member type="node" ref="1935227818" role="stop"/>
   <member type="node" ref="1678123038" role="stop"/>
   <member type="node" ref="2604256451" role="stop"/>
@@ -37483,6 +37640,8 @@
   <member type="way" ref="1034230926" role=""/>
   <member type="way" ref="313260557" role=""/>
   <member type="way" ref="38503649" role=""/>
+  <member type="way" ref="228151878" role=""/>
+  <member type="way" ref="434427864" role=""/>
   <member type="way" ref="28354051" role=""/>
   <member type="way" ref="88432952" role=""/>
   <member type="way" ref="88432923" role=""/>
@@ -37649,11 +37808,10 @@
   <member type="way" ref="1034230924" role=""/>
   <member type="way" ref="968476967" role=""/>
   <member type="way" ref="618970064" role=""/>
+  <member type="way" ref="1240408602" role=""/>
   <member type="way" ref="240606557" role=""/>
-  <member type="way" ref="228151878" role=""/>
-  <member type="way" ref="434427864" role=""/>
-  <member type="way" ref="434427863" role=""/>
   <member type="way" ref="364004799" role=""/>
+  <member type="way" ref="434427863" role=""/>
   <member type="way" ref="434427856" role=""/>
   <member type="way" ref="434427857" role=""/>
   <member type="way" ref="547482615" role=""/>
@@ -37839,8 +37997,8 @@
   <tag k="wikidata" v="Q2986896"/>
   <tag k="wikipedia" v="fr:Établissement public territorial Grand Paris Seine Ouest"/>
  </relation>
- <relation id="5926774" visible="true" version="128" changeset="145423687" timestamp="2023-12-23T00:01:23Z" user="yxoc" uid="57126">
-  <member type="node" ref="8863210663" role="stop"/>
+ <relation id="5926774" visible="true" version="134" changeset="147723749" timestamp="2024-02-21T09:04:32Z" user="michel60" uid="211063">
+  <member type="node" ref="8863210663" role="stop_entry_only"/>
   <member type="way" ref="331307737" role="platform"/>
   <member type="node" ref="2857778003" role="stop"/>
   <member type="way" ref="957874729" role="platform"/>
@@ -37860,10 +38018,8 @@
   <member type="way" ref="404613434" role="platform"/>
   <member type="node" ref="2351574834" role="stop"/>
   <member type="relation" ref="12884140" role="platform"/>
-  <member type="node" ref="8862955463" role="stop"/>
+  <member type="node" ref="8862955463" role="stop_exit_only"/>
   <member type="way" ref="840557634" role="platform"/>
-  <member type="node" ref="916237558" role="stop"/>
-  <member type="node" ref="716877978" role=""/>
   <member type="way" ref="257910910" role=""/>
   <member type="way" ref="257910904" role=""/>
   <member type="way" ref="957834770" role=""/>
@@ -38125,24 +38281,15 @@
   <member type="way" ref="404718348" role=""/>
   <member type="way" ref="984931799" role=""/>
   <member type="way" ref="984931798" role=""/>
-  <member type="way" ref="175273435" role=""/>
-  <member type="way" ref="175273431" role=""/>
-  <member type="way" ref="34995066" role=""/>
-  <member type="way" ref="34995068" role=""/>
-  <member type="way" ref="187405929" role=""/>
-  <member type="way" ref="187405928" role=""/>
-  <member type="way" ref="34223784" role=""/>
-  <member type="way" ref="34223785" role=""/>
-  <member type="way" ref="404612293" role=""/>
-  <member type="way" ref="404612291" role=""/>
-  <member type="way" ref="404612292" role=""/>
-  <member type="way" ref="404612402" role=""/>
-  <member type="way" ref="404612403" role=""/>
-  <member type="way" ref="404612910" role=""/>
-  <member type="way" ref="404612911" role=""/>
-  <member type="way" ref="404650102" role=""/>
-  <member type="way" ref="404650103" role=""/>
   <member type="way" ref="404612194" role=""/>
+  <member type="way" ref="404650103" role=""/>
+  <member type="way" ref="404650102" role=""/>
+  <member type="way" ref="404612911" role=""/>
+  <member type="way" ref="404612910" role=""/>
+  <member type="way" ref="404612403" role=""/>
+  <member type="way" ref="404612402" role=""/>
+  <member type="way" ref="404612292" role=""/>
+  <member type="way" ref="404612291" role=""/>
   <member type="way" ref="813385730" role=""/>
   <member type="way" ref="813385729" role=""/>
   <member type="way" ref="40467711" role=""/>
@@ -38154,12 +38301,17 @@
   <member type="way" ref="218440905" role=""/>
   <member type="way" ref="218440904" role=""/>
   <member type="way" ref="438190911" role=""/>
+  <member type="way" ref="1253196795" role=""/>
+  <member type="way" ref="1253196794" role=""/>
   <member type="way" ref="438190910" role=""/>
   <member type="way" ref="218154700" role=""/>
   <member type="way" ref="218154697" role=""/>
   <member type="way" ref="229579450" role=""/>
   <member type="way" ref="229579418" role=""/>
   <member type="way" ref="404386826" role=""/>
+  <member type="way" ref="1253198294" role=""/>
+  <member type="way" ref="404386825" role=""/>
+  <member type="way" ref="136140772" role=""/>
   <member type="way" ref="281799258" role=""/>
   <member type="way" ref="128238534" role=""/>
   <member type="way" ref="136726455" role=""/>
@@ -38171,15 +38323,13 @@
   <member type="way" ref="985620011" role=""/>
   <member type="way" ref="168489772" role=""/>
   <member type="way" ref="467816663" role=""/>
-  <member type="way" ref="136140772" role=""/>
-  <member type="way" ref="404386825" role=""/>
   <tag k="bicycle" v="yes"/>
   <tag k="by_night" v="no"/>
   <tag k="colour" v="#0868b3"/>
   <tag k="from" v="Paris Montparnasse"/>
-  <tag k="name" v="TER Krono : Paris − Argentan − Granville"/>
-  <tag k="network" v="TGV InOui"/>
-  <tag k="network:wikidata" v="Q30754613"/>
+  <tag k="name" v="TER Krono : Paris → Argentan → Granville"/>
+  <tag k="network" v="TER Normandie"/>
+  <tag k="network:wikidata" v="Q30740754"/>
   <tag k="network:wikipedia" v="fr:TER Normandie"/>
   <tag k="old_ref" v="IC 304"/>
   <tag k="operator" v="SNCF"/>
@@ -38211,7 +38361,7 @@
   <tag k="type" v="route_master"/>
   <tag k="wheelchair" v="limited"/>
  </relation>
- <relation id="7261186" visible="true" version="103" changeset="145749879" timestamp="2024-01-01T01:02:04Z" user="yxoc" uid="57126">
+ <relation id="7261186" visible="true" version="104" changeset="146994109" timestamp="2024-02-02T17:24:00Z" user="Harvesterify" uid="6060820">
   <member type="node" ref="5267906064" role="stop_entry_only"/>
   <member type="node" ref="1004498932" role="platform_entry_only"/>
   <member type="node" ref="804991915" role="stop"/>
@@ -38394,7 +38544,7 @@
   <member type="way" ref="1214548311" role=""/>
   <member type="way" ref="6228005" role=""/>
   <member type="way" ref="157479048" role=""/>
-  <member type="way" ref="230998942" role=""/>
+  <member type="way" ref="1245616689" role=""/>
   <member type="way" ref="28817347" role=""/>
   <member type="way" ref="28817348" role=""/>
   <member type="way" ref="482038380" role=""/>
@@ -38408,7 +38558,7 @@
   <member type="way" ref="482038380" role=""/>
   <member type="way" ref="28817348" role=""/>
   <member type="way" ref="544996853" role=""/>
-  <member type="way" ref="230998942" role=""/>
+  <member type="way" ref="1245616691" role=""/>
   <member type="way" ref="174321272" role=""/>
   <member type="way" ref="331293890" role=""/>
   <member type="way" ref="1073177428" role=""/>
@@ -38537,43 +38687,66 @@
   <tag k="route_master" v="bus"/>
   <tag k="type" v="route_master"/>
  </relation>
- <relation id="7906403" visible="true" version="85" changeset="145809496" timestamp="2024-01-02T18:15:46Z" user="nlehuby" uid="1424448">
+ <relation id="7906403" visible="true" version="88" changeset="147695335" timestamp="2024-02-20T14:40:14Z" user="Harvesterify" uid="6060820">
   <member type="node" ref="6635597438" role="stop_entry_only"/>
   <member type="node" ref="5884630953" role="platform_entry_only"/>
-  <member type="node" ref="5342369703" role="platform"/>
+  <member type="node" ref="7838417158" role="stop"/>
   <member type="node" ref="5905118376" role="platform"/>
+  <member type="node" ref="7838417157" role="stop"/>
   <member type="node" ref="1614659020" role="platform"/>
-  <member type="node" ref="5342630906" role="platform"/>
-  <member type="node" ref="5342630910" role="platform"/>
-  <member type="node" ref="5342630903" role="platform"/>
-  <member type="node" ref="5342630917" role="platform"/>
+  <member type="node" ref="7838417155" role="stop"/>
+  <member type="node" ref="5342369703" role="platform"/>
   <member type="node" ref="5342630909" role="platform"/>
-  <member type="node" ref="5407336960" role="platform"/>
   <member type="node" ref="4597112996" role="platform"/>
+  <member type="node" ref="7745312083" role="stop"/>
+  <member type="node" ref="5342630906" role="platform"/>
+  <member type="node" ref="5342630903" role="platform"/>
+  <member type="node" ref="5406977090" role="stop"/>
+  <member type="node" ref="5407336960" role="platform"/>
+  <member type="node" ref="2156601152" role="stop"/>
+  <member type="node" ref="5342630910" role="platform"/>
+  <member type="node" ref="5342630917" role="platform"/>
+  <member type="node" ref="1440804072" role="stop"/>
   <member type="node" ref="1440804065" role="platform"/>
   <member type="node" ref="9359186928" role="stop_exit_only"/>
   <member type="node" ref="998662094" role="platform_exit_only"/>
   <member type="way" ref="706225999" role=""/>
   <member type="way" ref="116355447" role=""/>
   <member type="way" ref="51139708" role=""/>
+  <member type="way" ref="1245617197" role=""/>
   <member type="way" ref="51138503" role=""/>
+  <member type="way" ref="1245617198" role=""/>
+  <member type="way" ref="1245617199" role=""/>
   <member type="way" ref="51139704" role=""/>
-  <member type="way" ref="24412962" role=""/>
+  <member type="way" ref="1245617191" role=""/>
+  <member type="way" ref="1245617192" role=""/>
+  <member type="way" ref="1245617193" role=""/>
   <member type="way" ref="24412964" role=""/>
+  <member type="way" ref="1245617186" role=""/>
+  <member type="way" ref="1245617187" role=""/>
+  <member type="way" ref="1245617188" role=""/>
+  <member type="way" ref="1245617189" role=""/>
   <member type="way" ref="24412957" role=""/>
   <member type="way" ref="24412959" role=""/>
   <member type="way" ref="51138515" role=""/>
+  <member type="way" ref="1252884992" role=""/>
   <member type="way" ref="24412965" role=""/>
   <member type="way" ref="51138515" role=""/>
   <member type="way" ref="158078457" role=""/>
   <member type="way" ref="24412962" role=""/>
+  <member type="way" ref="1245617194" role=""/>
+  <member type="way" ref="1245617195" role=""/>
+  <member type="way" ref="1245617191" role=""/>
+  <member type="way" ref="1245617192" role=""/>
+  <member type="way" ref="1245617193" role=""/>
   <member type="way" ref="24412964" role=""/>
-  <member type="way" ref="24412957" role=""/>
+  <member type="way" ref="1245617186" role=""/>
+  <member type="way" ref="1245617187" role=""/>
   <member type="way" ref="51139705" role=""/>
   <member type="way" ref="116350360" role=""/>
-  <member type="way" ref="24412917" role=""/>
+  <member type="way" ref="1245617183" role=""/>
   <member type="way" ref="24412910" role=""/>
-  <member type="way" ref="14357000" role=""/>
+  <member type="way" ref="1245617175" role=""/>
   <member type="way" ref="14358441" role=""/>
   <member type="way" ref="1210707917" role=""/>
   <member type="way" ref="525635289" role=""/>
@@ -38680,7 +38853,10 @@
   <member type="way" ref="1073177428" role=""/>
   <member type="way" ref="331293890" role=""/>
   <member type="way" ref="331293889" role=""/>
+  <member type="way" ref="1245616687" role=""/>
+  <member type="way" ref="1245616688" role=""/>
   <member type="way" ref="230998942" role=""/>
+  <member type="way" ref="1245616689" role=""/>
   <member type="way" ref="28817347" role=""/>
   <member type="way" ref="28817348" role=""/>
   <member type="way" ref="1174002354" role=""/>
@@ -38726,7 +38902,7 @@
   <tag k="to" v="Boulogne-Billancourt, Place Jules Guesde"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="7906404" visible="true" version="81" changeset="145809496" timestamp="2024-01-02T18:15:46Z" user="nlehuby" uid="1424448">
+ <relation id="7906404" visible="true" version="85" changeset="147695335" timestamp="2024-02-20T14:40:14Z" user="Harvesterify" uid="6060820">
   <member type="node" ref="9359186928" role="stop_entry_only"/>
   <member type="node" ref="998662094" role="platform_entry_only"/>
   <member type="node" ref="11380517810" role="stop"/>
@@ -38738,6 +38914,7 @@
   <member type="node" ref="2891726608" role="stop"/>
   <member type="node" ref="5342630916" role="platform"/>
   <member type="node" ref="5342630919" role="platform"/>
+  <member type="node" ref="7745312084" role="stop"/>
   <member type="node" ref="5342630908" role="platform"/>
   <member type="node" ref="5342630915" role="platform"/>
   <member type="node" ref="4597112997" role="platform"/>
@@ -38826,6 +39003,7 @@
   <member type="way" ref="1082258226" role=""/>
   <member type="way" ref="1082258225" role=""/>
   <member type="way" ref="24489575" role=""/>
+  <member type="way" ref="1239938627" role=""/>
   <member type="way" ref="30267347" role=""/>
   <member type="way" ref="45727586" role=""/>
   <member type="way" ref="255598125" role=""/>
@@ -38872,22 +39050,36 @@
   <member type="way" ref="1210707916" role=""/>
   <member type="way" ref="434722846" role=""/>
   <member type="way" ref="44858785" role=""/>
-  <member type="way" ref="14357000" role=""/>
+  <member type="way" ref="1245617176" role=""/>
+  <member type="way" ref="1245617177" role=""/>
+  <member type="way" ref="1245617178" role=""/>
+  <member type="way" ref="1245617179" role=""/>
+  <member type="way" ref="1245617180" role=""/>
   <member type="way" ref="24412907" role=""/>
   <member type="way" ref="24412917" role=""/>
   <member type="way" ref="116350358" role=""/>
   <member type="way" ref="525635287" role=""/>
   <member type="way" ref="24412954" role=""/>
+  <member type="way" ref="1245617189" role=""/>
   <member type="way" ref="24412957" role=""/>
   <member type="way" ref="24412959" role=""/>
   <member type="way" ref="51138515" role=""/>
+  <member type="way" ref="1252884992" role=""/>
   <member type="way" ref="24412965" role=""/>
   <member type="way" ref="51138515" role=""/>
   <member type="way" ref="158078457" role=""/>
   <member type="way" ref="24412962" role=""/>
+  <member type="way" ref="1245617194" role=""/>
   <member type="way" ref="24412972" role=""/>
-  <member type="way" ref="51138503" role=""/>
+  <member type="way" ref="1245617201" role=""/>
+  <member type="way" ref="1245617202" role=""/>
+  <member type="way" ref="1245617203" role=""/>
+  <member type="way" ref="1245617204" role=""/>
   <member type="way" ref="51139711" role=""/>
+  <member type="way" ref="1245618527" role=""/>
+  <member type="way" ref="1245618528" role=""/>
+  <member type="way" ref="1245618529" role=""/>
+  <member type="way" ref="1245618530" role=""/>
   <member type="way" ref="116355451" role=""/>
   <member type="way" ref="51139706" role=""/>
   <tag k="from" v="Boulogne-Billancourt, Place Jules Guesde"/>
@@ -39003,7 +39195,7 @@
   <tag k="to" v="Inovel Parc Nord"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="8407056" visible="true" version="24" changeset="144364763" timestamp="2023-11-23T11:23:51Z" user="youbab" uid="8899269">
+ <relation id="8407056" visible="true" version="25" changeset="146994109" timestamp="2024-02-02T17:24:00Z" user="Harvesterify" uid="6060820">
   <member type="node" ref="5716529664" role="platform_entry_only"/>
   <member type="node" ref="5342630910" role="platform"/>
   <member type="node" ref="5347077062" role="platform"/>
@@ -39064,7 +39256,10 @@
   <member type="way" ref="1073177428" role=""/>
   <member type="way" ref="331293890" role=""/>
   <member type="way" ref="331293889" role=""/>
+  <member type="way" ref="1245616687" role=""/>
+  <member type="way" ref="1245616688" role=""/>
   <member type="way" ref="230998942" role=""/>
+  <member type="way" ref="1245616689" role=""/>
   <member type="way" ref="28817347" role=""/>
   <member type="way" ref="28817348" role=""/>
   <member type="way" ref="1174002354" role=""/>
@@ -39195,7 +39390,7 @@
   <tag k="route_master" v="bus"/>
   <tag k="type" v="route_master"/>
  </relation>
- <relation id="8553997" visible="true" version="34" changeset="129646432" timestamp="2022-12-02T14:19:17Z" user="n8dx" uid="12460288">
+ <relation id="8553997" visible="true" version="36" changeset="147620006" timestamp="2024-02-18T18:09:04Z" user="michel60" uid="211063">
   <member type="node" ref="4665527930" role="stop_entry_only"/>
   <member type="node" ref="4311378127" role="stop"/>
   <member type="node" ref="4085448052" role="stop"/>
@@ -39222,6 +39417,7 @@
   <member type="way" ref="1055021876" role=""/>
   <member type="way" ref="978192261" role=""/>
   <member type="way" ref="1055021872" role=""/>
+  <member type="way" ref="1252091923" role=""/>
   <member type="way" ref="669323023" role=""/>
   <member type="way" ref="468488486" role=""/>
   <member type="way" ref="472372778" role=""/>
@@ -39276,6 +39472,7 @@
   <member type="way" ref="1034230924" role=""/>
   <member type="way" ref="968476967" role=""/>
   <member type="way" ref="618970064" role=""/>
+  <member type="way" ref="1240408602" role=""/>
   <member type="way" ref="240606557" role=""/>
   <member type="way" ref="364004799" role=""/>
   <member type="way" ref="434427856" role=""/>
@@ -39372,7 +39569,7 @@
   <tag k="wikidata" v="Q93376"/>
   <tag k="wikipedia" v="fr:Ligne N du Transilien"/>
  </relation>
- <relation id="8553998" visible="true" version="33" changeset="131464940" timestamp="2023-01-19T12:35:38Z" user="flierfy" uid="445671">
+ <relation id="8553998" visible="true" version="34" changeset="146358436" timestamp="2024-01-17T10:52:29Z" user="HaPe-CZ" uid="11276832">
   <member type="node" ref="3695228276" role="stop_entry_only"/>
   <member type="node" ref="4387582400" role="stop"/>
   <member type="node" ref="4387119493" role="stop"/>
@@ -39428,6 +39625,7 @@
   <member type="way" ref="1034230924" role=""/>
   <member type="way" ref="968476967" role=""/>
   <member type="way" ref="618970064" role=""/>
+  <member type="way" ref="1240408602" role=""/>
   <member type="way" ref="15696427" role=""/>
   <member type="way" ref="28666023" role=""/>
   <member type="way" ref="434427852" role=""/>
@@ -40153,7 +40351,7 @@
   <tag k="wikidata" v="Q93376"/>
   <tag k="wikipedia" v="fr:Ligne N du Transilien"/>
  </relation>
- <relation id="8554013" visible="true" version="34" changeset="131464940" timestamp="2023-01-19T12:35:38Z" user="flierfy" uid="445671">
+ <relation id="8554013" visible="true" version="35" changeset="146358436" timestamp="2024-01-17T10:52:29Z" user="HaPe-CZ" uid="11276832">
   <member type="node" ref="3695228276" role="stop_entry_only"/>
   <member type="node" ref="817481162" role="stop"/>
   <member type="node" ref="4387582400" role="stop"/>
@@ -40214,6 +40412,7 @@
   <member type="way" ref="1034230924" role=""/>
   <member type="way" ref="968476967" role=""/>
   <member type="way" ref="618970064" role=""/>
+  <member type="way" ref="1240408602" role=""/>
   <member type="way" ref="15696427" role=""/>
   <member type="way" ref="28666023" role=""/>
   <member type="way" ref="434427852" role=""/>
@@ -40440,7 +40639,7 @@
   <tag k="wikidata" v="Q93376"/>
   <tag k="wikipedia" v="fr:Ligne N du Transilien"/>
  </relation>
- <relation id="8555119" visible="true" version="27" changeset="131464940" timestamp="2023-01-19T12:35:38Z" user="flierfy" uid="445671">
+ <relation id="8555119" visible="true" version="28" changeset="146358436" timestamp="2024-01-17T10:52:29Z" user="HaPe-CZ" uid="11276832">
   <member type="node" ref="1225048113" role="stop_entry_only"/>
   <member type="node" ref="4508524251" role="stop"/>
   <member type="node" ref="4385618355" role="stop"/>
@@ -40472,6 +40671,7 @@
   <member type="way" ref="1034230924" role=""/>
   <member type="way" ref="968476967" role=""/>
   <member type="way" ref="618970064" role=""/>
+  <member type="way" ref="1240408602" role=""/>
   <member type="way" ref="240606557" role=""/>
   <member type="way" ref="364004799" role=""/>
   <member type="way" ref="434427856" role=""/>
@@ -41050,7 +41250,7 @@
   <tag k="wikidata" v="Q93376"/>
   <tag k="wikipedia" v="fr:Ligne N du Transilien"/>
  </relation>
- <relation id="9175918" visible="true" version="27" changeset="143091594" timestamp="2023-10-25T03:21:47Z" user="yxoc" uid="57126">
+ <relation id="9175918" visible="true" version="28" changeset="146252274" timestamp="2024-01-14T17:00:28Z" user="HaPe-CZ" uid="11276832">
   <member type="node" ref="7745312084" role="stop_entry_only"/>
   <member type="node" ref="5342630908" role="platform_entry_only"/>
   <member type="node" ref="409474313" role="platform"/>
@@ -41129,6 +41329,7 @@
   <member type="way" ref="5150807" role=""/>
   <member type="way" ref="5151417" role=""/>
   <member type="way" ref="5150809" role=""/>
+  <member type="way" ref="1239666158" role=""/>
   <member type="way" ref="16185407" role=""/>
   <member type="way" ref="486157083" role=""/>
   <member type="way" ref="125696355" role=""/>
@@ -42267,17 +42468,18 @@
   <tag k="type" v="route"/>
   <tag k="wheelchair" v="limited"/>
  </relation>
- <relation id="10413217" visible="true" version="134" changeset="145581247" timestamp="2023-12-27T15:31:33Z" user="youbab" uid="8899269">
-  <member type="node" ref="7058346124" role="stop"/>
-  <member type="node" ref="4758383707" role="platform"/>
+ <relation id="10413217" visible="true" version="139" changeset="147853040" timestamp="2024-02-24T12:32:19Z" user="mga_geo" uid="341930">
+  <member type="node" ref="7058346124" role="stop_entry_only"/>
+  <member type="node" ref="4758383707" role="platform_entry_only"/>
   <member type="node" ref="6724016276" role="stop"/>
   <member type="node" ref="6724026496" role="platform"/>
   <member type="node" ref="7058150804" role="stop"/>
   <member type="node" ref="6250572092" role="platform"/>
   <member type="node" ref="4922631202" role="stop"/>
   <member type="way" ref="501456696" role="platform"/>
+  <member type="node" ref="11380517810" role="stop"/>
   <member type="node" ref="5266084640" role="platform"/>
-  <member type="node" ref="5435709535" role="stop"/>
+  <member type="node" ref="5435709535" role="stop_exit_only"/>
   <member type="way" ref="755678949" role=""/>
   <member type="way" ref="689719965" role=""/>
   <member type="way" ref="495077571" role=""/>
@@ -42296,20 +42498,22 @@
   <member type="way" ref="1043718679" role=""/>
   <member type="way" ref="513713193" role=""/>
   <member type="way" ref="48772996" role=""/>
-  <member type="way" ref="817928238" role=""/>
-  <member type="way" ref="23805427" role=""/>
+  <member type="way" ref="1243450636" role=""/>
+  <member type="way" ref="1243450634" role=""/>
+  <member type="way" ref="1245619643" role=""/>
   <member type="way" ref="24293239" role=""/>
-  <member type="way" ref="24207028" role=""/>
+  <member type="way" ref="1245619648" role=""/>
+  <member type="way" ref="1245619649" role=""/>
   <member type="way" ref="24207029" role=""/>
   <member type="way" ref="940507278" role=""/>
   <member type="way" ref="940507277" role=""/>
-  <member type="way" ref="590840025" role=""/>
+  <member type="way" ref="1243405315" role=""/>
+  <member type="way" ref="1245619673" role=""/>
   <member type="way" ref="23698034" role=""/>
   <member type="way" ref="23698240" role=""/>
   <member type="way" ref="23627666" role=""/>
-  <member type="way" ref="937086351" role=""/>
+  <member type="way" ref="1241684305" role=""/>
   <member type="way" ref="112996852" role=""/>
-  <member type="way" ref="113688567" role=""/>
   <member type="way" ref="631219071" role=""/>
   <member type="way" ref="48772991" role=""/>
   <member type="way" ref="407675212" role=""/>
@@ -42325,7 +42529,11 @@
   <member type="way" ref="662862330" role=""/>
   <member type="way" ref="259940214" role=""/>
   <member type="way" ref="662862332" role=""/>
-  <member type="way" ref="590840004" role=""/>
+  <member type="way" ref="1245619662" role=""/>
+  <member type="way" ref="1245619663" role=""/>
+  <member type="way" ref="1245619664" role=""/>
+  <member type="way" ref="1245619665" role=""/>
+  <member type="way" ref="1245619666" role=""/>
   <member type="way" ref="259940322" role=""/>
   <member type="way" ref="755678951" role=""/>
   <member type="way" ref="23232768" role=""/>
@@ -42382,13 +42590,19 @@
   <member type="way" ref="14024507" role=""/>
   <member type="way" ref="14024506" role=""/>
   <member type="way" ref="14024503" role=""/>
-  <member type="way" ref="11980018" role=""/>
+  <member type="way" ref="1245619636" role=""/>
+  <member type="way" ref="1245619637" role=""/>
+  <member type="way" ref="1245619638" role=""/>
+  <member type="way" ref="1245619639" role=""/>
   <member type="way" ref="171900789" role=""/>
   <member type="way" ref="755666894" role=""/>
   <member type="way" ref="538094895" role=""/>
   <member type="way" ref="715445332" role=""/>
   <member type="way" ref="755666891" role=""/>
+  <member type="way" ref="1245619639" role=""/>
+  <member type="way" ref="1245619640" role=""/>
   <member type="way" ref="11980018" role=""/>
+  <member type="way" ref="1245619641" role=""/>
   <member type="way" ref="715445340" role=""/>
   <member type="way" ref="14024506" role=""/>
   <member type="way" ref="729140515" role=""/>
@@ -42437,7 +42651,9 @@
   <member type="way" ref="165333783" role=""/>
   <member type="way" ref="262659769" role=""/>
   <member type="way" ref="299088266" role=""/>
-  <member type="way" ref="336004939" role=""/>
+  <member type="way" ref="1245619652" role=""/>
+  <member type="way" ref="1245619653" role=""/>
+  <member type="way" ref="1245619654" role=""/>
   <member type="way" ref="8002961" role=""/>
   <member type="way" ref="10711992" role=""/>
   <member type="way" ref="165335883" role=""/>
@@ -42447,9 +42663,13 @@
   <member type="way" ref="667576434" role=""/>
   <member type="way" ref="755666903" role=""/>
   <member type="way" ref="667576433" role=""/>
-  <member type="way" ref="1026202329" role=""/>
+  <member type="way" ref="1245619693" role=""/>
+  <member type="way" ref="1245619694" role=""/>
+  <member type="way" ref="1245619695" role=""/>
   <member type="way" ref="165336751" role=""/>
   <member type="way" ref="1026201996" role=""/>
+  <member type="way" ref="1245619688" role=""/>
+  <member type="way" ref="1245619689" role=""/>
   <member type="way" ref="890090926" role=""/>
   <member type="way" ref="1026201514" role=""/>
   <member type="way" ref="890090927" role=""/>
@@ -42469,6 +42689,12 @@
   <member type="way" ref="106512517" role=""/>
   <member type="way" ref="106512519" role=""/>
   <member type="way" ref="668069180" role=""/>
+  <member type="way" ref="1245619679" role=""/>
+  <member type="way" ref="1245619680" role=""/>
+  <member type="way" ref="1245619681" role=""/>
+  <member type="way" ref="1245619682" role=""/>
+  <member type="way" ref="1245619683" role=""/>
+  <member type="way" ref="1245619684" role=""/>
   <member type="way" ref="31908362" role=""/>
   <member type="way" ref="86462873" role=""/>
   <member type="way" ref="668069176" role=""/>
@@ -42723,6 +42949,7 @@
   <member type="way" ref="600325786" role=""/>
   <member type="way" ref="600325777" role=""/>
   <member type="way" ref="600325769" role=""/>
+  <member type="way" ref="1254304507" role=""/>
   <member type="way" ref="183418714" role=""/>
   <member type="way" ref="757918889" role=""/>
   <member type="way" ref="143991828" role=""/>
@@ -43313,7 +43540,7 @@
   <tag k="to" v="Paris, Bercy Seine"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="10468455" visible="true" version="122" changeset="145581247" timestamp="2023-12-27T15:31:33Z" user="youbab" uid="8899269">
+ <relation id="10468455" visible="true" version="128" changeset="147853040" timestamp="2024-02-24T12:32:19Z" user="mga_geo" uid="341930">
   <member type="node" ref="5435709535" role="stop"/>
   <member type="node" ref="5266084640" role="platform"/>
   <member type="node" ref="4922631202" role="stop"/>
@@ -43826,6 +44053,7 @@
   <member type="way" ref="600325786" role=""/>
   <member type="way" ref="600325777" role=""/>
   <member type="way" ref="600325769" role=""/>
+  <member type="way" ref="1254304507" role=""/>
   <member type="way" ref="183418714" role=""/>
   <member type="way" ref="757918889" role=""/>
   <member type="way" ref="143991828" role=""/>
@@ -44124,7 +44352,11 @@
   <member type="way" ref="175914081" role=""/>
   <member type="way" ref="758229642" role=""/>
   <member type="way" ref="13799962" role=""/>
-  <member type="way" ref="668069180" role=""/>
+  <member type="way" ref="1245619682" role=""/>
+  <member type="way" ref="1245619683" role=""/>
+  <member type="way" ref="1245619684" role=""/>
+  <member type="way" ref="1245619685" role=""/>
+  <member type="way" ref="1245619686" role=""/>
   <member type="way" ref="106512497" role=""/>
   <member type="way" ref="106512517" role=""/>
   <member type="way" ref="192472972" role=""/>
@@ -44134,7 +44366,7 @@
   <member type="way" ref="625678829" role=""/>
   <member type="way" ref="403283221" role=""/>
   <member type="way" ref="1026199165" role=""/>
-  <member type="way" ref="403283222" role=""/>
+  <member type="way" ref="1245619660" role=""/>
   <member type="way" ref="1026198729" role=""/>
   <member type="way" ref="167661728" role=""/>
   <member type="way" ref="165337458" role=""/>
@@ -44143,9 +44375,11 @@
   <member type="way" ref="890090927" role=""/>
   <member type="way" ref="1026201514" role=""/>
   <member type="way" ref="1026201513" role=""/>
-  <member type="way" ref="1026201996" role=""/>
+  <member type="way" ref="1245619691" role=""/>
   <member type="way" ref="299119207" role=""/>
+  <member type="way" ref="1245619697" role=""/>
   <member type="way" ref="1026202329" role=""/>
+  <member type="way" ref="1245619693" role=""/>
   <member type="way" ref="165336746" role=""/>
   <member type="way" ref="668069913" role=""/>
   <member type="way" ref="667576434" role=""/>
@@ -44154,6 +44388,8 @@
   <member type="way" ref="10711992" role=""/>
   <member type="way" ref="10711993" role=""/>
   <member type="way" ref="336004939" role=""/>
+  <member type="way" ref="1245619655" role=""/>
+  <member type="way" ref="1245619656" role=""/>
   <member type="way" ref="10711994" role=""/>
   <member type="way" ref="262659769" role=""/>
   <member type="way" ref="165333783" role=""/>
@@ -44189,12 +44425,16 @@
   <member type="way" ref="840313894" role=""/>
   <member type="way" ref="840313893" role=""/>
   <member type="way" ref="156977292" role=""/>
-  <member type="way" ref="11980018" role=""/>
+  <member type="way" ref="1245619637" role=""/>
+  <member type="way" ref="1245619638" role=""/>
+  <member type="way" ref="1245619639" role=""/>
   <member type="way" ref="171900789" role=""/>
   <member type="way" ref="755666894" role=""/>
   <member type="way" ref="538094895" role=""/>
   <member type="way" ref="715445332" role=""/>
   <member type="way" ref="755666891" role=""/>
+  <member type="way" ref="1245619639" role=""/>
+  <member type="way" ref="1245619640" role=""/>
   <member type="way" ref="11980018" role=""/>
   <member type="way" ref="40860786" role=""/>
   <member type="way" ref="570109224" role=""/>
@@ -44262,7 +44502,11 @@
   <member type="way" ref="23698313" role=""/>
   <member type="way" ref="23698312" role=""/>
   <member type="way" ref="259940248" role=""/>
+  <member type="way" ref="1245619670" role=""/>
+  <member type="way" ref="1245619671" role=""/>
+  <member type="way" ref="1245619672" role=""/>
   <member type="way" ref="590840004" role=""/>
+  <member type="way" ref="1245619667" role=""/>
   <member type="way" ref="259940215" role=""/>
   <member type="way" ref="482904044" role=""/>
   <member type="way" ref="259940212" role=""/>
@@ -44276,21 +44520,28 @@
   <member type="way" ref="407675212" role=""/>
   <member type="way" ref="48772991" role=""/>
   <member type="way" ref="631219071" role=""/>
-  <member type="way" ref="113688567" role=""/>
   <member type="way" ref="112996852" role=""/>
-  <member type="way" ref="937086351" role=""/>
+  <member type="way" ref="1241684305" role=""/>
   <member type="way" ref="23627666" role=""/>
   <member type="way" ref="23698240" role=""/>
   <member type="way" ref="590839813" role=""/>
   <member type="way" ref="590839814" role=""/>
+  <member type="way" ref="1245619675" role=""/>
+  <member type="way" ref="1245619676" role=""/>
+  <member type="way" ref="1245619677" role=""/>
+  <member type="way" ref="1245619678" role=""/>
   <member type="way" ref="590840025" role=""/>
+  <member type="way" ref="1243405315" role=""/>
   <member type="way" ref="940507277" role=""/>
   <member type="way" ref="940507278" role=""/>
   <member type="way" ref="24207029" role=""/>
-  <member type="way" ref="24207028" role=""/>
+  <member type="way" ref="1245619650" role=""/>
   <member type="way" ref="24293240" role=""/>
+  <member type="way" ref="1245619647" role=""/>
   <member type="way" ref="23805427" role=""/>
+  <member type="way" ref="1245619644" role=""/>
   <member type="way" ref="817928238" role=""/>
+  <member type="way" ref="1243450636" role=""/>
   <member type="way" ref="48772996" role=""/>
   <member type="way" ref="557654235" role=""/>
   <member type="way" ref="557654229" role=""/>
@@ -44322,7 +44573,7 @@
   <tag k="to" v="Lorient, Gare d'Échanges"/>
   <tag k="type" v="route_master"/>
  </relation>
- <relation id="10495658" visible="true" version="76" changeset="145581247" timestamp="2023-12-27T15:31:33Z" user="youbab" uid="8899269">
+ <relation id="10495658" visible="true" version="78" changeset="147853040" timestamp="2024-02-24T12:32:19Z" user="mga_geo" uid="341930">
   <member type="node" ref="6622303995" role="stop"/>
   <member type="node" ref="4922631202" role="stop"/>
   <member type="way" ref="501456696" role="platform"/>
@@ -44355,6 +44606,7 @@
   <member type="way" ref="1098756255" role=""/>
   <member type="way" ref="188034467" role=""/>
   <member type="way" ref="753558853" role=""/>
+  <member type="way" ref="1250189623" role=""/>
   <member type="way" ref="158485897" role=""/>
   <member type="way" ref="1098756252" role=""/>
   <member type="way" ref="144943813" role=""/>
@@ -44542,6 +44794,7 @@
   <member type="way" ref="600325786" role=""/>
   <member type="way" ref="600325777" role=""/>
   <member type="way" ref="600325769" role=""/>
+  <member type="way" ref="1254304507" role=""/>
   <member type="way" ref="183418714" role=""/>
   <member type="way" ref="757918889" role=""/>
   <member type="way" ref="143991828" role=""/>
@@ -45171,7 +45424,7 @@
   <tag k="to" v="Paris, Gallieni"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="10495659" visible="true" version="79" changeset="145581247" timestamp="2023-12-27T15:31:33Z" user="youbab" uid="8899269">
+ <relation id="10495659" visible="true" version="80" changeset="147853040" timestamp="2024-02-24T12:32:19Z" user="mga_geo" uid="341930">
   <member type="node" ref="7089654470" role="stop"/>
   <member type="node" ref="5266084640" role="platform"/>
   <member type="node" ref="4922631202" role="stop"/>
@@ -45721,6 +45974,7 @@
   <member type="way" ref="600325786" role=""/>
   <member type="way" ref="600325777" role=""/>
   <member type="way" ref="600325769" role=""/>
+  <member type="way" ref="1254304507" role=""/>
   <member type="way" ref="183418714" role=""/>
   <member type="way" ref="757918889" role=""/>
   <member type="way" ref="143991828" role=""/>
@@ -46225,7 +46479,7 @@
   <tag k="route" v="road"/>
   <tag k="type" v="route"/>
  </relation>
- <relation id="12771762" visible="true" version="43" changeset="145103643" timestamp="2023-12-14T09:28:52Z" user="Caerbannog" uid="159812">
+ <relation id="12771762" visible="true" version="44" changeset="146986134" timestamp="2024-02-02T13:48:06Z" user="anne_geovelo" uid="16941765">
   <member type="way" ref="53570786" role=""/>
   <member type="way" ref="21821064" role=""/>
   <member type="way" ref="1192056796" role=""/>
@@ -46402,6 +46656,8 @@
   <member type="way" ref="699646326" role=""/>
   <member type="way" ref="530893765" role=""/>
   <member type="way" ref="699646106" role=""/>
+  <member type="way" ref="1245539883" role=""/>
+  <member type="way" ref="1245539884" role=""/>
   <member type="way" ref="699646105" role=""/>
   <member type="way" ref="1213532049" role=""/>
   <member type="way" ref="699646104" role=""/>
@@ -46566,7 +46822,7 @@
   <tag k="source" v="https://www.era-ewv-ferp.org/fr/e-paths/e5/e5-in-france/"/>
   <tag k="type" v="superroute"/>
  </relation>
- <relation id="12845151" visible="true" version="105" changeset="145777135" timestamp="2024-01-01T21:56:36Z" user="StC" uid="220314">
+ <relation id="12845151" visible="true" version="106" changeset="146986134" timestamp="2024-02-02T13:48:06Z" user="anne_geovelo" uid="16941765">
   <member type="way" ref="53574150" role=""/>
   <member type="way" ref="53574172" role=""/>
   <member type="way" ref="699888201" role=""/>
@@ -46743,6 +46999,8 @@
   <member type="way" ref="699646326" role=""/>
   <member type="way" ref="530893765" role=""/>
   <member type="way" ref="699646106" role=""/>
+  <member type="way" ref="1245539883" role=""/>
+  <member type="way" ref="1245539884" role=""/>
   <member type="way" ref="699646105" role=""/>
   <member type="way" ref="1213532049" role=""/>
   <member type="way" ref="699646104" role=""/>
@@ -47959,16 +48217,15 @@
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2021"/>
   <tag k="type" v="multipolygon"/>
  </relation>
- <relation id="12883691" visible="true" version="5" changeset="144300943" timestamp="2023-11-21T19:54:07Z" user="bouzinac" uid="10286707">
+ <relation id="12883691" visible="true" version="7" changeset="147722195" timestamp="2024-02-21T08:18:53Z" user="michel60" uid="211063">
   <member type="relation" ref="3411191" role=""/>
   <member type="relation" ref="5926774" role=""/>
   <tag k="bicycle" v="yes"/>
   <tag k="by_night" v="no"/>
   <tag k="colour" v="#0868b3"/>
-  <tag k="from" v="Paris Montparnasse"/>
-  <tag k="name" v="TER Krono : Paris − Argentan − Granville"/>
+  <tag k="name" v="TER Krono : Paris ↔ Argentan ↔ Granville"/>
   <tag k="network" v="TER Normandie"/>
-  <tag k="network:wikidata" v="Q30754613"/>
+  <tag k="network:wikidata" v="Q30740754"/>
   <tag k="network:wikipedia" v="fr:TER Normandie"/>
   <tag k="old_ref" v="IC 304"/>
   <tag k="operator" v="SNCF"/>
@@ -47977,9 +48234,7 @@
   <tag k="public_transport:version" v="2"/>
   <tag k="reservation" v="yes"/>
   <tag k="route_master" v="train"/>
-  <tag k="to" v="Granville"/>
   <tag k="type" v="route_master"/>
-  <tag k="via" v="Argentan"/>
   <tag k="wheelchair" v="limited"/>
   <tag k="wikidata" v="Q123497536"/>
  </relation>

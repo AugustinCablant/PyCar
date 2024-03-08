@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.8.10 (500011 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.8.10 (1895300 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.7561888" minlon="1.8127441" maxlat="48.7634311" maxlon="1.8237305"/>
  <node id="256546046" visible="true" version="2" changeset="61984112" timestamp="2018-08-25T12:47:34Z" user="YOSM" uid="799950" lat="48.7595225" lon="1.8251733"/>
  <node id="273420195" visible="true" version="2" changeset="13209173" timestamp="2012-09-22T16:52:58Z" user="bourlpi" uid="326537" lat="48.7516659" lon="1.8204493"/>
@@ -1324,6 +1324,10 @@
  </node>
  <node id="9870964581" visible="true" version="1" changeset="123289958" timestamp="2022-07-06T19:10:25Z" user="Papusa" uid="10704460" lat="48.7597929" lon="1.7968289"/>
  <node id="10926422463" visible="true" version="1" changeset="136547680" timestamp="2023-05-25T14:47:54Z" user="overflorian" uid="125897" lat="48.7701810" lon="1.8083426"/>
+ <node id="11693647457" visible="true" version="1" changeset="148245733" timestamp="2024-03-05T11:19:41Z" user="Christian Perrier" uid="60669" lat="48.7573346" lon="1.8147967"/>
+ <node id="11693647458" visible="true" version="1" changeset="148245733" timestamp="2024-03-05T11:19:41Z" user="Christian Perrier" uid="60669" lat="48.7569203" lon="1.8157799"/>
+ <node id="11693647459" visible="true" version="1" changeset="148245733" timestamp="2024-03-05T11:19:41Z" user="Christian Perrier" uid="60669" lat="48.7574792" lon="1.8163217"/>
+ <node id="11693647460" visible="true" version="1" changeset="148245733" timestamp="2024-03-05T11:19:41Z" user="Christian Perrier" uid="60669" lat="48.7578934" lon="1.8153385"/>
  <way id="41892686" visible="true" version="8" changeset="123289750" timestamp="2022-07-06T19:03:23Z" user="Papusa" uid="10704460">
   <nd ref="518363148"/>
   <nd ref="518363269"/>
@@ -2972,7 +2976,16 @@
   <tag k="intermittent" v="yes"/>
   <tag k="waterway" v="stream"/>
  </way>
- <relation id="1190092" visible="true" version="13" changeset="116044014" timestamp="2022-01-11T22:53:40Z" user="cquest_bot" uid="541379">
+ <way id="1257783713" visible="true" version="1" changeset="148245733" timestamp="2024-03-05T11:19:41Z" user="Christian Perrier" uid="60669">
+  <nd ref="11693647460"/>
+  <nd ref="11693647459"/>
+  <nd ref="11693647458"/>
+  <nd ref="11693647457"/>
+  <nd ref="11693647460"/>
+  <tag k="archaeological_site" v="earthwork"/>
+  <tag k="historic" v="archaeological_site"/>
+ </way>
+ <relation id="1190092" visible="true" version="14" changeset="147995601" timestamp="2024-02-28T03:06:56Z" user="Olyon" uid="1443767">
   <member type="node" ref="361435295" role="admin_centre"/>
   <member type="way" ref="61499773" role="outer"/>
   <member type="way" ref="60233232" role="outer"/>
@@ -2988,13 +3001,14 @@
   <tag k="population" v="1394"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="78610"/>
+  <tag k="ref:FR:SIREN" v="217805621"/>
   <tag k="ref:INSEE" v="78562"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
   <tag k="wikidata" v="Q274844"/>
   <tag k="wikipedia" v="fr:Saint-Léger-en-Yvelines"/>
  </relation>
- <relation id="1190093" visible="true" version="9" changeset="116044014" timestamp="2022-01-11T22:53:02Z" user="cquest_bot" uid="541379">
+ <relation id="1190093" visible="true" version="10" changeset="147995601" timestamp="2024-02-28T03:06:56Z" user="Olyon" uid="1443767">
   <member type="node" ref="248823344" role="admin_centre"/>
   <member type="way" ref="77107750" role="outer"/>
   <member type="way" ref="79141708" role="outer"/>
@@ -3007,6 +3021,7 @@
   <tag k="population" v="865"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="78490"/>
+  <tag k="ref:FR:SIREN" v="217803980"/>
   <tag k="ref:INSEE" v="78398"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>

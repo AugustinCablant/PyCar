@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.8.10 (154702 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.8.10 (2853595 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.7923902" minlon="1.8566895" maxlat="48.7996274" maxlon="1.8676758"/>
  <node id="34963158" visible="true" version="3" changeset="24970314" timestamp="2014-08-24T06:34:08Z" user="didier2020" uid="300459" lat="48.7929593" lon="1.8907325"/>
  <node id="34963159" visible="true" version="3" changeset="24970314" timestamp="2014-08-24T06:34:08Z" user="didier2020" uid="300459" lat="48.7941258" lon="1.8773654"/>
@@ -2523,7 +2523,7 @@
   <tag k="man_made" v="bridge"/>
   <tag k="source" v="BDOrtho IGN - available 2021 at the latest"/>
  </way>
- <relation id="943948" visible="true" version="10" changeset="116044014" timestamp="2022-01-11T22:52:53Z" user="cquest_bot" uid="541379">
+ <relation id="943948" visible="true" version="11" changeset="147995237" timestamp="2024-02-28T02:40:37Z" user="Olyon" uid="1443767">
   <member type="node" ref="262979562" role="admin_centre"/>
   <member type="way" ref="61501127" role="outer"/>
   <member type="way" ref="60708117" role="outer"/>
@@ -2534,13 +2534,14 @@
   <tag k="population" v="391"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="78490"/>
+  <tag k="ref:FR:SIREN" v="217803667"/>
   <tag k="ref:INSEE" v="78366"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
   <tag k="wikidata" v="Q273245"/>
   <tag k="wikipedia" v="fr:Mareil-le-Guyon"/>
  </relation>
- <relation id="955228" visible="true" version="13" changeset="116044014" timestamp="2022-01-11T22:51:41Z" user="cquest_bot" uid="541379">
+ <relation id="955228" visible="true" version="14" changeset="147995237" timestamp="2024-02-28T02:40:37Z" user="Olyon" uid="1443767">
   <member type="node" ref="262979257" role="admin_centre"/>
   <member type="way" ref="61501128" role="outer"/>
   <member type="way" ref="61501127" role="outer"/>
@@ -2559,13 +2560,14 @@
   <tag k="population" v="641"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="78490"/>
+  <tag k="ref:FR:SIREN" v="217800507"/>
   <tag k="ref:INSEE" v="78050"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
   <tag k="wikidata" v="Q83447"/>
   <tag k="wikipedia" v="fr:Bazoches-sur-Guyonne"/>
  </relation>
- <relation id="960162" visible="true" version="9" changeset="116044014" timestamp="2022-01-11T22:53:14Z" user="cquest_bot" uid="541379">
+ <relation id="960162" visible="true" version="10" changeset="147995237" timestamp="2024-02-28T02:40:37Z" user="Olyon" uid="1443767">
   <member type="way" ref="59871821" role="outer"/>
   <member type="way" ref="53501870" role="outer"/>
   <member type="way" ref="61840923" role="outer"/>
@@ -2581,13 +2583,14 @@
   <tag k="population" v="916"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="78640"/>
+  <tag k="ref:FR:SIREN" v="217804434"/>
   <tag k="ref:INSEE" v="78443"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
   <tag k="wikidata" v="Q902985"/>
   <tag k="wikipedia" v="fr:Neauphle-le-Vieux"/>
  </relation>
- <relation id="1767187" visible="true" version="92" changeset="145983573" timestamp="2024-01-07T09:45:47Z" user="TripleBee" uid="497177">
+ <relation id="1767187" visible="true" version="95" changeset="147488392" timestamp="2024-02-15T12:08:47Z" user="Maksim Sazanovich" uid="19969905">
   <member type="way" ref="38576226" role=""/>
   <member type="way" ref="31144239" role=""/>
   <member type="way" ref="31144238" role=""/>
@@ -2670,6 +2673,8 @@
   <member type="way" ref="45066515" role=""/>
   <member type="way" ref="100056998" role=""/>
   <member type="way" ref="1066297928" role=""/>
+  <member type="way" ref="1246346011" role=""/>
+  <member type="way" ref="1246346010" role=""/>
   <member type="way" ref="100056999" role=""/>
   <member type="way" ref="1232093514" role=""/>
   <member type="way" ref="1072666623" role=""/>
@@ -2766,6 +2771,8 @@
   <member type="way" ref="100056996" role=""/>
   <member type="way" ref="100056997" role=""/>
   <member type="way" ref="1039108121" role=""/>
+  <member type="way" ref="1246346013" role=""/>
+  <member type="way" ref="1246346012" role=""/>
   <member type="way" ref="1072666624" role=""/>
   <member type="way" ref="1072666625" role=""/>
   <member type="way" ref="1039108119" role=""/>
@@ -3237,8 +3244,14 @@
   <member type="way" ref="610002746" role=""/>
   <member type="way" ref="25911055" role=""/>
   <member type="way" ref="156257536" role=""/>
-  <member type="way" ref="610002741" role=""/>
+  <member type="way" ref="1250769702" role=""/>
+  <member type="way" ref="1250769701" role=""/>
+  <member type="way" ref="1250769704" role=""/>
+  <member type="way" ref="1250769703" role=""/>
+  <member type="way" ref="1250769705" role=""/>
+  <member type="way" ref="1250769700" role=""/>
   <member type="way" ref="1237729555" role=""/>
+  <member type="way" ref="610002741" role=""/>
   <member type="way" ref="156257535" role=""/>
   <member type="way" ref="156257534" role=""/>
   <member type="way" ref="1237573230" role=""/>
@@ -3800,9 +3813,13 @@
   <member type="way" ref="1119299842" role=""/>
   <member type="way" ref="558109686" role=""/>
   <member type="way" ref="223645996" role=""/>
+  <member type="way" ref="1247562871" role=""/>
+  <member type="way" ref="1247562870" role=""/>
   <member type="way" ref="35337988" role=""/>
   <member type="way" ref="223645995" role=""/>
   <member type="way" ref="674382719" role=""/>
+  <member type="way" ref="1247562868" role=""/>
+  <member type="way" ref="1247562869" role=""/>
   <member type="way" ref="35337987" role=""/>
   <member type="way" ref="558109683" role=""/>
   <member type="way" ref="35337979" role=""/>
@@ -4393,7 +4410,7 @@
   <tag k="source" v="data.gouv.fr:Ministère de l'Intérieur - 03-2012"/>
   <tag k="type" v="boundary"/>
  </relation>
- <relation id="5456598" visible="true" version="18" changeset="122013766" timestamp="2022-06-06T09:13:00Z" user="Esperanza36" uid="83557">
+ <relation id="5456598" visible="true" version="19" changeset="146645494" timestamp="2024-01-24T20:08:14Z" user="chabe01" uid="502891">
   <member type="way" ref="59577566" role="outer"/>
   <member type="way" ref="156988002" role="outer"/>
   <member type="way" ref="156992454" role="outer"/>
@@ -4441,6 +4458,7 @@
   <member type="way" ref="80475836" role="outer"/>
   <member type="way" ref="80475163" role="outer"/>
   <member type="way" ref="80475161" role="outer"/>
+  <member type="way" ref="1242609872" role="outer"/>
   <member type="way" ref="366945558" role="outer"/>
   <member type="way" ref="366945557" role="outer"/>
   <member type="way" ref="366945551" role="outer"/>
@@ -4527,7 +4545,7 @@
   <tag k="wikidata" v="Q3364627"/>
   <tag k="wikipedia" v="fr:Parc naturel régional de la Haute Vallée de Chevreuse"/>
  </relation>
- <relation id="6355264" visible="true" version="30" changeset="146040911" timestamp="2024-01-08T19:16:53Z" user="Patrick78" uid="10232116">
+ <relation id="6355264" visible="true" version="32" changeset="146675654" timestamp="2024-01-25T14:21:15Z" user="Furdrien" uid="6696140">
   <member type="way" ref="561125667" role=""/>
   <member type="way" ref="49706207" role=""/>
   <member type="way" ref="49747278" role=""/>
@@ -4612,6 +4630,8 @@
   <member type="way" ref="561198042" role=""/>
   <member type="way" ref="561198044" role=""/>
   <member type="way" ref="749799609" role=""/>
+  <member type="way" ref="1242838370" role=""/>
+  <member type="way" ref="1242838369" role=""/>
   <member type="way" ref="561194540" role=""/>
   <member type="way" ref="318394641" role=""/>
   <member type="way" ref="375699956" role=""/>
@@ -4636,7 +4656,12 @@
   <member type="way" ref="929885753" role=""/>
   <member type="way" ref="896220959" role=""/>
   <member type="way" ref="929885766" role=""/>
+  <member type="way" ref="1241573406" role=""/>
+  <member type="way" ref="1241573401" role=""/>
   <member type="way" ref="929885767" role=""/>
+  <member type="way" ref="1241573408" role=""/>
+  <member type="way" ref="1241573403" role=""/>
+  <member type="way" ref="1241573405" role=""/>
   <member type="way" ref="503127184" role=""/>
   <member type="way" ref="1116499323" role=""/>
   <member type="way" ref="1116499322" role=""/>

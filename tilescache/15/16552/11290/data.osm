@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="CGImap 0.8.10 (1263131 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+<osm version="0.6" generator="CGImap 0.8.10 (985533 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
  <bounds minlat="48.7272088" minlon="1.8457031" maxlat="48.7344554" maxlon="1.8566895"/>
  <node id="387267483" visible="true" version="3" changeset="8217728" timestamp="2011-05-22T15:51:11Z" user="LatLng" uid="71251" lat="48.7209837" lon="1.8377943">
   <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009"/>
@@ -705,9 +705,7 @@
  <node id="6728737195" visible="true" version="1" changeset="73563263" timestamp="2019-08-21T05:03:46Z" user="JFK73" uid="662440" lat="48.7334576" lon="1.8516603"/>
  <node id="6728737196" visible="true" version="1" changeset="73563263" timestamp="2019-08-21T05:03:46Z" user="JFK73" uid="662440" lat="48.7334673" lon="1.8516375"/>
  <node id="6728737197" visible="true" version="1" changeset="73563263" timestamp="2019-08-21T05:03:46Z" user="JFK73" uid="662440" lat="48.7336664" lon="1.8513076"/>
- <node id="8623339567" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7312588" lon="1.8348753"/>
- <node id="8623339599" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7312734" lon="1.8349429"/>
- <node id="8623339600" visible="true" version="1" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140" lat="48.7312818" lon="1.8349817"/>
+ <node id="8623339600" visible="true" version="2" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085" lat="48.7312782" lon="1.8349847"/>
  <node id="9118414096" visible="true" version="1" changeset="111617099" timestamp="2021-09-23T20:06:12Z" user="yann1408" uid="14125135" lat="48.7306421" lon="1.8607041"/>
  <node id="9118414097" visible="true" version="1" changeset="111617099" timestamp="2021-09-23T20:06:12Z" user="yann1408" uid="14125135" lat="48.7308187" lon="1.8607015"/>
  <node id="9118414098" visible="true" version="1" changeset="111617099" timestamp="2021-09-23T20:06:12Z" user="yann1408" uid="14125135" lat="48.7309915" lon="1.8605648"/>
@@ -1010,16 +1008,6 @@
   <tag k="highway" v="path"/>
   <tag k="source" v="GPS,bing"/>
   <tag k="surface" v="compacted"/>
- </way>
- <way id="174663059" visible="true" version="4" changeset="102827692" timestamp="2021-04-12T20:49:39Z" user="Furdrien" uid="6696140">
-  <nd ref="8623339567"/>
-  <nd ref="8623339599"/>
-  <nd ref="8623339600"/>
-  <nd ref="905136020"/>
-  <nd ref="2098120945"/>
-  <nd ref="1853180061"/>
-  <tag k="highway" v="track"/>
-  <tag k="source" v="GPS,bing"/>
  </way>
  <way id="199816728" visible="true" version="1" changeset="14550138" timestamp="2013-01-06T14:53:43Z" user="Christian Perrier" uid="60669">
   <nd ref="2098120932"/>
@@ -1569,7 +1557,15 @@
   <tag k="highway" v="path"/>
   <tag k="surface" v="ground"/>
  </way>
- <relation id="122645" visible="true" version="17" changeset="116044014" timestamp="2022-01-11T22:52:16Z" user="cquest_bot" uid="541379">
+ <way id="1241573410" visible="true" version="1" changeset="146503097" timestamp="2024-01-21T08:03:43Z" user="mat" uid="3085">
+  <nd ref="8623339600"/>
+  <nd ref="905136020"/>
+  <nd ref="2098120945"/>
+  <nd ref="1853180061"/>
+  <tag k="highway" v="track"/>
+  <tag k="source" v="GPS,bing"/>
+ </way>
+ <relation id="122645" visible="true" version="18" changeset="147994909" timestamp="2024-02-28T02:07:57Z" user="Olyon" uid="1443767">
   <member type="node" ref="26695956" role="admin_centre"/>
   <member type="way" ref="33812635" role="outer"/>
   <member type="way" ref="61751530" role="outer"/>
@@ -1585,13 +1581,14 @@
   <tag k="population" v="6668"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="78690"/>
+  <tag k="ref:FR:SIREN" v="217802206"/>
   <tag k="ref:INSEE" v="78220"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
   <tag k="wikidata" v="Q94484"/>
   <tag k="wikipedia" v="fr:Les Essarts-le-Roi"/>
  </relation>
- <relation id="959276" visible="true" version="13" changeset="116044014" timestamp="2022-01-11T22:51:53Z" user="cquest_bot" uid="541379">
+ <relation id="959276" visible="true" version="14" changeset="147995237" timestamp="2024-02-28T02:40:37Z" user="Olyon" uid="1443767">
   <member type="way" ref="147507173" role="outer"/>
   <member type="way" ref="61751527" role="outer"/>
   <member type="way" ref="61596118" role="outer"/>
@@ -1606,13 +1603,14 @@
   <tag k="population" v="1305"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="78610"/>
+  <tag k="ref:FR:SIREN" v="217801083"/>
   <tag k="ref:INSEE" v="78108"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>
   <tag k="wikidata" v="Q368118"/>
   <tag k="wikipedia" v="fr:Les Bréviaires"/>
  </relation>
- <relation id="1173457" visible="true" version="10" changeset="116044014" timestamp="2022-01-11T22:53:44Z" user="cquest_bot" uid="541379">
+ <relation id="1173457" visible="true" version="11" changeset="147995601" timestamp="2024-02-28T03:06:56Z" user="Olyon" uid="1443767">
   <member type="node" ref="262978921" role="admin_centre"/>
   <member type="way" ref="61751528" role="outer"/>
   <member type="way" ref="77107749" role="outer"/>
@@ -1630,6 +1628,7 @@
   <tag k="population" v="1621"/>
   <tag k="population:date" v="2019"/>
   <tag k="postal_code" v="78690"/>
+  <tag k="ref:FR:SIREN" v="217805761"/>
   <tag k="ref:INSEE" v="78576"/>
   <tag k="source:population" v="INSEE 2022"/>
   <tag k="type" v="boundary"/>

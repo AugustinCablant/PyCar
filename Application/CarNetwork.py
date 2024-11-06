@@ -409,12 +409,12 @@ class CarNetwork():
 
         # Extraction des coordonnées des stations du DataFrame self.stations_data
         stations = self.stations_data[['Xlongitude', 'Ylatitude']]
-        stations = stations[(stations['ylatitude'] >= -90) & (stations['Ylatitude'] <= 90) &
+        stations = stations[(stations['Ylatitude'] >= -90) & (stations['Ylatitude'] <= 90) &
             (stations['Xlongitude'] >= -90) & (stations['Xlongitude'] <= 90)]
 
         ## On récupère uniquement les données qui nous intéressent sous forme 
         # de tuple de localisations (latitude, longitude)   
-        loc_tuples = [(row.ylatitude, row.Xlongitude) for row in stations.itertuples()]
+        loc_tuples = [(row.Ylatitude, row.Xlongitude) for row in stations.itertuples()]
     
         ## on définit une lambda fonction qui prend en argument une distance, 
         # un couple (latitude, longitude) [dans coord] et un float distance_max
@@ -624,7 +624,7 @@ class CarNetwork():
         ## C.f. la documentation folium disponible ici pour justifier l'exemple 
         ## 'https://python-visualization.github.io/folium/latest/user_guide/plugins/tag_filter_button.html'
 
-        for index, lat, lon, com, acces_recharge in df[['ylatitude', 'Xlongitude', 'n_station', 'acces_recharge']].itertuples():
+        for index, lat, lon, com, acces_recharge in df[['Ylatitude', 'Xlongitude', 'n_station', 'acces_recharge']].itertuples():
             # Créez un marqueur avec une couleur différente en fonction des valeurs
             if acces_recharge == 'payant' : fill_color = 'red'
             elif acces_recharge == 'gratuit' : fill_color = 'green'

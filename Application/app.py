@@ -12,6 +12,7 @@ import seaborn as sns
 import pandas as pd
 from nbconvert import HTMLExporter
 import nbformat
+from CarNetwork import CarNetwork
 
 cwd=os.getcwd()
 cwd_parent = (os.path.dirname(cwd))
@@ -19,7 +20,7 @@ cwd_parent = (os.path.dirname(cwd))
 car_network_directory = '/Users/augustincablant/Documents/GitHub/Pycar/Modules' 
 #cwd_parent + '/Modules' 
 sys.path.append(car_network_directory)
-from CarNetwork import CarNetwork
+
 
 
 app = Flask(__name__)

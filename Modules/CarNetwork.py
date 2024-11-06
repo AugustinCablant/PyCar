@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 import pyroutelib3
-from pyroutelib3 import Router
+from pyroutelib3 import router
 import requests, json
 import urllib.parse
 import folium 
